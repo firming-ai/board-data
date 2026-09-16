@@ -27,11 +27,11 @@ Written by `tools/queue_summary.py`, never by hand.
 
 | range | n | p50 | p90 | p99 | max |
 |---|---|---|---|---|---|
-| 7d | 7 | 1m58s | 20m30s | 24m24s | 24m50s |
-| 30d | 23 | 2m03s | 5m04s | 23m15s | 24m50s |
-| all-time | 23 | 2m03s | 5m04s | 23m15s | 24m50s |
+| 7d | 8 | 2m28s | 19m46s | 24m20s | 24m50s |
+| 30d | 24 | 2m10s | 5m03s | 23m10s | 24m50s |
+| all-time | 24 | 2m10s | 5m03s | 23m10s | 24m50s |
 
-Completed: 23/24. Expired: 0. Overran window: 0. Failed: 0.
+Completed: 24/24. Expired: 0. Overran window: 0. Failed: 0.
 
 ## gemini (24h)
 
@@ -57,11 +57,11 @@ Completed: 21/22. Expired: 0. Overran window: 0. Failed: 0.
 
 | range | n | p50 | p90 | p99 | max |
 |---|---|---|---|---|---|
-| 7d | 7 | 3m23s | 3h33m25s | 6h48m10s | 7h09m48s |
-| 30d | 21 | 2m41s | 26m17s | 5h57m40s | 7h09m48s |
-| all-time | 21 | 2m41s | 26m17s | 5h57m40s | 7h09m48s |
+| 7d | 8 | 3m11s | 2h57m21s | 6h44m33s | 7h09m48s |
+| 30d | 22 | 2m38s | 25m40s | 5h54m04s | 7h09m48s |
+| all-time | 22 | 2m38s | 25m40s | 5h54m04s | 7h09m48s |
 
-Completed: 21/24. Expired: 0. Overran window: 0. Failed: 0.
+Completed: 22/24. Expired: 0. Overran window: 0. Failed: 0.
 
 ## Days of continuous accrual
 
