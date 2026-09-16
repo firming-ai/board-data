@@ -73,6 +73,8 @@ Deferred Completions
 Async Requests
 WebSocket Mode
 mTLS Authentication
+Regional Endpoints
+New
 Cost Tracking
 Debugging Errors
 Platforms
@@ -159,6 +161,8 @@ Deferred Completions
 Async Requests
 WebSocket Mode
 mTLS Authentication
+Regional Endpoints
+New
 Cost Tracking
 Debugging Errors
 Platforms
@@ -183,11 +187,11 @@ Grok 4.6
 New
 grok-4.6
 Our flagship model for code and everything else: agentic tool calling, minimal hallucinations, configurable reasoning.
-View modelTry in playground
 Context500k tokens
 Input$2.00 / 1M tokens
 Output$6.00 / 1M tokens
 ReasoningConfigurable
+View modelTry in playground
 Voice API
 Real-time conversations, speech-to-text, and text-to-speech.
 Agent$0.08 / min

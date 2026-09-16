@@ -96,3 +96,6 @@ and no row about it should be read as rate coverage.
 | 2026-09-13 | `xai:pricing` | changed | +1 / −1 | price change | gpt-5.6-luna | $0.0000403 | The Agent starting rate increased from $0.05 per minute to $0.08 per minute. |
 | 2026-09-14 | `xai:pricing` | changed | +1 / −1 | copy change | gpt-5.6-luna | $0.0000587 | “Starting at” was removed, but the displayed rate remains $0.08 per minute. |
 | 2026-09-14 | `qwen:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000638 | A model name and update date changed, but no pricing amount or billing rate changed. |
+| 2026-09-16 | `mistral:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000653 | Customer list changed from BMW to TotalEnergies; no pricing or monetary rate changed. |
+| 2026-09-16 | `google:pricing` | changed | +28 / −26 | copy change | gpt-5.6-luna | $0.000136 | Existing pricing moved into a combined model section; rates remain unchanged, despite the updated timestamp. |
+| 2026-09-16 | `xai:pricing` | changed | +5 / −1 | copy change | gpt-5.6-luna | $0.0000641 | Navigation labels were added and a model link moved; no pricing numbers changed. |
