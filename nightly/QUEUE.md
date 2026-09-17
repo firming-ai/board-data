@@ -37,11 +37,11 @@ Completed: 25/25. Expired: 0. Overran window: 0. Failed: 0.
 
 | range | n | p50 | p90 | p99 | max |
 |---|---|---|---|---|---|
-| 7d | 7 | 1m59s | 34m28s | 1h17m38s | 1h22m26s |
-| 30d | 22 | 2m49s | 6m00s | 1h06m52s | 1h22m26s |
-| all-time | 22 | 2m49s | 6m00s | 1h06m52s | 1h22m26s |
+| 7d | 8 | 1m53s | 26m28s | 1h16m50s | 1h22m26s |
+| 30d | 23 | 2m49s | 5m54s | 1h06m07s | 1h22m26s |
+| all-time | 23 | 2m49s | 5m54s | 1h06m07s | 1h22m26s |
 
-Completed: 22/23. Expired: 0. Overran window: 0. Failed: 0.
+Completed: 23/23. Expired: 0. Overran window: 0. Failed: 0.
 
 ## mistral (24h)
 
@@ -57,11 +57,11 @@ Completed: 22/23. Expired: 0. Overran window: 0. Failed: 0.
 
 | range | n | p50 | p90 | p99 | max |
 |---|---|---|---|---|---|
-| 7d | 7 | 2m59s | 3h04m00s | 6h45m13s | 7h09m48s |
-| 30d | 22 | 2m38s | 25m40s | 5h54m04s | 7h09m48s |
-| all-time | 22 | 2m38s | 25m40s | 5h54m04s | 7h09m48s |
+| 7d | 8 | 2m50s | 2h23m02s | 6h41m07s | 7h09m48s |
+| 30d | 23 | 2m35s | 25m03s | 5h50m28s | 7h09m48s |
+| all-time | 23 | 2m35s | 25m03s | 5h50m28s | 7h09m48s |
 
-Completed: 22/25. Expired: 0. Overran window: 0. Failed: 0.
+Completed: 23/25. Expired: 0. Overran window: 0. Failed: 0.
 
 ## Days of continuous accrual
 
