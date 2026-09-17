@@ -27,48 +27,48 @@ Written by `tools/queue_summary.py`, never by hand.
 
 | range | n | p50 | p90 | p99 | max |
 |---|---|---|---|---|---|
-| 7d | 8 | 2m28s | 19m46s | 24m20s | 24m50s |
-| 30d | 24 | 2m10s | 5m03s | 23m10s | 24m50s |
-| all-time | 24 | 2m10s | 5m03s | 23m10s | 24m50s |
+| 7d | 8 | 1m45s | 19m46s | 24m20s | 24m50s |
+| 30d | 25 | 2m03s | 5m01s | 23m06s | 24m50s |
+| all-time | 25 | 2m03s | 5m01s | 23m06s | 24m50s |
 
-Completed: 24/24. Expired: 0. Overran window: 0. Failed: 0.
+Completed: 25/25. Expired: 0. Overran window: 0. Failed: 0.
 
 ## gemini (24h)
 
 | range | n | p50 | p90 | p99 | max |
 |---|---|---|---|---|---|
-| 7d | 8 | 2m01s | 30m32s | 1h17m15s | 1h22m26s |
+| 7d | 7 | 1m59s | 34m28s | 1h17m38s | 1h22m26s |
 | 30d | 22 | 2m49s | 6m00s | 1h06m52s | 1h22m26s |
 | all-time | 22 | 2m49s | 6m00s | 1h06m52s | 1h22m26s |
 
-Completed: 22/22. Expired: 0. Overran window: 0. Failed: 0.
+Completed: 22/23. Expired: 0. Overran window: 0. Failed: 0.
 
 ## mistral (24h)
 
 | range | n | p50 | p90 | p99 | max |
 |---|---|---|---|---|---|
-| 7d | 8 | 32s | 52s | 1m02s | 1m03s |
-| 30d | 21 | 1m02s | 14h50m17s | 20h01m48s | 20h17m15s |
-| all-time | 21 | 1m02s | 14h50m17s | 20h01m48s | 20h17m15s |
+| 7d | 8 | 40s | 1m03s | 1m03s | 1m03s |
+| 30d | 22 | 1m03s | 14h25m43s | 20h01m02s | 20h17m15s |
+| all-time | 22 | 1m03s | 14h25m43s | 20h01m02s | 20h17m15s |
 
-Completed: 21/22. Expired: 0. Overran window: 0. Failed: 0.
+Completed: 22/23. Expired: 0. Overran window: 0. Failed: 0.
 
 ## openai (24h)
 
 | range | n | p50 | p90 | p99 | max |
 |---|---|---|---|---|---|
-| 7d | 8 | 3m11s | 2h57m21s | 6h44m33s | 7h09m48s |
+| 7d | 7 | 2m59s | 3h04m00s | 6h45m13s | 7h09m48s |
 | 30d | 22 | 2m38s | 25m40s | 5h54m04s | 7h09m48s |
 | all-time | 22 | 2m38s | 25m40s | 5h54m04s | 7h09m48s |
 
-Completed: 22/24. Expired: 0. Overran window: 0. Failed: 0.
+Completed: 22/25. Expired: 0. Overran window: 0. Failed: 0.
 
 ## Days of continuous accrual
 
 | venue | days |
 |---|---|
-| anthropic | 24 |
-| gemini | 22 |
-| mistral | 22 |
-| openai | 24 |
+| anthropic | 25 |
+| gemini | 23 |
+| mistral | 23 |
+| openai | 25 |
 
