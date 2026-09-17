@@ -1,4 +1,4 @@
-# Offpeak settled runs — real money
+# Firming settled runs — real money
 
 Every row here is a run that executed and billed: list price, price paid, and the spread captured, as arithmetic against the price sheet named in the row. This is the ledger `BOARD.md` is not — that one marks open grid data and spends nothing at any venue.
 
