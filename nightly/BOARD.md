@@ -1,4 +1,4 @@
-# Offpeak Spread Board — marked sessions
+# Firming Spread Board — marked sessions
 
 Quotes are open-data observation, not trade advice; settlements (real runs)
 live elsewhere. Generated daily by `tools/board_report.py`.
@@ -34,5 +34,6 @@ Caveat: gpt-5.6-sol's standard rate is promotional at least through 2026-11-21; 
 | 2026-09-12 | 40.1 / 29.6 | 1.4x | 72.4 / 109.0 | 0.7x | 1.2x | 0.7x | 1.8x | 0.8x | 2.0x |
 | 2026-09-13 | 47.3 / 32.2 | 1.5x | 199.2 / 190.5 | 1.1x | 0.9x | 0.6x | 1.9x | 0.8x | 2.0x |
 | 2026-09-14 | 48.1 / 30.5 | 1.6x | 146.6 / 69.0 | 2.1x | 1.1x | 0.6x | 1.8x | 0.8x | 2.0x |
-| 2026-09-15 | 45.0 / 28.1 | 1.6x | 143.2 / 69.8 | 2.0x | 1.1x | — | 1.5x | — | 2.0x |
+| 2026-09-15 | 45.0 / 28.1 | 1.6x | 143.2 / 69.8 | 2.0x | 1.1x | 0.7x | 1.5x | 0.7x | 2.0x |
 | 2026-09-16 | 45.0 / 21.7 | 2.1x | 142.9 / 74.1 | 1.9x | 1.1x | — | 1.8x | — | 2.0x |
+| 2026-09-17 | 37.4 / — | — | 90.6 / — | — | — | — | 2.1x | — | 2.0x |
