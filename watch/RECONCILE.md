@@ -1,7 +1,7 @@
 # RECONCILE — sheet against page
 
 `tools/sheet_watch.py` asks whether a page moved since yesterday. This asks
-whether the page and `src/offpeak/prices.py` agree **today** — which is the only
+whether the page and `src/firming/prices.py` agree **today** — which is the only
 question that catches a row that was already wrong when the watch took its first
 reading, because no hash diff spans a baseline.
 
@@ -17,7 +17,7 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-09-17 against `offpeak.prices` sheet **2026-08-30**.
+Reconciled 2026-09-17 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
