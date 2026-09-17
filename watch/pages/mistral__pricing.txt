@@ -44,9 +44,9 @@ Docs
 API Reference
 Cookbooks
 Latest posts
+Mistral and Mozilla are bringing open, private and multilingual AI to your web browser
 Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data
 Modernizing complex legacy code with AI agents.
-Mistral raises €3B to make sovereign, open-weight AI the technology frontier
 Read all news
 Categories
 Product
@@ -104,9 +104,9 @@ Docs
 API Reference
 Cookbooks
 Latest posts
+Mistral and Mozilla are bringing open, private and multilingual AI to your web browser
 Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data
 Modernizing complex legacy code with AI agents.
-Mistral raises €3B to make sovereign, open-weight AI the technology frontier
 Read all news
 Categories
 Product
@@ -180,40 +180,35 @@ $4
 Document AI
 $5
 / 1000 pages
-mistral-ocr-latest
-Copy to clipboardCopied
+Read more
 Voxtral Mini Transcribe 2
 State-of-the-art batch audio transcription.
 Audio Input/min
 $0.003
 Available on
 /v1/audio/transcriptions
-voxtral-mini-latest
-Copy to clipboardCopied
-GLM 5.2
+GLM 5.3
 New
 Third-party model specializing in long-context agentic workflows and coding.
 Input (/M tokens)
 $1.4
-Cached input (/M tokens)
-$0.14
 Output (/M tokens)
 $4.4
-zai-glm-5-2
-Copy to clipboardCopied
+Read documentation
 Enterprise APIs
 Introducing our Enterprise APIs, including regional data processing controls, system-level SLAs, increased rate limits, and premium support. This service is available for 75% above list pricing on select APIs.
 Contact sales team
 Browse our APIs.
 Cutting-edge AI models across text, reasoning, vision, and more—ready to integrate into your workflows with minimal coding.
 Capabilities
-25 results
+26 results
 Text-to-text
 Agentic
 Multimodal
 Coding
 Reasoning
 Lightweight
+Third-party
 OCR
 Transcription
 Voice
@@ -236,8 +231,7 @@ Input (/M tokens)
 $1.5
 Output (/M tokens)
 $7.5
-mistral-medium-latest
-Copy to clipboardCopied
+Learn more
 Mistral Small 4
 Open
 Multimodal. Multilingual. Apache 2.0.
@@ -249,8 +243,7 @@ Input (/M tokens)
 $0.15
 Output (/M tokens)
 $0.6
-mistral-small-latest
-Copy to clipboardCopied
+Read more
 Mistral Large 3
 Open
 Open-weight, general-purpose, flagship multimodal and multilingual model.
@@ -260,21 +253,27 @@ Input (/M tokens)
 $0.5
 Output (/M tokens)
 $1.5
-mistral-large-latest
-Copy to clipboardCopied
-GLM 5.2
+GLM 5.3
 New
 Third-party model specializing in long-context agentic workflows and coding.
 Text-to-text
 Coding
+Third-party
 Input (/M tokens)
 $1.4
-Cached input (/M tokens)
-$0.14
 Output (/M tokens)
 $4.4
-zai-glm-5-2
-Copy to clipboardCopied
+Read documentation
+GLM 5.2
+Third-party model specializing in long-context agentic workflows and coding.
+Text-to-text
+Coding
+Third-party
+Input (/M tokens)
+$1.4
+Output (/M tokens)
+$4.4
+Read documentation
 OCR 4.1
 New
 The world’s best document extraction and understanding model.
@@ -287,8 +286,7 @@ $4
 Document AI
 $5
 / 1000 pages
-mistral-ocr-latest
-Copy to clipboardCopied
+Read more
 Voxtral Mini Transcribe Realtime
 Open
 Open model fine-tuned and optimized for transcription.
@@ -298,8 +296,7 @@ Audio Input/min
 $0.006
 Available on
 /v1/audio/transcriptions
-voxtral-mini-transcribe-realtime-2602
-Copy to clipboardCopied
+Learn more
 Voxtral TTS
 Open
 State-of-the-art text-to-speech generation and voice cloning.
@@ -309,8 +306,7 @@ $0.016
 per 1k characters
 Available on
 /v1/audio/speech
-voxtral-mini-tts-latest
-Copy to clipboardCopied
+Read more
 Voxtral Small
 Open
 State-of-the-art performance on speech and audio understanding.
@@ -325,8 +321,6 @@ Output (/M tokens)
 $0.4
 Available on
 /v1/chat/completions
-voxtral-small-latest
-Copy to clipboardCopied
 Codestral
 Premier
 Low-latency coding model optimized for high-frequency completion, fill-in-the-middle, and code generation tasks.
@@ -336,8 +330,6 @@ Input (/M tokens)
 $0.3
 Output (/M tokens)
 $0.9
-codestral-latest
-Copy to clipboardCopied
 Leanstral
 Labs
 First open-source code agent for Lean 4.
@@ -345,8 +337,6 @@ Coding
 API endpoint
 We are keeping this endpoint highly accessible for a limited period to gather realistic feedback and observability data to fuel the next generation of verified code models.
 Free
-labs-leanstral-2603
-Copy to clipboardCopied
 Ministral 3 (3B)
 Open
 Best-in-class frontier AI to the edge.
@@ -357,8 +347,6 @@ Input (/M tokens)
 $0.1
 Output (/M tokens)
 $0.1
-ministral-3b-latest
-Copy to clipboardCopied
 Ministral 3 (8B)
 Open
 Best-in-class frontier AI to the edge.
@@ -369,8 +357,6 @@ Input (/M tokens)
 $0.15
 Output (/M tokens)
 $0.15
-ministral-8b-latest
-Copy to clipboardCopied
 Ministral 3 (14B)
 Open
 Best-in-class frontier AI to the edge.
@@ -381,8 +367,6 @@ Input (/M tokens)
 $0.2
 Output (/M tokens)
 $0.2
-ministral-14b-latest
-Copy to clipboardCopied
 Classifier API model (3B)
 Fine-tune Ministral 3B for classification tasks, like moderation, sentiment analysis, fraud detection, and more.
 Classifier APIs
@@ -413,8 +397,6 @@ Mistral Moderation 2
 A classifier service for text content moderation.
 Classifier APIs
 Free
-mistral-moderation-2603
-Copy to clipboardCopied
 Codestral Embed
 Premier
 State-of-the-art embeddings for code and natural language queries.
@@ -422,16 +404,12 @@ Embedding
 Coding
 Input (/M tokens)
 $0.15
-codestral-embed
-Copy to clipboardCopied
 Mistral Embed
 State-of-the-art semantic model for extracting representation of text extracts.
 Embedding
 Text-to-text
 Input (/M tokens)
 $0.1
-mistral-embed
-Copy to clipboardCopied
 Agent API
 Enhances AI with built-in tools for code execution, web search, image generation, persistent memory, and agentic orchestration.
 Tools

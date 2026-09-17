@@ -17,15 +17,15 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-09-16 against `offpeak.prices` sheet **2026-08-30**.
+Reconciled 2026-09-17 against `offpeak.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
 | `anthropic` | **drift** | 20 | 0 | 40 | 17 | copy change (2026-09-10) |
-| `google` | **drift** | 10 | 0 | 0 | 29 | copy change (2026-09-16) |
+| `google` | **drift** | 10 | 0 | 0 | 29 | noise (2026-09-17) |
 | `groq` | skipped | 0 | 0 | 1 | 0 | — |
-| `mistral` | ok | 0 | 1 | 37 | 17 | copy change (2026-09-16) |
-| `openai` | ok | 0 | 0 | 0 | 7 | price change (2026-09-12) |
+| `mistral` | unreadable | 0 | 10 | 0 | 0 | price change (2026-09-17) |
+| `openai` | ok | 0 | 0 | 0 | 7 | copy change (2026-09-17) |
 
 ## `anthropic`
 
@@ -70,7 +70,7 @@ Informational. The sheet omits models on purpose; see the comments in `prices.py
 
 ## `google`
 
-Sheet watch's latest classification: **copy change (2026-09-16)**.
+Sheet watch's latest classification: **noise (2026-09-17)**.
 
 ### Mismatches
 
@@ -103,29 +103,24 @@ Not compared, and not counted as agreement.
 
 ## `mistral`
 
-Sheet watch's latest classification: **copy change (2026-09-16)**.
+Sheet watch's latest classification: **price change (2026-09-17)**.
 
 ### Missing from the page
 
+- `codestral` — on the sheet, no row found on the page
 - `glm-5-2` — on the sheet, no row found on the page
-
-### Unverifiable (37)
-
-Not compared, and not counted as agreement.
-
-- batch is an account-level toggle (-50%), not a per-model row — 18 field(s)
-- priority is an account-level toggle with no published rate — 18 field(s)
-- no figure for this field in the page text — 1 field(s)
-
-### On the page, not on the sheet (2)
-
-Informational. The sheet omits models on purpose; see the comments in `prices.py` before adding one.
-
-`codestral-embed`, `voxtral-small-latest`
+- `ministral-14b` — on the sheet, no row found on the page
+- `ministral-3b` — on the sheet, no row found on the page
+- `ministral-8b` — on the sheet, no row found on the page
+- `mistral-embed` — on the sheet, no row found on the page
+- `mistral-large` — on the sheet, no row found on the page
+- `mistral-medium` — on the sheet, no row found on the page
+- `mistral-small` — on the sheet, no row found on the page
+- `zai-glm-5-2` — on the sheet, no row found on the page
 
 ## `openai`
 
-Sheet watch's latest classification: **price change (2026-09-12)**.
+Sheet watch's latest classification: **copy change (2026-09-17)**.
 
 ### On the page, not on the sheet (4)
 

@@ -99,3 +99,6 @@ and no row about it should be read as rate coverage.
 | 2026-09-16 | `mistral:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000653 | Customer list changed from BMW to TotalEnergies; no pricing or monetary rate changed. |
 | 2026-09-16 | `google:pricing` | changed | +28 / −26 | copy change | gpt-5.6-luna | $0.000136 | Existing pricing moved into a combined model section; rates remain unchanged, despite the updated timestamp. |
 | 2026-09-16 | `xai:pricing` | changed | +5 / −1 | copy change | gpt-5.6-luna | $0.0000641 | Navigation labels were added and a model link moved; no pricing numbers changed. |
+| 2026-09-17 | `openai:pricing` | changed | +1 / −0 | copy change | gpt-5.6-luna | $0.0000351 | “Usage Insights” was added to navigation, with no pricing numbers or rates changed. |
+| 2026-09-17 | `mistral:pricing` | changed | +25 / −47 | price change | gpt-5.6-luna | $0.000206 | The cached-input rate of $0.14 per million tokens disappeared, removing a listed charge. |
+| 2026-09-17 | `google:pricing` | changed | +1 / −1 | noise | gpt-5.6-luna | $0.0000418 | Only the page’s last-updated date changed; no pricing or substantive content changed. |
