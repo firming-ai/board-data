@@ -27,11 +27,11 @@ Written by `tools/queue_summary.py`, never by hand.
 
 | range | n | p50 | p90 | p99 | max |
 |---|---|---|---|---|---|
-| 7d | 7 | 1m32s | 20m30s | 24m24s | 24m50s |
-| 30d | 25 | 2m03s | 5m01s | 23m06s | 24m50s |
-| all-time | 25 | 2m03s | 5m01s | 23m06s | 24m50s |
+| 7d | 8 | 1m45s | 19m46s | 24m20s | 24m50s |
+| 30d | 26 | 2m00s | 4m59s | 23m02s | 24m50s |
+| all-time | 26 | 2m00s | 4m59s | 23m02s | 24m50s |
 
-Completed: 25/26. Expired: 0. Overran window: 0. Failed: 0.
+Completed: 26/26. Expired: 0. Overran window: 0. Failed: 0.
 
 ## gemini (24h)
 

@@ -1,16 +1,16 @@
 {
-  "generated_utc": "2026-09-18T00:50:29Z",
+  "generated_utc": "2026-09-18T12:11:18Z",
   "tail_started": "2026-08-28",
   "buckets": [
     {
       "venue": "anthropic",
       "window": "24h",
-      "n": 25,
-      "p50_s": 122.8,
-      "p90_s": 301.1,
-      "p99_s": 1385.8,
+      "n": 26,
+      "p50_s": 120.4,
+      "p90_s": 299.4,
+      "p99_s": 1381.5,
       "max_s": 1490.0,
-      "open": 1,
+      "open": 0,
       "expired": 0,
       "overran": 0,
       "censored": 0
