@@ -40,8 +40,8 @@ Overview
 Speech to Speech
 Text to Speech
 Speech to Text
-Custom Voices
 New
+Custom Voices
 Ephemeral Tokens
 Files & Collections
 Files Overview
@@ -128,8 +128,8 @@ Overview
 Speech to Speech
 Text to Speech
 Speech to Text
-Custom Voices
 New
+Custom Voices
 Ephemeral Tokens
 Files & Collections
 Files Overview
