@@ -17,15 +17,15 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-09-18 against `firming.prices` sheet **2026-08-30**.
+Reconciled 2026-09-19 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
 | `anthropic` | **drift** | 20 | 0 | 40 | 17 | copy change (2026-09-10) |
 | `google` | **drift** | 10 | 0 | 0 | 29 | copy change (2026-09-18) |
 | `groq` | skipped | 0 | 0 | 1 | 0 | — |
-| `mistral` | unreadable | 0 | 10 | 0 | 0 | price change (2026-09-17) |
-| `openai` | ok | 0 | 0 | 0 | 7 | copy change (2026-09-18) |
+| `mistral` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-09-19) |
+| `openai` | ok | 0 | 0 | 0 | 7 | copy change (2026-09-19) |
 
 ## `anthropic`
 
@@ -103,7 +103,7 @@ Not compared, and not counted as agreement.
 
 ## `mistral`
 
-Sheet watch's latest classification: **price change (2026-09-17)**.
+Sheet watch's latest classification: **copy change (2026-09-19)**.
 
 ### Missing from the page
 
@@ -120,7 +120,7 @@ Sheet watch's latest classification: **price change (2026-09-17)**.
 
 ## `openai`
 
-Sheet watch's latest classification: **copy change (2026-09-18)**.
+Sheet watch's latest classification: **copy change (2026-09-19)**.
 
 ### On the page, not on the sheet (4)
 

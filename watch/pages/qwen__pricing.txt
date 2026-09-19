@@ -44,6 +44,12 @@ happyhorse-1.1-r2v
 happyhorse-1.0-video-edit
 wan3.0-video
 More
+World models
+Real-time interactive open-world model — Adventure, Directing, and Acting
+happyoyster-1.0-adventure
+happyoyster-1.0-directing
+happyoyster-1.0-acting
+More
 Audio & speech
 Text-to-speech
 For audiobook reading, voice broadcasting, virtual avatars, and more

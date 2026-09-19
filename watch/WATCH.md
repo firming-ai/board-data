@@ -106,3 +106,7 @@ and no row about it should be read as rate coverage.
 | 2026-09-18 | `google:pricing` | changed | +4 / −2 | copy change | gpt-5.6-luna | $0.0000790 | Product names and navigation entries changed, but no pricing amount or billing rate moved. |
 | 2026-09-18 | `xai:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.000137 | The “New” label moved between features; no pricing or monetary rate changed. |
 | 2026-09-18 | `qwen:pricing` | changed | +6 / −5 | copy change | gpt-5.6-luna | $0.000181 | Model names and Omni usage guidance changed, but no pricing figures or chargeable rates were modified. |
+| 2026-09-19 | `openai:pricing` | changed | +0 / −3 | copy change | gpt-5.6-luna | $0.0000530 | Navigation links were removed; no pricing amounts or rate-bearing numbers changed. |
+| 2026-09-19 | `mistral:pricing` | changed | +3 / −3 | copy change | gpt-5.6-luna | $0.0000427 | “Contact sales” was reworded to “Get in touch”; no pricing numbers or rates changed. |
+| 2026-09-19 | `deepseek:pricing` | changed | +5 / −6 | copy change | gpt-5.6-luna | $0.000102 | Footnotes and model annotations changed, but no charged pricing amount changed. |
+| 2026-09-19 | `qwen:pricing` | changed | +6 / −0 | copy change | gpt-5.6-luna | $0.0000408 | New World models and descriptions were added, with no pricing numbers or charged rates changed. |
