@@ -13,9 +13,7 @@ OverviewQuickstartModelsOpenAI CompatibilityResponses APIRate LimitsTemplatesAPI
 Core Features
 Text GenerationSpeech to TextText to SpeechOrpheusOCR and Image RecognitionReasoningContent ModerationStructured OutputsPrompt Caching
 Tools & Integrations
-Tool UseOverviewGroq Built-In ToolsWeb SearchVisit WebsiteCode ExecutionWolfram AlphaBrowser Search (GPT OSS Models)Remote Tools and MCPConnectorsLocal Tool CallingIntegrations CatalogCoding with GroqFactory DroidOpenCodeKilo CodeRoo CodeCline
-Compound (Agentic AI)
-OverviewBuilt-In ToolsSystemsUse Cases
+Tool UseOverviewGroq Built-In ToolsCode ExecutionBrowser Search (GPT OSS Models)Remote Tools and MCPConnectorsLocal Tool CallingIntegrations CatalogCoding with GroqFactory DroidOpenCodeKilo CodeRoo CodeCline
 Guides
 Prompting GuideBasicsPatternsModel MigrationAssistant Message Prefilling
 Service Tiers
@@ -55,10 +53,7 @@ Tools & Integrations
 Tool Use
 Overview
 Groq Built-In Tools
-Web Search
-Visit Website
 Code Execution
-Wolfram Alpha
 Browser Search (GPT OSS Models)
 Remote Tools and MCP
 Connectors
@@ -70,11 +65,6 @@ OpenCode
 Kilo Code
 Roo Code
 Cline
-Compound (Agentic AI)
-Overview
-Built-In Tools
-Systems
-Use Cases
 Guides
 Prompting Guide
 Basics
