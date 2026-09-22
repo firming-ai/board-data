@@ -1,0 +1,15 @@
+{
+ "day": "2026-09-22",
+ "delay_hours": 24,
+ "what": "sha256 of the exact bytes at `path`, signed at the hour; the file appears 24 h after `as_of`",
+ "hours": [
+  {
+   "as_of": "2026-09-22T19:05:01+00:00",
+   "path": "pulse/hourly/2026-09-22/19.json",
+   "sha256": "ef0b84c636e1688ca48d59a844c3d30ddb6b822575b40e200709ff813a5caf4c",
+   "signature": "e189167ac848fa13b7495de24eb476e2cdf91c90e9751814c6d23141ca9c5f79b626531fa6b83613b20c45c1aa538852396fe1c51505b109a458900e31c61801",
+   "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
+   "methodology_version": "1.2.1"
+  }
+ ]
+}
