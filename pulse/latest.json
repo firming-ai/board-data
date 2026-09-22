@@ -1,55 +1,55 @@
 {
- "as_of": "2026-09-22T02:05:03+00:00",
+ "as_of": "2026-09-22T02:30:52+00:00",
  "batch_24h": [
   {
-   "done": 94,
+   "done": 92,
    "done_1h_pct": 100.0,
-   "last_submit": "2026-09-22T02:00:00+00:00",
+   "last_submit": "2026-09-22T02:30:00+00:00",
    "lost": 0,
-   "open": 2,
+   "open": 4,
    "submitted": 96,
    "turnaround_p50_s": 96,
-   "turnaround_p95_s": 228,
+   "turnaround_p95_s": 240,
    "venue": "anthropic"
   },
   {
-   "done": 48,
+   "done": 47,
    "done_1h_pct": 100.0,
-   "last_submit": "2026-09-22T02:00:00+00:00",
+   "last_submit": "2026-09-22T02:30:00+00:00",
    "lost": 0,
-   "open": 0,
+   "open": 1,
    "submitted": 48,
    "turnaround_p50_s": 80,
    "turnaround_p95_s": 107,
    "venue": "gemini"
   },
   {
-   "done": 48,
-   "done_1h_pct": 87.5,
-   "last_submit": "2026-09-22T02:00:00+00:00",
+   "done": 47,
+   "done_1h_pct": 87.2,
+   "last_submit": "2026-09-22T02:30:00+00:00",
    "lost": 0,
-   "open": 0,
+   "open": 1,
    "submitted": 48,
    "turnaround_p50_s": 56,
-   "turnaround_p95_s": 6948,
+   "turnaround_p95_s": 7026,
    "venue": "mistral"
   },
   {
-   "done": 93,
-   "done_1h_pct": 83.9,
-   "last_submit": "2026-09-22T02:00:00+00:00",
+   "done": 91,
+   "done_1h_pct": 84.6,
+   "last_submit": "2026-09-22T02:30:00+00:00",
    "lost": 0,
-   "open": 3,
+   "open": 5,
    "submitted": 96,
    "turnaround_p50_s": 81,
-   "turnaround_p95_s": 11113,
+   "turnaround_p95_s": 11139,
    "venue": "openai"
   }
  ],
  "children": [
   {
-   "fill": 100.0,
-   "fill_batch": 100.0,
+   "fill": 99.5,
+   "fill_batch": 98.96,
    "fill_cache": 100.0,
    "fill_flex": null,
    "legs": 2,
@@ -60,14 +60,14 @@
    "venue": "anthropic"
   },
   {
-   "fill": 94.1,
+   "fill": 81.3,
    "fill_batch": 100.0,
    "fill_cache": null,
-   "fill_flex": 88.24,
+   "fill_flex": 62.5,
    "legs": 2,
    "n_batch": 48,
    "n_cache": null,
-   "n_flex": 17,
+   "n_flex": 16,
    "ticker": "GEM\u00b7FILL",
    "venue": "gemini"
   },
@@ -84,8 +84,8 @@
    "venue": "mistral"
   },
   {
-   "fill": 94.4,
-   "fill_batch": 83.33,
+   "fill": 94.1,
+   "fill_batch": 82.29,
    "fill_cache": 100.0,
    "fill_flex": 100.0,
    "legs": 3,
@@ -97,22 +97,22 @@
   }
  ],
  "fill": {
-  "as_of": "2026-09-22T02:03:00+00:00",
+  "as_of": "2026-09-22T02:28:00+00:00",
   "fallback": false,
-  "fill": 94.1,
-  "filled": 32.0,
+  "fill": 81.8,
+  "filled": 27.0,
   "gap": false,
-  "n": 34.0,
+  "n": 33.0,
   "vantage": "us-east"
  },
  "index": {
-  "as_of": "2026-09-22T02:03:00+00:00",
+  "as_of": "2026-09-22T02:28:00+00:00",
   "fallback": false,
-  "fill": 96.2,
-  "fill_flex": 94.1,
+  "fill": 91.6,
+  "fill_flex": 81.8,
   "gap": false,
   "members": 3,
-  "n_flex": 34.0,
+  "n_flex": 33.0,
   "vantage": "us-east"
  },
  "lanes_last_hour": [
@@ -1572,8 +1572,8 @@
  "legs": [
   {
    "budget_s": 3600,
-   "fill": 100.0,
-   "filled": 96,
+   "fill": 98.96,
+   "filled": 95,
    "leg": "batch",
    "n": 96,
    "over": "24 h",
@@ -1599,10 +1599,10 @@
   },
   {
    "budget_s": 60,
-   "fill": 88.24,
-   "filled": 15,
+   "fill": 62.5,
+   "filled": 10,
    "leg": "flex",
-   "n": 17,
+   "n": 16,
    "over": "5 min",
    "venue": "gemini"
   },
@@ -1617,8 +1617,8 @@
   },
   {
    "budget_s": 3600,
-   "fill": 83.33,
-   "filled": 80,
+   "fill": 82.29,
+   "filled": 79,
    "leg": "batch",
    "n": 96,
    "over": "24 h",
@@ -1654,14 +1654,14 @@
  "vantages": [
   {
    "cadence_mode": "normal",
-   "last_tick": "2026-09-22T02:04:00+00:00",
-   "spend_24h_usd": 2.628462,
+   "last_tick": "2026-09-22T02:30:00+00:00",
+   "spend_24h_usd": 2.629173,
    "vantage": "eu-central"
   },
   {
    "cadence_mode": "normal",
-   "last_tick": "2026-09-22T02:04:00+00:00",
-   "spend_24h_usd": 2.628047,
+   "last_tick": "2026-09-22T02:30:00+00:00",
+   "spend_24h_usd": 2.627323,
    "vantage": "us-east"
   }
  ],
@@ -1808,9 +1808,9 @@
     },
     {
      "bucket": "2026-09-22T02:00:00+00:00",
-     "fill": 88.24,
+     "fill": 74.51,
      "gap": true,
-     "n": 17
+     "n": 102
     }
    ]
   },
@@ -1958,7 +1958,7 @@
      "bucket": "2026-09-22T02:00:00+00:00",
      "fill": 100.0,
      "gap": true,
-     "n": 17
+     "n": 107
     }
    ]
   }

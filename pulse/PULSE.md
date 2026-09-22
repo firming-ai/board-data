@@ -1,17 +1,17 @@
 # FILL — the inference availability index
 
-*As of 2026-09-22T02:05:03+00:00 · probe pulse-1.2.3 · methodology 1.2.0*
+*As of 2026-09-22T02:30:52+00:00 · probe pulse-1.2.3 · methodology 1.2.0*
 
-**FILL 96.2** · FILL·FLEX 94.1
+**FILL 91.6** · FILL·FLEX 81.8
 
-Share of frontier discount-lane work that got its discount inside the budget — flex inside 60 s, batch inside 1 h, a warm prompt served from the cache — the mean of OAI·FILL, ANT·FILL and GEM·FILL. FILL·FLEX is the flex leg alone (last five minutes, n = 34.0): the headline before methodology 1.2.
+Share of frontier discount-lane work that got its discount inside the budget — flex inside 60 s, batch inside 1 h, a warm prompt served from the cache — the mean of OAI·FILL, ANT·FILL and GEM·FILL. FILL·FLEX is the flex leg alone (last five minutes, n = 33.0): the headline before methodology 1.2.
 
 | child | FILL | flex (60 s, 5 min) | batch (1 h, 24 h) | cache (warm hit, 1 h) |
 | :-- | --: | --: | --: | --: |
-| ANT·FILL | 100.0% | — | 100.0% (n=96) | 100.0% (n=30) |
-| GEM·FILL | 94.1% | 88.2% (n=17) | 100.0% (n=48) | — |
+| ANT·FILL | 99.5% | — | 99.0% (n=96) | 100.0% (n=30) |
+| GEM·FILL | 81.3% | 62.5% (n=16) | 100.0% (n=48) | — |
 | MIS·FILL | 87.5% | — | 87.5% (n=48) | — |
-| OAI·FILL | 94.4% | 100.0% (n=17) | 83.3% (n=96) | 100.0% (n=15) |
+| OAI·FILL | 94.1% | 100.0% (n=17) | 82.3% (n=96) | 100.0% (n=15) |
 
 | lane | n | fill@60 | shed | TTFT p50 | gap |
 | :-- | --: | --: | --: | --: | :-: |
@@ -76,9 +76,9 @@ Share of frontier discount-lane work that got its discount inside the budget —
 
 | venue | submitted | done | open | lost | done in 1 h | turnaround p50 | p95 |
 | :-- | --: | --: | --: | --: | --: | --: | --: |
-| anthropic | 96 | 94 | 2 | 0 | 100.0% | 96 s | 4 min |
-| gemini | 48 | 48 | 0 | 0 | 100.0% | 80 s | 107 s |
-| mistral | 48 | 48 | 0 | 0 | 87.5% | 56 s | 116 min |
-| openai | 96 | 93 | 3 | 0 | 83.9% | 81 s | 185 min |
+| anthropic | 96 | 92 | 4 | 0 | 100.0% | 96 s | 4 min |
+| gemini | 48 | 47 | 1 | 0 | 100.0% | 80 s | 107 s |
+| mistral | 48 | 47 | 1 | 0 | 87.2% | 56 s | 117 min |
+| openai | 96 | 91 | 5 | 0 | 84.6% | 81 s | 186 min |
 
 Every number carries n; a gap flag marks an hour with fewer than 55 samples. Marks are struck once at 00:10Z and never restated. Methodology: METHODOLOGY.md.
