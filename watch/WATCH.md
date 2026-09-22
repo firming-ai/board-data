@@ -114,3 +114,6 @@ and no row about it should be read as rate coverage.
 | 2026-09-20 | `groq:plans` | changed | +1 / −11 | copy change | gpt-5.6-luna | $0.0000561 | Tool navigation entries and agentic AI sections were removed; no pricing numbers or rate-bearing terms changed. |
 | 2026-09-21 | `openai:pricing` | changed | +3 / −3 | copy change | gpt-5.6-luna | $0.0000884 | Navigation links moved from the lower section into the page header; pricing numbers did not change. |
 | 2026-09-21 | `qwen:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000717 | A model name and page update date changed, but no pricing amount or billing rate changed. |
+| 2026-09-22 | `openai:pricing` | changed | +1 / −0 | copy change | gpt-5.6-luna | $0.0000336 | A new navigation or product label was added without changing any pricing amount. |
+| 2026-09-22 | `xai:pricing` | changed | +13 / −11 | copy change | gpt-5.6-luna | $0.000103 | The page updates model references, capabilities, and documentation dates, but no pricing or charged amount changes. |
+| 2026-09-22 | `qwen:pricing` | changed | +7 / −6 | copy change | gpt-5.6-luna | $0.000101 | Model names and guidance changed, but no pricing figures or chargeable rates changed. |
