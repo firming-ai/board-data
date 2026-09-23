@@ -2,7 +2,7 @@
 
 *As of 2026-09-22T19:05:01+00:00 · probe pulse-1.3.0 · methodology 1.2.1*
 
-*Published 2026-09-22T19:05:00+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-09-22/19.json`; their sha256 `ef0b84c636e1…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
+*Published 2026-09-23T19:05:00+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-09-22/19.json`; their sha256 `ef0b84c636e1…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
 
 **FILL 86.1** · FILL·FLEX 70.6
 
