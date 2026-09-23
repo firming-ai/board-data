@@ -28,8 +28,8 @@ and no row about it should be read as rate coverage.
 
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
-| `anthropic:pricing` | cited by prices.py | 157 | <https://platform.claude.com/docs/en/about-claude/pricing> |
-| `openai:pricing` | cited by prices.py | 229 | <https://developers.openai.com/api/docs/pricing> |
+| `anthropic:pricing` | cited by prices.py | 167 | <https://platform.claude.com/docs/en/about-claude/pricing> |
+| `openai:pricing` | cited by prices.py | 197 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 50 | <https://mistral.ai/pricing/api> |
 | `google:pricing` | cited by prices.py | 522 | <https://ai.google.dev/pricing> |
@@ -117,3 +117,6 @@ and no row about it should be read as rate coverage.
 | 2026-09-22 | `openai:pricing` | changed | +1 / −0 | copy change | gpt-5.6-luna | $0.0000336 | A new navigation or product label was added without changing any pricing amount. |
 | 2026-09-22 | `xai:pricing` | changed | +13 / −11 | copy change | gpt-5.6-luna | $0.000103 | The page updates model references, capabilities, and documentation dates, but no pricing or charged amount changes. |
 | 2026-09-22 | `qwen:pricing` | changed | +7 / −6 | copy change | gpt-5.6-luna | $0.000101 | Model names and guidance changed, but no pricing figures or chargeable rates changed. |
+| 2026-09-23 | `anthropic:pricing` | changed | +22 / −4 | price change | gpt-5.6-luna | $0.000151 | Claude Opus 5.5 adds new input, output, cache, and fast-mode rates to the pricing page. |
+| 2026-09-23 | `openai:pricing` | changed | +54 / −84 | price change | gpt-5.6-luna | $0.000153 | Multiple model pricing figures changed, including added GPT-6 Sol and Luna rates and modified dollar amounts. |
+| 2026-09-23 | `google:pricing` | changed | +1 / −1 | noise | gpt-5.6-luna | $0.0000418 | Only the page’s last-updated date changed; no pricing or substantive content changed. |
