@@ -17,60 +17,55 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-09-23 against `firming.prices` sheet **2026-08-30**.
+Reconciled 2026-09-24 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
-| `anthropic` | **drift** | 20 | 0 | 40 | 18 | price change (2026-09-23) |
-| `google` | **drift** | 10 | 0 | 0 | 29 | noise (2026-09-23) |
+| `anthropic` | **drift** | 4 | 8 | 8 | 3 | unclassified (2026-09-24) |
+| `google` | **drift** | 10 | 0 | 0 | 31 | price change (2026-09-24) |
 | `groq` | skipped | 0 | 0 | 1 | 0 | copy change (2026-09-20) |
 | `mistral` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-09-19) |
-| `openai` | **drift** | 2 | 2 | 4 | 7 | price change (2026-09-23) |
+| `openai` | **drift** | 2 | 2 | 4 | 7 | copy change (2026-09-24) |
 
 ## `anthropic`
 
-Sheet watch's latest classification: **price change (2026-09-23)**.
+Sheet watch's latest classification: **unclassified (2026-09-24)**.
 
 ### Mismatches
 
 | model | field | page | sheet | note |
 | --- | --- | --- | --- | --- |
-| `claude-fable-5` | input | $5.00 | $10.00 |  |
-| `claude-fable-5` | output | $25.00 | $50.00 |  |
-| `claude-haiku-4-5` | input | $0.50 | $1.00 |  |
-| `claude-haiku-4-5` | output | $2.50 | $5.00 |  |
-| `claude-opus-4-5` | input | $2.50 | $5.00 |  |
-| `claude-opus-4-5` | output | $12.50 | $25.00 |  |
-| `claude-opus-4-6` | input | $2.50 | $5.00 |  |
-| `claude-opus-4-6` | output | $12.50 | $25.00 |  |
-| `claude-opus-4-7` | input | $2.50 | $5.00 |  |
-| `claude-opus-4-7` | output | $12.50 | $25.00 |  |
-| `claude-opus-4-8` | input | $2.50 | $5.00 |  |
-| `claude-opus-4-8` | output | $12.50 | $25.00 |  |
-| `claude-opus-5` | input | $2.50 | $5.00 |  |
-| `claude-opus-5` | output | $12.50 | $25.00 |  |
-| `claude-sonnet-4-5` | input | $1.50 | $3.00 |  |
-| `claude-sonnet-4-5` | output | $7.50 | $15.00 |  |
-| `claude-sonnet-4-6` | input | $1.50 | $3.00 |  |
-| `claude-sonnet-4-6` | output | $7.50 | $15.00 |  |
-| `claude-sonnet-5` | input | $1.00 | $2.00 |  |
-| `claude-sonnet-5` | output | $5.00 | $10.00 |  |
+| `claude-opus-4-8` | input | $10.00 | $5.00 |  |
+| `claude-opus-4-8` | output | $50.00 | $25.00 |  |
+| `claude-opus-5` | input | $10.00 | $5.00 |  |
+| `claude-opus-5` | output | $50.00 | $25.00 |  |
 
-### Unverifiable (40)
+### Missing from the page
+
+- `claude-fable-5` — on the sheet, no row found on the page
+- `claude-haiku-4-5` — on the sheet, no row found on the page
+- `claude-opus-4-5` — on the sheet, no row found on the page
+- `claude-opus-4-6` — on the sheet, no row found on the page
+- `claude-opus-4-7` — on the sheet, no row found on the page
+- `claude-sonnet-4-5` — on the sheet, no row found on the page
+- `claude-sonnet-4-6` — on the sheet, no row found on the page
+- `claude-sonnet-5` — on the sheet, no row found on the page
+
+### Unverifiable (8)
 
 Not compared, and not counted as agreement.
 
-- no figure for this field in the page text — 40 field(s)
+- no figure for this field in the page text — 8 field(s)
 
-### On the page, not on the sheet (8)
+### On the page, not on the sheet (1)
 
 Informational. The sheet omits models on purpose; see the comments in `prices.py` before adding one.
 
-`claude-fable-5-1`, `claude-haiku-3-5`, `claude-mythos-5`, `claude-mythos-5-1`, `claude-opus-4`, `claude-opus-4-1`, `claude-opus-5-5`, `claude-sonnet-4`
+`claude-opus-5-5`
 
 ## `google`
 
-Sheet watch's latest classification: **noise (2026-09-23)**.
+Sheet watch's latest classification: **price change (2026-09-24)**.
 
 ### Mismatches
 
@@ -87,11 +82,11 @@ Sheet watch's latest classification: **noise (2026-09-23)**.
 | `gemini-3.7-flash` | fast_input | $1.35 | — | the page publishes this tier; the sheet carries no row for it |
 | `gemini-3.7-flash` | fast_output | $6.75 | — | the page publishes this tier; the sheet carries no row for it |
 
-### On the page, not on the sheet (23)
+### On the page, not on the sheet (25)
 
 Informational. The sheet omits models on purpose; see the comments in `prices.py` before adding one.
 
-`gemini-2.5-computer-use-preview-10-2025`, `gemini-2.5-flash`, `gemini-2.5-flash-image`, `gemini-2.5-flash-lite`, `gemini-2.5-flash-native-audio-preview-12-2025`, `gemini-2.5-flash-preview-tts`, `gemini-2.5-pro`, `gemini-2.5-pro-preview-tts`, `gemini-3-flash-preview`, `gemini-3-pro-image`, `gemini-3.1-flash-image`, `gemini-3.1-flash-lite`, `gemini-3.1-flash-lite-image`, `gemini-3.1-flash-tts-preview`, `gemini-3.1-pro-preview-customtools`, `gemini-3.5-live-translate-preview`, `gemini-3.5-transcribe`, `gemini-3.5-transcribe-live`, `gemini-3.8-flash`, `gemini-omni-1.1-flash`, `gemini-omni-flash-preview`, `gemini-robotics-er-2-preview`, `gemini-robotics-er-2-streaming-preview`
+`gemini-2.5-computer-use-preview-10-2025`, `gemini-2.5-flash`, `gemini-2.5-flash-image`, `gemini-2.5-flash-lite`, `gemini-2.5-flash-native-audio-preview-12-2025`, `gemini-2.5-flash-preview-tts`, `gemini-2.5-pro`, `gemini-2.5-pro-preview-tts`, `gemini-3-flash-preview`, `gemini-3-pro-image`, `gemini-3.1-flash-image`, `gemini-3.1-flash-lite`, `gemini-3.1-flash-lite-image`, `gemini-3.1-flash-tts-preview`, `gemini-3.1-pro-preview-customtools`, `gemini-3.5-live-translate-preview`, `gemini-3.5-transcribe`, `gemini-3.5-transcribe-live`, `gemini-3.8-flash`, `gemini-3.8-flash-lite-tts`, `gemini-3.8-flash-tts`, `gemini-omni-1.1-flash`, `gemini-omni-flash-preview`, `gemini-robotics-er-2-preview`, `gemini-robotics-er-2-streaming-preview`
 
 ## `groq`
 
@@ -122,7 +117,7 @@ Sheet watch's latest classification: **copy change (2026-09-19)**.
 
 ## `openai`
 
-Sheet watch's latest classification: **price change (2026-09-23)**.
+Sheet watch's latest classification: **copy change (2026-09-24)**.
 
 ### Mismatches
 

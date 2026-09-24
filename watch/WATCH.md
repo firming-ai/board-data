@@ -28,11 +28,11 @@ and no row about it should be read as rate coverage.
 
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
-| `anthropic:pricing` | cited by prices.py | 167 | <https://platform.claude.com/docs/en/about-claude/pricing> |
+| `anthropic:pricing` | cited by prices.py | 161 | <https://platform.claude.com/docs/en/about-claude/pricing> |
 | `openai:pricing` | cited by prices.py | 197 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 50 | <https://mistral.ai/pricing/api> |
-| `google:pricing` | cited by prices.py | 522 | <https://ai.google.dev/pricing> |
+| `google:pricing` | cited by prices.py | 586 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
 | `deepseek:pricing` | cited by prices.py | 12 | <https://api-docs.deepseek.com/quick_start/pricing> |
@@ -120,3 +120,6 @@ and no row about it should be read as rate coverage.
 | 2026-09-23 | `anthropic:pricing` | changed | +22 / −4 | price change | gpt-5.6-luna | $0.000151 | Claude Opus 5.5 adds new input, output, cache, and fast-mode rates to the pricing page. |
 | 2026-09-23 | `openai:pricing` | changed | +54 / −84 | price change | gpt-5.6-luna | $0.000153 | Multiple model pricing figures changed, including added GPT-6 Sol and Luna rates and modified dollar amounts. |
 | 2026-09-23 | `google:pricing` | changed | +1 / −1 | noise | gpt-5.6-luna | $0.0000418 | Only the page’s last-updated date changed; no pricing or substantive content changed. |
+| 2026-09-24 | `anthropic:pricing` | changed | +143 / −118 | unclassified | gpt-5.6-luna | $0.000259 | classifier reply did not name a label |
+| 2026-09-24 | `openai:pricing` | changed | +1 / −1 | copy change | gpt-5.6-luna | $0.0000601 | A recent-news item was added and another removed; no pricing or rate information changed. |
+| 2026-09-24 | `google:pricing` | changed | +174 / −1 | price change | gpt-5.6-luna | $0.000187 | New TTS models and paid-tier rates were added, including input, output, caching, and storage prices. |
