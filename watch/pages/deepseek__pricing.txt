@@ -1,34 +1,30 @@
 Skip to main content
 DeepSeek API Docs
+Resources
+Integrations
+API Status
+FAQ
 English
 English
 中文（中国）
-DeepSeek Platform
-Quick Start
+DeepSeek Platform中
+Quick StartAPI GuidesAPI ReferenceNewsChange Log
 Your First API Call
 Models & Pricing
 Token & Token Usage
 Rate Limit & Isolation
 Error Codes
 Agent Integrations
-API Guides
-Vision
-Thinking Mode
-Multi-round Conversation
-Chat Prefix Completion (Beta)
-FIM Completion (Beta)
-JSON Output
-Tool Calls
-Files API
-Context Caching
-Using the Responses API
-Using the Anthropic API
-API Reference
-News
-Other Resources
-FAQ
-Change Log
-Quick Start
+DeepSeek Harness
+Claude Code
+Codex
+OpenCode
+OpenClaw
+Hermes
+Reasonix
+WorkBuddy/CodeBuddy
+Qoder
+Contribute Your Agent Integrations
 Models & Pricing
 On this page
 Models & Pricing

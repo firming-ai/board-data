@@ -17,15 +17,15 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-09-24 against `firming.prices` sheet **2026-08-30**.
+Reconciled 2026-09-25 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
 | `anthropic` | **drift** | 4 | 8 | 8 | 3 | unclassified (2026-09-24) |
-| `google` | **drift** | 10 | 0 | 0 | 31 | price change (2026-09-24) |
-| `groq` | skipped | 0 | 0 | 1 | 0 | copy change (2026-09-20) |
+| `google` | **drift** | 10 | 0 | 0 | 31 | price change (2026-09-25) |
+| `groq` | skipped | 0 | 0 | 1 | 0 | copy change (2026-09-25) |
 | `mistral` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-09-19) |
-| `openai` | **drift** | 2 | 2 | 4 | 7 | copy change (2026-09-24) |
+| `openai` | **drift** | 2 | 2 | 4 | 7 | price change (2026-09-25) |
 
 ## `anthropic`
 
@@ -65,7 +65,7 @@ Informational. The sheet omits models on purpose; see the comments in `prices.py
 
 ## `google`
 
-Sheet watch's latest classification: **price change (2026-09-24)**.
+Sheet watch's latest classification: **price change (2026-09-25)**.
 
 ### Mismatches
 
@@ -90,7 +90,7 @@ Informational. The sheet omits models on purpose; see the comments in `prices.py
 
 ## `groq`
 
-Sheet watch's latest classification: **copy change (2026-09-20)**.
+Sheet watch's latest classification: **copy change (2026-09-25)**.
 
 ### Unverifiable (1)
 
@@ -117,7 +117,7 @@ Sheet watch's latest classification: **copy change (2026-09-19)**.
 
 ## `openai`
 
-Sheet watch's latest classification: **copy change (2026-09-24)**.
+Sheet watch's latest classification: **price change (2026-09-25)**.
 
 ### Mismatches
 

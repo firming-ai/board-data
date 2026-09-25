@@ -29,10 +29,10 @@ and no row about it should be read as rate coverage.
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
 | `anthropic:pricing` | cited by prices.py | 161 | <https://platform.claude.com/docs/en/about-claude/pricing> |
-| `openai:pricing` | cited by prices.py | 197 | <https://developers.openai.com/api/docs/pricing> |
+| `openai:pricing` | cited by prices.py | 189 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 50 | <https://mistral.ai/pricing/api> |
-| `google:pricing` | cited by prices.py | 586 | <https://ai.google.dev/pricing> |
+| `google:pricing` | cited by prices.py | 602 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
 | `deepseek:pricing` | cited by prices.py | 12 | <https://api-docs.deepseek.com/quick_start/pricing> |
@@ -123,3 +123,8 @@ and no row about it should be read as rate coverage.
 | 2026-09-24 | `anthropic:pricing` | changed | +143 / −118 | unclassified | gpt-5.6-luna | $0.000259 | classifier reply did not name a label |
 | 2026-09-24 | `openai:pricing` | changed | +1 / −1 | copy change | gpt-5.6-luna | $0.0000601 | A recent-news item was added and another removed; no pricing or rate information changed. |
 | 2026-09-24 | `google:pricing` | changed | +174 / −1 | price change | gpt-5.6-luna | $0.000187 | New TTS models and paid-tier rates were added, including input, output, caching, and storage prices. |
+| 2026-09-25 | `openai:pricing` | changed | +6 / −55 | price change | gpt-5.6-luna | $0.000112 | Video generation pricing, including per-second rates, was removed from the page. |
+| 2026-09-25 | `groq:pricing` | changed | +2 / −3 | copy change | gpt-5.6-luna | $0.0000535 | Navigation text changed by removing “Company”; no pricing or rate values changed. |
+| 2026-09-25 | `google:pricing` | changed | +17 / −1 | price change | gpt-5.6-luna | $0.000143 | New per-10-second audio rates were added for current and future pricing periods. |
+| 2026-09-25 | `deepseek:pricing` | changed | +16 / −20 | copy change | gpt-5.6-luna | $0.0000775 | Navigation and integration links changed, but no pricing figures or chargeable rates were added, removed, or modified. |
+| 2026-09-25 | `qwen:pricing` | changed | +5 / −1 | copy change | gpt-5.6-luna | $0.0000696 | A new decision model description and link were added; only the update date changed, with no pricing rates affected. |

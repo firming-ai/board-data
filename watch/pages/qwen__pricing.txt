@@ -13,7 +13,7 @@ All Products
 Alibaba Cloud Model Studio:Recommended models
 Document Center
 Alibaba Cloud Model Studio:Recommended models
-Last Updated:Sep 22, 2026
+Last Updated:Sep 24, 2026
 Alibaba Cloud Model Studio offers Qwen and third-party models for text, image, audio, and video.
 Text generation
 qwen3.8-max
@@ -81,6 +81,10 @@ qwen3.7-text-embedding
 tongyi-embedding-vision-plus
 qwen3-rerank
 More
+Decision Model
+A structured decision model for high-frequency business decisions. It performs classification, yes-or-no decisions, and scoring in a single forward pass, returning probability distributions and confidence.
+decision-model-preview
+Learn more
 View all models
 Go to Model Plaza to browse all Qwen, third-party, domain-specific, and legacy models.
 Thank you! We've received your feedback.

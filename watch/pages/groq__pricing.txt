@@ -18,10 +18,9 @@ Groq makes inference work at scale.
 premierneocloud
 forfastinference
 Terms and policies
-PlatformCompanyBlogContactStart building
-PlatformCompanyBlogContactStart building
+PlatformBlogContactStart building
+PlatformBlogContactStart building
 Platform
-Company
 Blog
 Contact
 Start building
