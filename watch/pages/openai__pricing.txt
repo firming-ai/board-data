@@ -398,6 +398,7 @@ Overview
 Workflows
 Projects and chats
 Sites
+Build plugins
 Visualizations
 Scheduled tasks
 Long-running work
@@ -451,7 +452,6 @@ Code review
 Integrated terminal
 Extend and automate
 Build skills
-Build plugins
 Site tools (WebMCP)
 Hooks
 Environments
@@ -935,6 +935,9 @@ $0.08
 All models
 Image generation models
 Prices per 1M tokens.
+Cached input rates for GPT Image 2 and GPT Image 2.5 only apply to images
+generated with the Responses API - learn
+more.
 StandardBatch
 Standard
 For image generation cost estimates, use the calculator in the image generation guide.
