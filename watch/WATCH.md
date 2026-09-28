@@ -129,3 +129,4 @@ and no row about it should be read as rate coverage.
 | 2026-09-25 | `deepseek:pricing` | changed | +16 / −20 | copy change | gpt-5.6-luna | $0.0000775 | Navigation and integration links changed, but no pricing figures or chargeable rates were added, removed, or modified. |
 | 2026-09-25 | `qwen:pricing` | changed | +5 / −1 | copy change | gpt-5.6-luna | $0.0000696 | A new decision model description and link were added; only the update date changed, with no pricing rates affected. |
 | 2026-09-26 | `openai:pricing` | changed | +4 / −1 | copy change | gpt-5.6-luna | $0.0000639 | Navigation moved, and an explanatory note about cached input rates was added without changing any prices. |
+| 2026-09-28 | `qwen:pricing` | changed | +1 / −1 | noise | gpt-5.6-luna | $0.0000525 | Only the page’s last-updated date changed; no pricing or substantive content changed. |
