@@ -28,7 +28,7 @@ and no row about it should be read as rate coverage.
 
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
-| `anthropic:pricing` | cited by prices.py | 161 | <https://platform.claude.com/docs/en/about-claude/pricing> |
+| `anthropic:pricing` | cited by prices.py | 168 | <https://platform.claude.com/docs/en/about-claude/pricing> |
 | `openai:pricing` | cited by prices.py | 189 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 50 | <https://mistral.ai/pricing/api> |
@@ -130,3 +130,5 @@ and no row about it should be read as rate coverage.
 | 2026-09-25 | `qwen:pricing` | changed | +5 / −1 | copy change | gpt-5.6-luna | $0.0000696 | A new decision model description and link were added; only the update date changed, with no pricing rates affected. |
 | 2026-09-26 | `openai:pricing` | changed | +4 / −1 | copy change | gpt-5.6-luna | $0.0000639 | Navigation moved, and an explanatory note about cached input rates was added without changing any prices. |
 | 2026-09-28 | `qwen:pricing` | changed | +1 / −1 | noise | gpt-5.6-luna | $0.0000525 | Only the page’s last-updated date changed; no pricing or substantive content changed. |
+| 2026-09-29 | `anthropic:pricing` | changed | +21 / −8 | unclassified | gpt-5.6-luna | $0.000214 | classifier reply did not name a label |
+| 2026-09-29 | `mistral:pricing` | changed | +4 / −4 | copy change | gpt-5.6-luna | $0.0000522 | Navigation text and latest-posts content changed, but no pricing figures or charged rates moved. |
