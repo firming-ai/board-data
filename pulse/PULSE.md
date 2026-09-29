@@ -1,8 +1,8 @@
 # FILL — the inference availability index
 
-*As of 2026-09-28T05:05:02+00:00 · probe pulse-1.3.1 · methodology 1.2.1*
+*As of 2026-09-28T06:05:01+00:00 · probe pulse-1.3.1 · methodology 1.2.1*
 
-*Published 2026-09-29T05:05:00+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-09-28/05.json`; their sha256 `0fdb9a3213a8…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
+*Published 2026-09-29T06:05:00+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-09-28/06.json`; their sha256 `b619e0978ff5…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
 
 **FILL 93.9** · FILL·FLEX 83.3
 
@@ -20,14 +20,14 @@ Share of frontier discount-lane work that got its discount inside the budget —
 
 | venue | AVAIL | FILL | shed | TTFT p50 |
 | :-- | --: | --: | --: | --: |
-| anthropic | 94.3% | — | 5.7% | 1415 ms |
-| bedrock | 100.0% | — | 0.0% | 706 ms |
-| deepseek | 100.0% | — | 0.0% | 1168 ms |
-| gemini | 100.0% | 84.5% | 5.8% | 1021 ms |
-| mistral | 100.0% | — | 0.0% | 666 ms |
-| openai | 95.3% | 93.4% | 0.0% | 886 ms |
-| openrouter | 100.0% | — | 0.0% | 1497 ms |
-| xai | 98.7% | — | 0.0% | 760 ms |
+| anthropic | 87.7% | — | 12.3% | 1398 ms |
+| bedrock | 100.0% | — | 0.0% | 694 ms |
+| deepseek | 100.0% | — | 0.0% | 1216 ms |
+| gemini | 100.0% | 81.4% | 9.0% | 1042 ms |
+| mistral | 100.0% | — | 0.0% | 664 ms |
+| openai | 95.8% | 95.2% | 0.0% | 952 ms |
+| openrouter | 100.0% | — | 0.0% | 1567 ms |
+| xai | 100.0% | — | 0.0% | 820 ms |
 
 **Batch, last 24 h of submits** — one one-request job per lane every 30 min, polled to its end.
 
