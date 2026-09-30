@@ -6,16 +6,23 @@ API Dashboard
 Try ChatGPT
 Home
 API
-Codex
-Docs
-Guides, concepts, and product docs for Codex
-Use cases
-Example workflows and tasks teams can take on with ChatGPT or Codex
-Docs
-Use cases
-Training
-Resources
+Overview
+Get started with the OpenAI API
+Models
+Explore models and compare capabilities
+Agents
+Build persistent agents on hosted infrastructure
+Tools
+Connect models to tools and data
+Audio & voice
+Build speech and realtime voice experiences
+Production
+Deploy and scale your API integrations
+API reference
+Explore endpoints, parameters, and responses
 ChatGPT
+Sign in with ChatGPT
+Apps powered by your user's ChatGPT plan
 Plugins
 Extend ChatGPT and Codex
 Workspace Agents
@@ -24,6 +31,14 @@ Commerce
 Build commerce flows in ChatGPT
 Ads
 Publish and measure ads in ChatGPT
+ChatGPT + Codex user docs
+Guides and product docs for ChatGPT and Codex
+Use cases
+Example workflows and tasks teams can take on with ChatGPT or Codex
+Docs
+Use cases
+Training
+Resources
 Resources
 Showcase
 Demo apps to get inspired
@@ -41,7 +56,7 @@ Search docs
 Suggested
 responses createreasoning_effortrealtimeprompt caching
 Primary navigation
-API Codex ChatGPT Docs Use cases Training Resources Resources
+API ChatGPT Docs Use cases Training Resources Resources
 Search docs
 Suggested
 responses createreasoning_effortrealtimeprompt caching
@@ -132,6 +147,7 @@ Overview
 Agents API
 Overview
 Quickstart
+API reference
 Architecture
 Configuring Agents
 Sessions
@@ -147,6 +163,7 @@ Sandbox security
 Files and artifacts
 Tools and integrations
 Web search
+Computer use
 Functions
 MCP connections
 Plugins
@@ -154,6 +171,8 @@ Vaults
 Multi-agent
 Observability and usage
 Tracing
+Errors and recovery
+Bedrock Managed Agents
 Agents SDK
 Overview
 Quickstart
@@ -228,9 +247,10 @@ Go live
 Production best practices
 Deployment checklist
 Performance and quality
+Fast mode
+Ultrafast mode
 Latency optimization
 Predicted Outputs
-Fast mode
 Accuracy optimization
 Cost and throughput
 Cost optimization
@@ -281,10 +301,25 @@ Rate limits
 Spend limits
 Admin APIs
 Error codes
-Docs Use cases
-DocsUse casesDocsDocs
-Plugins Workspace Agents Commerce Ads
-PluginsWorkspace AgentsCommerceAdsDocsSelect...
+Overview Sign in with ChatGPT Plugins Workspace Agents Commerce Ads ChatGPT + Codex user docs Use cases
+OverviewSign in with ChatGPTPluginsWorkspace AgentsCommerceAdsChatGPT + Codex user docsUse casesDocsOverview
+Home
+Quickstart
+Request a client ID
+Identity
+On your website
+In your ChatGPT plugin
+ChatGPT plan usage
+Overview
+UI/UX guidelines
+Registration and sign-in
+Accounts and sessions
+Models and inference
+Codex app-server
+Self-hosted VMs
+Token reference
+Errors and recovery
+Preview limitations
 Home
 Quickstart
 Core concepts
@@ -297,6 +332,8 @@ Define tools
 Build
 Build an MCP server
 Add UI to your MCP server (optional)
+Add events to your MCP server (optional)
+Extensions
 Authenticate users
 Build skills
 Package your plugin
@@ -371,6 +408,7 @@ Get started
 Quickstart
 Use ChatGPT
 Get started with Work
+Meet dots
 Import from another agent
 Foundations
 Prompting
@@ -389,7 +427,7 @@ Remote
 ChatGPT on the web
 Codex CLI
 Codex IDE extension
-Codex cloud
+Codex Cloud
 Releases
 Changelog
 Feature Maturity
@@ -410,12 +448,26 @@ Browser
 Computer use
 Voice
 Plugins
+Sign in with ChatGPT
 Web search
 Image generation
 Image inputs
 Appshots
 Browser extension
 Work with files
+dots
+Meet dots
+Getting started
+Messaging
+Tasks and memory
+Computers and apps
+Controls
+ChatGPT Space
+Overview
+Getting started
+Pages
+Work with agents
+Collaboration
 Reference
 Commands
 Slash commands
@@ -453,12 +505,14 @@ Integrated terminal
 Extend and automate
 Build skills
 Site tools (WebMCP)
+Annotations Extensibility
 Hooks
 Environments
 Modes
 Local environments
-Cloud environment
 Git worktrees
+Codex Cloud
+Cloud environments
 Build with Codex
 Codex SDK
 App Server
@@ -479,7 +533,6 @@ Profiles
 Sandboxing
 Auto-review
 Agent approvals & security
-Internet access
 Codex Security
 Overview
 Codex Security plugin
@@ -502,7 +555,7 @@ GitLab CI/CD
 Reference
 FAQ
 TypeScript SDK
-Codex Security cloud
+Codex Security Cloud
 Setup
 Security Review
 Improving the threat model
@@ -513,42 +566,52 @@ Recommended configuration
 Overview
 Getting started
 Admin rollout guide
-ChatGPT Work
-ChatGPT Work Overview
-ChatGPT Work cloud security
-ChatGPT Work local security
-ChatGPT Work admin FAQ
-ChatGPT Work: usage and cost
-Identity and authentication
+Admin plugin
+Feature setup
+Dots
+Space
+Teams and Team Tasks
+ChatGPT in Slack and Teams
+Workspace connections
+Local computer access for Work Cloud and dots
+Sites
+Identity and access
 Authentication overview
-Personal Access Tokens
-Service accounts
-Workspace access, policy, and models
 Groups and provisioning
 User lifecycle management
 Roles and workspace permissions
-GPTs and Sharing
-Migrate custom GPTs to plugins
+Personal access tokens
+Service accounts
+Deployment and configuration
+Windows app deployment
+Manage app updates
 Managed configuration
-Prisma AIRS
-HIPAA configuration
+Remote connections
 Workspace model availability
-Plugin and connector controls
+Amazon Bedrock
+ChatGPT Work
+Overview
+Cloud security
+Local security
+Usage and cost
+Admin FAQ
+Collaboration and sharing
+GPTs and sharing
+Plugins and connections
 Plugin controls
 Plugin management
 Skill controls
-Usage, governance, and compliance
-Governance
-Admin plugin
+Migrate custom GPTs to plugins
+Usage and analytics
 Workspace analytics
 Usage Insights
 Analytics API
+Security and compliance
+Governance
+Agent security
+Prisma AIRS
+HIPAA configuration
 Compliance API and audit events
-Deployment and model providers
-Manage app updates
-Windows app deployment
-Remote connections
-Amazon Bedrock
 Explore use cases
 Collections
 Home
@@ -597,6 +660,7 @@ Codex
 Life sciences
 Home
 Topics
+Sign-in with ChatGPT
 Agents
 Evals
 Multimodal
@@ -675,12 +739,10 @@ Moderation
 Copy Page
 Pricing
 Copy Page
-FedRAMP endpoints are charged a 10% uplift over the corresponding standard model
-rates.
 Flagship models
 Our latest models
 Prices per 1M tokens.
-StandardBatchFlexFast mode
+StandardBatchFlexFastUltrafast
 Standard
 Short context
 Long context
@@ -702,13 +764,13 @@ $20.00
 $2.00
 $25.00
 $75.00
-gpt-6-sol
+gpt-6.1-sol
 $2.00
-$0.20
+$0.10
 $2.50
 $10.00
 $4.00
-$0.40
+$0.20
 $5.00
 $15.00
 gpt-6-luna
@@ -720,9 +782,6 @@ $0.20
 $0.02
 $0.25
 $0.75
-Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. For GPT-6 Sol and Luna, EU data residency is available only with Standard processing. See our Your data guide for supported regions and processing details. OpenAI models in Amazon Bedrock are billed through AWS. Bedrock pricing in commercial regions matches OpenAI direct pricing for equivalent services.
-Priority processing was renamed Fast mode on July 30, 2026. You can use either service_tier: "priority" or service_tier: "fast" in your API requests. Learn more about Fast mode.
-GPT-5.6 Sol’s promotional pricing is available at least through November 21, 2026.
 All models
 Batch
 Short context
@@ -745,13 +804,13 @@ $10.00
 $1.00
 $12.50
 $37.50
-gpt-6-sol
+gpt-6.1-sol
 $1.00
-$0.10
+$0.05
 $1.25
 $5.00
 $2.00
-$0.20
+$0.10
 $2.50
 $7.50
 gpt-6-luna
@@ -763,8 +822,6 @@ $0.10
 $0.01
 $0.125
 $0.375
-For GPT-6 Sol and Luna, EU data residency is available only with Standard processing.
-Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. See our Your data guide for supported regions and processing details.
 All models
 Flex
 Short context
@@ -787,13 +844,13 @@ $10.00
 $1.00
 $12.50
 $37.50
-gpt-6-sol
+gpt-6.1-sol
 $1.00
-$0.10
+$0.05
 $1.25
 $5.00
 $2.00
-$0.20
+$0.10
 $2.50
 $7.50
 gpt-6-luna
@@ -805,10 +862,8 @@ $0.10
 $0.01
 $0.125
 $0.375
-For GPT-6 Sol and Luna, EU data residency is available only with Standard processing.
-Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. See our Your data guide for supported regions and processing details.
 All models
-Fast mode
+Fast
 Short context
 Long context
 Model
@@ -829,13 +884,13 @@ $40.00
 $4.00
 $50.00
 $150.00
-gpt-6-sol
+gpt-6.1-sol
 $4.00
-$0.40
+$0.20
 $5.00
 $20.00
 $8.00
-$0.80
+$0.40
 $10.00
 $30.00
 gpt-6-luna
@@ -847,9 +902,33 @@ $0.40
 $0.04
 $0.50
 $1.50
-For GPT-6 Astra, Sol, and Luna, EU data residency is available only with Standard processing. See Fast mode compatibility.
-Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. See our Your data guide for supported regions and processing details.
 All models
+Ultrafast
+Short context
+Long context
+Model
+Input
+Cached input
+Cache writes
+Output
+Input
+Cached input
+Cache writes
+Output
+gpt-6-astra
+$60.00
+$6.00
+$75.00
+$300.00
+$120.00
+$12.00
+$150.00
+$450.00
+Regional processing (data residency) endpoints are charged a 10% uplift for
+models released on or after March 5, 2026. FedRAMP endpoints are also
+charged a 10% uplift. Priority processing was renamed Fast mode on July 30,
+2026. GPT-5.6 Sol’s promotional pricing is available at least through
+November 21, 2026.
 Cyber models
 Our latest Daybreak models.
 Prices per 1M tokens.
@@ -883,14 +962,7 @@ $75.00
 -
 -
 All models
-gpt-daybreak-blue-latest and gpt-daybreak-red-latest
-are aliases that currently point to gpt-5.6-sol and
-gpt-5.6-cyber, respectively. As new models are released through
-the Daybreak program, these aliases will be updated to point to the latest
-models, with pricing adjusted to match each underlying model.
 Multimodal models
-To estimate vision model input costs, use the image input cost
-calculator.
 GPT-Live sessions
 GPT-Live 1 voice sessions are billed per second,
 without rounding up to a whole minute. Backend model and tool usage is charged
@@ -935,9 +1007,6 @@ $0.08
 All models
 Image generation models
 Prices per 1M tokens.
-Cached input rates for GPT Image 2 and GPT Image 2.5 only apply to images
-generated with the Responses API - learn
-more.
 StandardBatch
 Standard
 For image generation cost estimates, use the calculator in the image generation guide.
@@ -1051,7 +1120,7 @@ $0.10 / GB-day after 1 GB free per account per month
 Tokens used for built-in tools are billed at the chosen model's per-token rates. GB refers to binary gigabytes (also known as gibibytes), where 1 GB is 2^30 bytes. Web search content tokens are tokens retrieved from the search index and fed to the model alongside your prompt to generate an answer. For gpt-4o-mini and gpt-4.1-mini with the non-preview web search tool, search content tokens are billed as a fixed block of 8,000 input tokens per call. File search tool call pricing applies to the Responses API only. Container pricing includes Hosted Shell and Code Interpreter. Eligible container sessions will be billed by the minute, with a 5-minute minimum per session. Responses API, Chat Completions API, Realtime API, Batch API, and Assistants API are not priced separately. Tokens are billed at the chosen model's input and output rates.
 Specialized models
 Prices per 1M tokens.
-StandardFast mode
+StandardFast
 Standard
 Category
 Model
@@ -1073,10 +1142,10 @@ gpt-rosalind-research
 $5.00
 $0.50
 $25.00
+All models
 Billing for gpt-rosalind-research begins on October 5, 2026. Cache-write pricing does not apply to this model. Access is limited to approved internal research through the trusted-access program. All eligible organizations will continue to get access to the latest GPT-Rosalind models as they’re released.
 Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. See our Your data guide for supported regions and processing details.
-All models
-Fast mode
+Fast
 Category
 Model
 Input
@@ -1134,6 +1203,11 @@ $0.25
 $4.00
 All models
 Tokens used for model grading in reinforcement fine-tuning are billed at that model's per-token rate. Inference discounts are available if you enable data sharing when creating the fine-tune job. Learn more.
+Cloud platforms
+OpenAI models on Amazon Bedrock and Microsoft Azure are billed through those
+services.
+See Amazon Bedrock pricing.
+See Microsoft Azure pricing.
 Next
 Model selection
 Ask AI

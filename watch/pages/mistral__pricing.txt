@@ -212,16 +212,19 @@ Third-party
 OCR
 Transcription
 Voice
+Proof engineering
 Classifier APIs
 Embedding
 Tools
 Licenses
-Open
+Modified MIT
+Apache 2.0
 Premier
-Labs
-Mistral Medium 3.5
+CC BY-NC 4.0
 Open
-Performant model, designed for long-horizon tasks, synchronous tool-calling and agentic coding.
+Mistral Medium 3.5
+Modified MIT
+Merged dense model unifying instruction, reasoning, and coding; configurable reasoning effort with multimodal input.
 Text-to-text
 Agentic
 Multimodal
@@ -233,8 +236,8 @@ Output (/M tokens)
 $7.5
 Learn more
 Mistral Small 4
-Open
-Multimodal. Multilingual. Apache 2.0.
+Apache 2.0
+Hybrid instruct and reasoning MoE; unifies Instruct, Magistral, and Devstral into one model with multimodal input.
 Text-to-text
 Agentic
 Multimodal
@@ -245,8 +248,8 @@ Output (/M tokens)
 $0.6
 Read more
 Mistral Large 3
-Open
-Open-weight, general-purpose, flagship multimodal and multilingual model.
+Apache 2.0
+Multimodal mixture-of-experts architecture; base and instruct releases.
 Text-to-text
 Multimodal
 Input (/M tokens)
@@ -288,8 +291,8 @@ $5
 / 1000 pages
 Read more
 Voxtral Mini Transcribe Realtime
-Open
-Open model fine-tuned and optimized for transcription.
+Apache 2.0
+Streaming transcription with configurable latency.
 Transcription
 Voice
 Audio Input/min
@@ -298,8 +301,8 @@ Available on
 /v1/audio/transcriptions
 Learn more
 Voxtral TTS
-Open
-State-of-the-art text-to-speech generation and voice cloning.
+CC BY-NC 4.0
+Speech generation with reference voices.
 Voice
 Audio generation
 $0.016
@@ -308,8 +311,8 @@ Available on
 /v1/audio/speech
 Read more
 Voxtral Small
-Open
-State-of-the-art performance on speech and audio understanding.
+Apache 2.0
+Audio and text understanding; transcribes, translates, and answers questions from speech with text output.
 Transcription
 Voice
 Text-to-text
@@ -330,10 +333,11 @@ Input (/M tokens)
 $0.3
 Output (/M tokens)
 $0.9
-Leanstral
-Labs
-First open-source code agent for Lean 4.
+Leanstral 1.5
+Apache 2.0
+Proof engineering and verification in Lean 4.
 Coding
+Proof engineering
 API endpoint
 We are keeping this endpoint highly accessible for a limited period to gather realistic feedback and observability data to fuel the next generation of verified code models.
 Free

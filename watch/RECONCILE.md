@@ -17,19 +17,19 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-09-29 against `firming.prices` sheet **2026-08-30**.
+Reconciled 2026-09-30 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
-| `anthropic` | **drift** | 4 | 8 | 8 | 3 | unclassified (2026-09-29) |
+| `anthropic` | **drift** | 4 | 8 | 8 | 3 | copy change (2026-09-30) |
 | `google` | **drift** | 10 | 0 | 0 | 31 | price change (2026-09-25) |
 | `groq` | skipped | 0 | 0 | 1 | 0 | copy change (2026-09-25) |
-| `mistral` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-09-29) |
-| `openai` | **drift** | 2 | 2 | 4 | 7 | copy change (2026-09-26) |
+| `mistral` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-09-30) |
+| `openai` | ok | 0 | 2 | 6 | 7 | copy change (2026-09-30) |
 
 ## `anthropic`
 
-Sheet watch's latest classification: **unclassified (2026-09-29)**.
+Sheet watch's latest classification: **copy change (2026-09-30)**.
 
 ### Mismatches
 
@@ -100,7 +100,7 @@ Not compared, and not counted as agreement.
 
 ## `mistral`
 
-Sheet watch's latest classification: **copy change (2026-09-29)**.
+Sheet watch's latest classification: **copy change (2026-09-30)**.
 
 ### Missing from the page
 
@@ -117,28 +117,21 @@ Sheet watch's latest classification: **copy change (2026-09-29)**.
 
 ## `openai`
 
-Sheet watch's latest classification: **copy change (2026-09-26)**.
-
-### Mismatches
-
-| model | field | page | sheet | note |
-| --- | --- | --- | --- | --- |
-| `gpt-5.6-sol` | fast_input | $4.00 | $8.00 |  |
-| `gpt-5.6-sol` | fast_output | $20.00 | $40.00 |  |
+Sheet watch's latest classification: **copy change (2026-09-30)**.
 
 ### Missing from the page
 
 - `gpt-5.6-luna` — on the sheet, no row found on the page
 - `gpt-5.6-terra` — on the sheet, no row found on the page
 
-### Unverifiable (4)
+### Unverifiable (6)
 
 Not compared, and not counted as agreement.
 
-- no figure for this field in the page text — 4 field(s)
+- no figure for this field in the page text — 6 field(s)
 
 ### On the page, not on the sheet (6)
 
 Informational. The sheet omits models on purpose; see the comments in `prices.py` before adding one.
 
-`chat-latest`, `gpt-5.3-codex`, `gpt-6-astra`, `gpt-6-luna`, `gpt-6-sol`, `gpt-rosalind-research`
+`chat-latest`, `gpt-5.3-codex`, `gpt-6-astra`, `gpt-6-luna`, `gpt-6.1-sol`, `gpt-rosalind-research`
