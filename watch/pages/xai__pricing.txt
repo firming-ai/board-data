@@ -204,7 +204,7 @@ Turn ideas into reality with image and video generation.
 ModesGeneration & editing
 SpeedIndustry-leading
 Image · 1K / 2KStarting at $0.02 / image
-Video · 480p / 720p / 1080pStarting at $0.05 / sec
+Video · 480p / 720p / 1080pStarting at $0.02 / sec
 Read docsTry in playground
 Which model should I choose?
 Your choice depends on your use case. We have dedicated models and APIs for audio, image, and video capabilities. For everything else, including code, use Grok 4.7. It is the most capable model we’ve built.

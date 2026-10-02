@@ -32,7 +32,7 @@ and no row about it should be read as rate coverage.
 | `openai:pricing` | cited by prices.py | 207 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 50 | <https://mistral.ai/pricing/api> |
-| `google:pricing` | cited by prices.py | 602 | <https://ai.google.dev/pricing> |
+| `google:pricing` | cited by prices.py | 598 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
 | `deepseek:pricing` | cited by prices.py | 12 | <https://api-docs.deepseek.com/quick_start/pricing> |
@@ -136,3 +136,6 @@ and no row about it should be read as rate coverage.
 | 2026-09-30 | `openai:pricing` | changed | +154 / −80 | copy change | gpt-5.6-luna | $0.000125 | Navigation and documentation labels changed, but no pricing amounts or chargeable rates were modified. |
 | 2026-09-30 | `mistral:pricing` | changed | +22 / −18 | copy change | gpt-5.6-luna | $0.000106 | Model licenses, names, descriptions, and categories changed, but no pricing amount charged to customers moved. |
 | 2026-10-01 | `openai:pricing` | changed | +24 / −1 | price change | gpt-5.6-luna | $0.0000756 | Two new image models were added with explicit input, cached-input, output, and text pricing. |
+| 2026-10-02 | `openai:pricing` | changed | +1 / −0 | copy change | gpt-5.6-luna | $0.0000368 | A new “Hotel Feeds (limited beta)” navigation item was added without any pricing changes. |
+| 2026-10-02 | `google:pricing` | changed | +2 / −19 | price change | gpt-5.6-luna | $0.000103 | The Computer Use model’s paid-tier prices were removed from the pricing page. |
+| 2026-10-02 | `xai:pricing` | changed | +1 / −1 | price change | gpt-5.6-luna | $0.0000428 | The video starting rate decreased from $0.05 per second to $0.02 per second. |
