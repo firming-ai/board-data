@@ -35,7 +35,7 @@ and no row about it should be read as rate coverage.
 | `google:pricing` | cited by prices.py | 598 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
-| `deepseek:pricing` | cited by prices.py | 12 | <https://api-docs.deepseek.com/quick_start/pricing> |
+| `deepseek:pricing` | cited by prices.py | **0 — rendered client-side** | <https://api-docs.deepseek.com/quick_start/pricing> |
 | `qwen:pricing` | watched, not yet priced | **0 — rendered client-side** | <https://www.alibabacloud.com/help/en/model-studio/models> |
 
 ## Drift
@@ -139,3 +139,5 @@ and no row about it should be read as rate coverage.
 | 2026-10-02 | `openai:pricing` | changed | +1 / −0 | copy change | gpt-5.6-luna | $0.0000368 | A new “Hotel Feeds (limited beta)” navigation item was added without any pricing changes. |
 | 2026-10-02 | `google:pricing` | changed | +2 / −19 | price change | gpt-5.6-luna | $0.000103 | The Computer Use model’s paid-tier prices were removed from the pricing page. |
 | 2026-10-02 | `xai:pricing` | changed | +1 / −1 | price change | gpt-5.6-luna | $0.0000428 | The video starting rate decreased from $0.05 per second to $0.02 per second. |
+| 2026-10-03 | `openai:pricing` | changed | +2 / −0 | copy change | gpt-5.6-luna | $0.0000376 | Two documentation navigation items were added; no pricing amounts or rate-bearing numbers changed. |
+| 2026-10-03 | `deepseek:pricing` | changed | +72 / −79 | price change | gpt-5.6-luna | $0.000184 | Pricing amounts were removed from the page, constituting a change to displayed charged rates. |
