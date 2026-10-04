@@ -194,7 +194,7 @@ ReasoningConfigurable
 View modelTry in playground
 Voice API
 Real-time conversations, speech-to-text, and text-to-speech.
-Agent$0.08 / min
+STS$0.08 / min
 TTS$15.00 / 1M chars
 STT (Batch)$0.10 / hour
 STT (Streaming)$0.20 / hour
