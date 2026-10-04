@@ -5,177 +5,177 @@
     60,
     120
   ],
-  "days": 23,
+  "days": 24,
   "first_day": "2026-09-11",
-  "generated_utc": "2026-10-03",
+  "generated_utc": "2026-10-04",
   "lanes": {
     "gemini/gemini-3.1-pro-preview": {
-      "attempts": 346,
-      "blended_cost_n": 186,
-      "blended_cost_ratio": 0.8294,
+      "attempts": 361,
+      "blended_cost_n": 193,
+      "blended_cost_ratio": 0.8278,
       "control_total_s": {
         "max": 7.011,
-        "n": 115,
-        "p50": 4.326,
-        "p95": 5.192,
-        "p99": 5.662
+        "n": 120,
+        "p50": 4.334,
+        "p95": 5.164,
+        "p99": 5.648
       },
       "control_ttft_s": {
         "max": 7.003,
-        "n": 115,
-        "p50": 4.319,
-        "p95": 5.177,
-        "p99": 5.651
+        "n": 120,
+        "p50": 4.325,
+        "p95": 5.146,
+        "p99": 5.637
       },
-      "fill_120s": 0.711,
-      "fill_30s": 0.6474,
-      "fill_60s": 0.6821,
+      "fill_120s": 0.7119,
+      "fill_30s": 0.6454,
+      "fill_60s": 0.6842,
       "flex_total_s": {
         "max": 159.117,
-        "n": 247,
-        "p50": 4.687,
-        "p95": 58.389,
-        "p99": 94.734
+        "n": 258,
+        "p50": 4.684,
+        "p95": 57.177,
+        "p99": 94.521
       },
       "flex_ttft_s": {
         "max": 159.105,
-        "n": 235,
-        "p50": 4.577,
-        "p95": 42.754,
-        "p99": 83.242
+        "n": 246,
+        "p50": 4.571,
+        "p95": 44.67,
+        "p99": 81.257
       },
       "ladder_failed": 8,
       "ladder_total_s": {
         "max": 79.836,
-        "n": 338,
-        "p50": 4.848,
-        "p95": 64.054,
-        "p99": 64.797
+        "n": 353,
+        "p50": 4.825,
+        "p95": 64.003,
+        "p99": 64.787
       },
-      "late_at_budget_rate": 0.3179,
+      "late_at_budget_rate": 0.3158,
       "outcomes": {
-        "ok": 247,
+        "ok": 258,
         "timeout": 10,
-        "unavailable": 89
+        "unavailable": 93
       },
       "rescue_total_s": {
         "max": 59.786,
-        "n": 102,
-        "p50": 4.114,
-        "p95": 5.612,
-        "p99": 19.712
+        "n": 106,
+        "p50": 4.107,
+        "p95": 5.594,
+        "p99": 19.214
       },
-      "timeout_rate": 0.0289,
-      "unavailable_rate": 0.2572,
+      "timeout_rate": 0.0277,
+      "unavailable_rate": 0.2576,
       "verdict": "OPEN"
     },
     "gemini/gemini-3.5-flash": {
-      "attempts": 346,
-      "blended_cost_n": 182,
-      "blended_cost_ratio": 0.7786,
+      "attempts": 361,
+      "blended_cost_n": 188,
+      "blended_cost_ratio": 0.7723,
       "control_total_s": {
         "max": 7.2,
-        "n": 117,
+        "n": 122,
         "p50": 2.282,
-        "p95": 2.573,
-        "p99": 3.049
+        "p95": 2.566,
+        "p99": 3.041
       },
       "control_ttft_s": {
         "max": 7.2,
-        "n": 117,
-        "p50": 2.27,
-        "p95": 2.566,
-        "p99": 3.038
+        "n": 122,
+        "p50": 2.272,
+        "p95": 2.56,
+        "p99": 3.031
       },
-      "fill_120s": 0.7486,
-      "fill_30s": 0.685,
-      "fill_60s": 0.7341,
+      "fill_120s": 0.7562,
+      "fill_30s": 0.687,
+      "fill_60s": 0.7424,
       "flex_total_s": {
         "max": 130.785,
-        "n": 261,
-        "p50": 8.396,
-        "p95": 47.549,
-        "p99": 82.571
+        "n": 275,
+        "p50": 8.392,
+        "p95": 44.561,
+        "p99": 80.873
       },
       "flex_ttft_s": {
         "max": 130.778,
-        "n": 241,
+        "n": 254,
         "p50": 7.972,
-        "p95": 39.844,
-        "p99": 84.995
+        "p95": 40.18,
+        "p99": 83.418
       },
       "ladder_failed": 0,
       "ladder_total_s": {
         "max": 62.42,
-        "n": 346,
-        "p50": 7.312,
-        "p95": 52.691,
-        "p99": 62.09
+        "n": 361,
+        "p50": 7.32,
+        "p95": 52.065,
+        "p99": 62.085
       },
-      "late_at_budget_rate": 0.2659,
+      "late_at_budget_rate": 0.2576,
       "outcomes": {
         "error": 1,
-        "ok": 261,
+        "ok": 275,
         "timeout": 2,
-        "unavailable": 82
+        "unavailable": 83
       },
       "rescue_total_s": {
         "max": 6.941,
-        "n": 92,
-        "p50": 1.962,
-        "p95": 2.501,
-        "p99": 3.33
+        "n": 93,
+        "p50": 1.967,
+        "p95": 2.499,
+        "p99": 3.29
       },
-      "timeout_rate": 0.0058,
-      "unavailable_rate": 0.237,
+      "timeout_rate": 0.0055,
+      "unavailable_rate": 0.2299,
       "verdict": "OPEN"
     },
     "gemini/gemini-3.5-flash-lite": {
-      "attempts": 346,
-      "blended_cost_n": 128,
-      "blended_cost_ratio": 0.6069,
+      "attempts": 361,
+      "blended_cost_n": 133,
+      "blended_cost_ratio": 0.6028,
       "control_total_s": {
         "max": 3.382,
-        "n": 117,
-        "p50": 0.977,
+        "n": 122,
+        "p50": 0.982,
         "p95": 1.237,
-        "p99": 2.264
+        "p99": 2.216
       },
       "control_ttft_s": {
         "max": 3.287,
-        "n": 117,
-        "p50": 0.903,
-        "p95": 1.166,
-        "p99": 2.204
+        "n": 122,
+        "p50": 0.907,
+        "p95": 1.16,
+        "p99": 2.154
       },
-      "fill_120s": 0.9624,
-      "fill_30s": 0.9393,
-      "fill_60s": 0.9566,
+      "fill_120s": 0.964,
+      "fill_30s": 0.9418,
+      "fill_60s": 0.9584,
       "flex_total_s": {
         "max": 163.993,
-        "n": 334,
-        "p50": 0.871,
-        "p95": 14.69,
-        "p99": 45.772
+        "n": 349,
+        "p50": 0.876,
+        "p95": 14.546,
+        "p99": 45.408
       },
       "flex_ttft_s": {
         "max": 163.937,
-        "n": 334,
-        "p50": 0.795,
-        "p95": 14.59,
-        "p99": 45.66
+        "n": 349,
+        "p50": 0.798,
+        "p95": 14.464,
+        "p99": 45.294
       },
       "ladder_failed": 0,
       "ladder_total_s": {
         "max": 62.27,
-        "n": 346,
-        "p50": 0.879,
-        "p95": 20.026,
-        "p99": 60.847
+        "n": 361,
+        "p50": 0.889,
+        "p95": 19.247,
+        "p99": 60.842
       },
-      "late_at_budget_rate": 0.0434,
+      "late_at_budget_rate": 0.0416,
       "outcomes": {
-        "ok": 334,
+        "ok": 349,
         "timeout": 3,
         "unavailable": 9
       },
@@ -186,74 +186,74 @@
         "p95": 2.458,
         "p99": 2.511
       },
-      "timeout_rate": 0.0087,
-      "unavailable_rate": 0.026,
+      "timeout_rate": 0.0083,
+      "unavailable_rate": 0.0249,
       "verdict": "DEALER"
     },
     "gemini/gemini-3.7-flash": {
-      "attempts": 346,
-      "blended_cost_n": 264,
-      "blended_cost_ratio": 0.9489,
+      "attempts": 361,
+      "blended_cost_n": 274,
+      "blended_cost_ratio": 0.9535,
       "control_total_s": {
         "max": 8.005,
-        "n": 116,
-        "p50": 2.256,
-        "p95": 3.787,
-        "p99": 6.527
+        "n": 121,
+        "p50": 2.255,
+        "p95": 3.675,
+        "p99": 6.447
       },
       "control_ttft_s": {
         "max": 7.956,
-        "n": 116,
-        "p50": 2.23,
-        "p95": 3.78,
-        "p99": 6.501
+        "n": 121,
+        "p50": 2.22,
+        "p95": 3.666,
+        "p99": 6.422
       },
-      "fill_120s": 0.3439,
-      "fill_30s": 0.3237,
-      "fill_60s": 0.3382,
+      "fill_120s": 0.3463,
+      "fill_30s": 0.3269,
+      "fill_60s": 0.3407,
       "flex_total_s": {
         "max": 81.054,
-        "n": 119,
+        "n": 125,
         "p50": 4.882,
-        "p95": 32.635,
-        "p99": 66.785
+        "p95": 31.378,
+        "p99": 65.736
       },
       "flex_ttft_s": {
         "max": 80.965,
-        "n": 116,
+        "n": 122,
         "p50": 4.772,
-        "p95": 33.877,
-        "p99": 67.273
+        "p95": 31.687,
+        "p99": 66.227
       },
       "ladder_failed": 0,
       "ladder_total_s": {
         "max": 69.155,
-        "n": 346,
-        "p50": 4.712,
-        "p95": 39.555,
-        "p99": 62.049
+        "n": 361,
+        "p50": 4.698,
+        "p95": 37.808,
+        "p99": 62.023
       },
-      "late_at_budget_rate": 0.6618,
+      "late_at_budget_rate": 0.6593,
       "outcomes": {
-        "ok": 119,
+        "ok": 125,
         "timeout": 3,
-        "unavailable": 224
+        "unavailable": 233
       },
       "rescue_total_s": {
         "max": 9.155,
-        "n": 229,
-        "p50": 1.886,
-        "p95": 3.864,
-        "p99": 6.845
+        "n": 238,
+        "p50": 1.884,
+        "p95": 3.903,
+        "p99": 6.824
       },
-      "timeout_rate": 0.0087,
-      "unavailable_rate": 0.6474,
+      "timeout_rate": 0.0083,
+      "unavailable_rate": 0.6454,
       "verdict": "CHECKBOX"
     },
     "openai/gpt-5.6-luna": {
-      "attempts": 346,
-      "blended_cost_n": 119,
-      "blended_cost_ratio": 0.5077,
+      "attempts": 361,
+      "blended_cost_n": 124,
+      "blended_cost_ratio": 0.5074,
       "control_total_s": {
         "max": 4.743,
         "n": 22,
@@ -268,9 +268,9 @@
         "p95": 3.99,
         "p99": 4.219
       },
-      "fill_120s": 0.1734,
-      "fill_30s": 0.1734,
-      "fill_60s": 0.1734,
+      "fill_120s": 0.1662,
+      "fill_30s": 0.1662,
+      "fill_60s": 0.1662,
       "flex_total_s": {
         "max": 16.311,
         "n": 60,
@@ -285,7 +285,7 @@
         "p95": 12.831,
         "p99": 15.363
       },
-      "ladder_failed": 284,
+      "ladder_failed": 299,
       "ladder_total_s": {
         "max": 16.311,
         "n": 62,
@@ -293,11 +293,11 @@
         "p95": 13.301,
         "p99": 15.568
       },
-      "late_at_budget_rate": 0.0058,
+      "late_at_budget_rate": 0.0055,
       "outcomes": {
         "error": 2,
         "ok": 60,
-        "timeout": 284
+        "timeout": 299
       },
       "rescue_total_s": {
         "max": 1.044,
@@ -306,14 +306,14 @@
         "p95": 1.033,
         "p99": 1.042
       },
-      "timeout_rate": 0.8208,
+      "timeout_rate": 0.8283,
       "unavailable_rate": 0.0,
       "verdict": "CHECKBOX"
     },
     "openai/gpt-5.6-sol": {
-      "attempts": 346,
-      "blended_cost_n": 124,
-      "blended_cost_ratio": 0.5642,
+      "attempts": 361,
+      "blended_cost_n": 129,
+      "blended_cost_ratio": 0.5617,
       "control_total_s": {
         "max": 4.006,
         "n": 22,
@@ -328,9 +328,9 @@
         "p95": 3.511,
         "p99": 3.599
       },
-      "fill_120s": 0.1329,
-      "fill_30s": 0.1329,
-      "fill_60s": 0.1329,
+      "fill_120s": 0.1274,
+      "fill_30s": 0.1274,
+      "fill_60s": 0.1274,
       "flex_total_s": {
         "max": 17.934,
         "n": 46,
@@ -345,7 +345,7 @@
         "p95": 9.02,
         "p99": 14.994
       },
-      "ladder_failed": 284,
+      "ladder_failed": 299,
       "ladder_total_s": {
         "max": 17.934,
         "n": 62,
@@ -353,11 +353,11 @@
         "p95": 8.162,
         "p99": 14.187
       },
-      "late_at_budget_rate": 0.0462,
+      "late_at_budget_rate": 0.0443,
       "outcomes": {
         "error": 16,
         "ok": 46,
-        "timeout": 284
+        "timeout": 299
       },
       "rescue_total_s": {
         "max": 3.039,
@@ -366,14 +366,14 @@
         "p95": 2.887,
         "p99": 3.009
       },
-      "timeout_rate": 0.8208,
+      "timeout_rate": 0.8283,
       "unavailable_rate": 0.0,
       "verdict": "CHECKBOX"
     },
     "openai/gpt-5.6-terra": {
-      "attempts": 346,
-      "blended_cost_n": 117,
-      "blended_cost_ratio": 0.5048,
+      "attempts": 361,
+      "blended_cost_n": 122,
+      "blended_cost_ratio": 0.5046,
       "control_total_s": {
         "max": 3.322,
         "n": 22,
@@ -388,9 +388,9 @@
         "p95": 3.079,
         "p99": 3.122
       },
-      "fill_120s": 0.1763,
-      "fill_30s": 0.1763,
-      "fill_60s": 0.1763,
+      "fill_120s": 0.169,
+      "fill_30s": 0.169,
+      "fill_60s": 0.169,
       "flex_total_s": {
         "max": 4.287,
         "n": 61,
@@ -405,7 +405,7 @@
         "p95": 3.09,
         "p99": 4.035
       },
-      "ladder_failed": 284,
+      "ladder_failed": 299,
       "ladder_total_s": {
         "max": 5.028,
         "n": 62,
@@ -413,11 +413,11 @@
         "p95": 3.772,
         "p99": 4.576
       },
-      "late_at_budget_rate": 0.0029,
+      "late_at_budget_rate": 0.0028,
       "outcomes": {
         "error": 1,
         "ok": 61,
-        "timeout": 284
+        "timeout": 299
       },
       "rescue_total_s": {
         "max": 1.028,
@@ -426,75 +426,75 @@
         "p95": 1.028,
         "p99": 1.028
       },
-      "timeout_rate": 0.8208,
+      "timeout_rate": 0.8283,
       "unavailable_rate": 0.0,
       "verdict": "CHECKBOX"
     }
   },
-  "last_day": "2026-10-03",
+  "last_day": "2026-10-04",
   "pooled": {
-    "attempts": 2422,
-    "blended_cost_n": 1120,
-    "blended_cost_ratio": 0.7264,
+    "attempts": 2527,
+    "blended_cost_n": 1163,
+    "blended_cost_ratio": 0.7251,
     "control_total_s": {
       "max": 8.005,
-      "n": 531,
+      "n": 551,
       "p50": 2.292,
-      "p95": 4.707,
-      "p99": 5.402
+      "p95": 4.678,
+      "p99": 5.391
     },
     "control_ttft_s": {
       "max": 7.956,
-      "n": 531,
+      "n": 551,
       "p50": 2.277,
-      "p95": 4.638,
-      "p99": 5.398
+      "p95": 4.623,
+      "p99": 5.388
     },
-    "fill_120s": 0.4641,
-    "fill_30s": 0.4397,
-    "fill_60s": 0.4562,
+    "fill_120s": 0.463,
+    "fill_30s": 0.4377,
+    "fill_60s": 0.4555,
     "flex_total_s": {
       "max": 163.993,
-      "n": 1128,
-      "p50": 3.487,
-      "p95": 34.28,
-      "p99": 77.378
+      "n": 1174,
+      "p50": 3.498,
+      "p95": 35.118,
+      "p99": 76.795
     },
     "flex_ttft_s": {
       "max": 163.937,
-      "n": 1093,
-      "p50": 3.14,
-      "p95": 28.73,
-      "p99": 70.003
+      "n": 1138,
+      "p50": 3.141,
+      "p95": 29.666,
+      "p99": 68.618
     },
-    "ladder_failed": 860,
+    "ladder_failed": 905,
     "ladder_total_s": {
       "max": 79.836,
-      "n": 1562,
-      "p50": 3.93,
-      "p95": 43.223,
-      "p99": 64.107
+      "n": 1622,
+      "p50": 3.918,
+      "p95": 43.041,
+      "p99": 64.1
     },
-    "late_at_budget_rate": 0.192,
+    "late_at_budget_rate": 0.1896,
     "outcomes": {
       "error": 20,
-      "ok": 1128,
-      "timeout": 870,
-      "unavailable": 404
+      "ok": 1174,
+      "timeout": 915,
+      "unavailable": 418
     },
     "rescue_total_s": {
       "max": 59.786,
-      "n": 457,
-      "p50": 2.025,
-      "p95": 4.642,
-      "p99": 7.227
+      "n": 471,
+      "p50": 2.03,
+      "p95": 4.645,
+      "p99": 7.189
     },
-    "timeout_rate": 0.3592,
-    "unavailable_rate": 0.1668,
+    "timeout_rate": 0.3621,
+    "unavailable_rate": 0.1654,
     "verdict": "CHECKBOX"
   },
   "schema": "offpeak.flex-summary/1",
-  "spend_usd": 8.2621,
+  "spend_usd": 8.6264,
   "thresholds": {
     "checkbox": {
       "blended_min": 0.85,
