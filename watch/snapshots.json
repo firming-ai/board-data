@@ -2,7 +2,7 @@
   "anthropic:pricing": {
     "chars": 27692,
     "cited": true,
-    "fetched_at": "2026-10-05T10:15:49+00:00",
+    "fetched_at": "2026-10-06T01:29:08+00:00",
     "lines": 723,
     "price_figures": 168,
     "sha256": "3ba511e7b3901e7d445cda90628bf3b7904e32c51cab924a5e9c251d495a0953",
@@ -11,7 +11,7 @@
   "deepseek:pricing": {
     "chars": 2724,
     "cited": true,
-    "fetched_at": "2026-10-05T10:15:49+00:00",
+    "fetched_at": "2026-10-06T01:29:08+00:00",
     "lines": 119,
     "price_figures": 12,
     "sha256": "f3d574781f9cd7ce9a6f9d4515a3fd14c1a0806acd71e24c08308e61f3adb47c",
@@ -20,7 +20,7 @@
   "google:pricing": {
     "chars": 63295,
     "cited": true,
-    "fetched_at": "2026-10-05T10:15:49+00:00",
+    "fetched_at": "2026-10-06T01:29:08+00:00",
     "lines": 2279,
     "price_figures": 598,
     "sha256": "679968ffe5227806769e528f56a984ca0aa756dc8acff4a116c545756802364b",
@@ -29,7 +29,7 @@
   "groq:plans": {
     "chars": 4226,
     "cited": false,
-    "fetched_at": "2026-10-05T10:15:49+00:00",
+    "fetched_at": "2026-10-06T01:29:08+00:00",
     "lines": 140,
     "price_figures": 0,
     "sha256": "1ecc3160c31dadf229a26f9f8a45c348bf1807256b8a22a8078fd24b51b5a449",
@@ -38,25 +38,25 @@
   "groq:pricing": {
     "chars": 863,
     "cited": true,
-    "fetched_at": "2026-10-05T10:15:49+00:00",
+    "fetched_at": "2026-10-06T01:29:08+00:00",
     "lines": 26,
     "price_figures": 1,
     "sha256": "03c4b473a4710918fe91aacfadbe77fe0d98f30645613ca0f3e32bf1b11eac1d",
     "url": "https://groq.com/pricing"
   },
   "mistral:pricing": {
-    "chars": 9925,
+    "chars": 1930,
     "cited": true,
-    "fetched_at": "2026-10-05T10:15:49+00:00",
-    "lines": 494,
-    "price_figures": 50,
-    "sha256": "50653a6ec4b5325035f06cfec2437a9c79c61413f086d4522c694be59dd98ce9",
+    "fetched_at": "2026-10-06T01:29:08+00:00",
+    "lines": 133,
+    "price_figures": 33,
+    "sha256": "591ba66e5c383209ba92f4dcc0e532334d9e6cee1cd3112eaa45b0b7585556a8",
     "url": "https://mistral.ai/pricing/api"
   },
   "openai:pricing": {
     "chars": 20196,
     "cited": true,
-    "fetched_at": "2026-10-05T10:15:49+00:00",
+    "fetched_at": "2026-10-06T01:29:08+00:00",
     "lines": 1241,
     "price_figures": 207,
     "sha256": "7ad06ce39975b8d36e4434c0ea96bd1d2dbff9a47cf50f6ef756682da5d315a4",
@@ -65,7 +65,7 @@
   "qwen:pricing": {
     "chars": 2644,
     "cited": false,
-    "fetched_at": "2026-10-05T10:15:49+00:00",
+    "fetched_at": "2026-10-06T01:29:08+00:00",
     "lines": 90,
     "price_figures": 0,
     "sha256": "2455ed53d5391a34701b0cc9196007e99207583f67855a62de990ffc3037dc2f",
@@ -74,7 +74,7 @@
   "xai:pricing": {
     "chars": 5368,
     "cited": false,
-    "fetched_at": "2026-10-05T10:15:49+00:00",
+    "fetched_at": "2026-10-06T01:29:08+00:00",
     "lines": 246,
     "price_figures": 8,
     "sha256": "53bf8d2bfb7fee3bfb7d42a81332e219d326f1d570f510cad095a617c51f0d86",
