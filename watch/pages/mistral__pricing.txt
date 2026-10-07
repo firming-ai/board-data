@@ -32,6 +32,10 @@ Model
 Input
 Cached input
 Output
+Mistral Large 4 ↗Sale price
+Original price: $1.36Sale price: $0.68
+Original price: $0.14Sale price: $0.07
+Original price: $4.18Sale price: $2.09
 Mistral Large 3 ↗
 $0.5
 $0.05

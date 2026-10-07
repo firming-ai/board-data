@@ -31,8 +31,8 @@ and no row about it should be read as rate coverage.
 | `anthropic:pricing` | cited by prices.py | 168 | <https://platform.claude.com/docs/en/about-claude/pricing> |
 | `openai:pricing` | cited by prices.py | 207 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
-| `mistral:pricing` | cited by prices.py | 33 | <https://mistral.ai/pricing/api> |
-| `google:pricing` | cited by prices.py | 598 | <https://ai.google.dev/pricing> |
+| `mistral:pricing` | cited by prices.py | 39 | <https://mistral.ai/pricing/api> |
+| `google:pricing` | cited by prices.py | 616 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
 | `deepseek:pricing` | cited by prices.py | 12 | <https://api-docs.deepseek.com/quick_start/pricing> |
@@ -144,3 +144,6 @@ and no row about it should be read as rate coverage.
 | 2026-10-04 | `xai:pricing` | changed | +1 / −1 | copy change | gpt-5.6-luna | $0.0000417 | The label changed from “Agent” to “STS,” while the displayed rate remains $0.08 per minute. |
 | 2026-10-04 | `deepseek:pricing` | changed | +79 / −72 | price change | gpt-5.6-luna | $0.000220 | A new pricing table adds explicit per-million-token charges for cache hits, misses, and output tokens. |
 | 2026-10-06 | `mistral:pricing` | changed | +124 / −485 | copy change | gpt-5.6-luna | $0.000213 | The page navigation and structure were substantially redesigned, with no visible evidence of pricing rates changing. |
+| 2026-10-07 | `openai:pricing` | changed | +3 / −1 | copy change | gpt-5.6-luna | $0.0000400 | Product navigation and example wording changed, but no pricing amount or rate was modified. |
+| 2026-10-07 | `mistral:pricing` | changed | +4 / −0 | price change | gpt-5.6-luna | $0.0000639 | Sale and original prices were added for Mistral Large 4, changing the monetary rates displayed. |
+| 2026-10-07 | `google:pricing` | changed | +53 / −1 | price change | gpt-5.6-luna | $0.000132 | A newly added model introduces standard and batch prices for input, output, and grounding requests. |
