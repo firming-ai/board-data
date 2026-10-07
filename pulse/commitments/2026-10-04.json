@@ -4,14 +4,6 @@
  "what": "sha256 of the exact bytes at `path`, signed at the hour; the file appears 24 h after `as_of`",
  "hours": [
   {
-   "as_of": "2026-10-04T04:05:01+00:00",
-   "path": "pulse/hourly/2026-10-04/04.json",
-   "sha256": "3f1cadc53348e51f7430f47722033a63a00e8e8f6527c671bdb69b3c3f4e3eac",
-   "signature": "33c5b7dc48d55d65126c042a16854c16fd4a30db6048a99a905c1256085734f1aee1bd29dd15b9c80a1f2a8e668bdd857347baf34bed5ae95a413e33602c3607",
-   "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
-   "methodology_version": "1.4.0"
-  },
-  {
    "as_of": "2026-10-04T05:05:02+00:00",
    "path": "pulse/hourly/2026-10-04/05.json",
    "sha256": "df075197e5b52aaa0416bfb6596e12418a2cc60938b84d5a4a66c2c72441ae7b",
