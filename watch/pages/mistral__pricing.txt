@@ -19,13 +19,14 @@ API Reference ↗
 Inference & Models
 Inference
 Pricing
-Pricing
+API pricing
 Pricing for Mistral models, organized by family.
 Flagship models
 Copy section link
 Flagship models
 Premier frontier models for the most demanding workloads.
 Prices /M Tokens
+USDEUR
 Regional inference
 StandardBatchPriority
 Model
@@ -65,6 +66,7 @@ Copy section link
 Specialized models
 Models built for specific tasks such as vision, OCR, and audio.
 Prices as marked
+USDEUR
 Regional inference
 StandardBatchPriority
 Model
@@ -92,6 +94,7 @@ Copy section link
 Third-party hosted
 Third-party models hosted by Mistral.
 Prices /M Tokens
+USDEUR
 Regional inference
 StandardBatchPriority
 Model
@@ -106,6 +109,7 @@ Code models
 Copy section link
 Code models
 Prices /M Tokens
+USDEUR
 Regional inference
 StandardBatchPriority
 Model

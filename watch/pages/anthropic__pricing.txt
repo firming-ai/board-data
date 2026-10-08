@@ -18,13 +18,14 @@ Models overview
 Claude Fable 5.1
 Claude Opus 5.5
 Claude Sonnet 5.5
+Claude Haiku 5.5
 Claude Haiku 4.5
 Specialized models
 Legacy models
 Guides
 Choosing a modelOptimizing for cost and intelligenceUpgrade between model versions
 Lifecycle and reference
-Model IDs and versioningModel deprecationsModel cardsPricing
+Model IDs and versioningModel deprecationsModel cardsPricingAPI credits for subscribers
 System prompts
 Console
 Models & pricingLifecycle and reference
@@ -64,13 +65,18 @@ $2 / MTok
 $10 / MTok
 $2.50 / MTok
 $4 / MTok
-$0.20 / MTok
-Claude Haiku 4.5The fastest model with near-frontier intelligence
-$1 / MTok
-$5 / MTok
-$1.25 / MTok
-$2 / MTok
 $0.10 / MTok
+Claude Haiku 5.5For high-volume, latency-sensitive tasks such as classification, extraction, and routing
+$0.10 / MTokfor prompts up to 100,000 tokens
+$0.50 / MTok
+$0.125 / MTok
+$0.20 / MTok
+$0.01 / MTok
+$0.50 / MTokfor prompts over 100,000 tokens
+$2.50 / MTok
+$0.625 / MTok
+$1 / MTok
+$0.05 / MTok
 Additional models
 Claude Mythos 5.1
 $10 / MTok
@@ -156,6 +162,12 @@ $15 / MTok
 $3.75 / MTok
 $6 / MTok
 $0.30 / MTok
+Claude Haiku 4.5
+$1 / MTok
+$5 / MTok
+$1.25 / MTok
+$2 / MTok
+$0.10 / MTok
 Claude Haiku 3.5
 $0.80 / MTok
 $4 / MTok
@@ -177,7 +189,7 @@ Starting with Claude Sonnet 4.5, Haiku 4.5, and Opus 4.5:
 Bedrock offers two endpoint types: global endpoints (dynamic routing for maximum availability) and regional endpoints (guaranteed data routing through specific geographic regions).
 Google Cloud offers three endpoint types: global endpoints, multi-region endpoints (dynamic routing within a geographic area), and regional endpoints.
 Regional and multi-region endpoints include a 10% premium over global endpoints. The Claude API (first-party) is global by default; for first-party data residency options and pricing, see Data residency pricing.
-Scope: This pricing structure applies to Claude Sonnet 4.5, Haiku 4.5, Opus 4.5, and all future models. Earlier models (Claude Opus 4.1 and prior releases) retain their existing pricing.
+Scope: This pricing structure applies to Claude Sonnet 4.5 (deprecated), Haiku 4.5, Opus 4.5, and all future models. Earlier models (Claude Opus 4.1 and prior releases) retain their existing pricing.
 For implementation details and code examples:
 Amazon Bedrock global vs regional endpoints for Opus 4.7, Haiku 4.5, and later models, or the legacy integration for all other models on Bedrock
 Google Cloud global, multi-region, and regional endpoints
@@ -246,9 +258,9 @@ Cache valid for 5 minutes
 2x base input price
 Cache valid for 1 hour
 Cache read (hit)
-0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5)
+0.1x base input price (0.025x on Claude Fable 5.1 and Claude Mythos 5.1; 0.05x on Claude Opus 5.5 and Claude Sonnet 5.5)
 Same duration as the preceding write
-Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens). On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens).
+Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens). On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, $0.10 USD on Claude Sonnet 5.5).
 These multipliers stack with other pricing modifiers, including the Batch API discount and data residency.
 For implementation details, supported models, and code examples, see Prompt caching.
 Data residency pricing
@@ -288,9 +300,11 @@ $10 / MTok
 Claude Sonnet 5.5The best combination of speed and intelligence
 $1 / MTok
 $5 / MTok
-Claude Haiku 4.5The fastest model with near-frontier intelligence
-$0.50 / MTok
-$2.50 / MTok
+Claude Haiku 5.5For high-volume, latency-sensitive tasks such as classification, extraction, and routing
+$0.05 / MTokfor prompts up to 100,000 tokens
+$0.25 / MTok
+$0.25 / MTokfor prompts over 100,000 tokens
+$1.25 / MTok
 Additional models
 Claude Mythos 5.1
 $5 / MTok
@@ -334,12 +348,16 @@ $7.50 / MTok
 Claude Sonnet 4
 $1.50 / MTok
 $7.50 / MTok
+Claude Haiku 4.5
+$0.50 / MTok
+$2.50 / MTok
 Claude Haiku 3.5
 $0.40 / MTok
 $2 / MTok
 For more information about batch processing, see Batch processing.
 Long context pricing
-Claude 4.6 and later models and Claude Mythos Preview include the full 1M token context window at standard pricing. (A 900k-token request is billed at the same per-token rate as a 9k-token request.) Prompt caching and batch processing discounts apply at standard rates across the full context window.
+Claude 4.6 and later models (except Claude Haiku 5.5) and Claude Mythos Preview include the full 1M token context window at standard pricing. (A 900k-token request is billed at the same per-token rate as a 9k-token request.) Prompt caching and batch processing discounts apply at standard rates across the full context window.
+Claude Haiku 5.5 is priced by prompt length: a prompt of over 100,000 tokens pays higher prices. Model pricing and Batch processing list both sets of prices.
 Tool use pricing
 Tool use requests are priced based on:
 The total number of input tokens sent to the model (including in the tools parameter)
@@ -362,11 +380,11 @@ auto, none
 Claude Sonnet 5.5The best combination of speed and intelligence
 auto, none
 286 tokens
-Claude Haiku 4.5The fastest model with near-frontier intelligence
+Claude Haiku 5.5For high-volume, latency-sensitive tasks such as classification, extraction, and routing
 auto, none
-496 tokens
+286 tokens
 any, tool
-588 tokens
+406 tokens
 Additional models
 Claude Opus 5
 auto, none
@@ -423,6 +441,11 @@ auto, none
 313 tokens
 any, tool
 315 tokens
+Claude Haiku 4.5
+auto, none
+496 tokens
+any, tool
+588 tokens
 Claude Haiku 3.5
 auto, none
 264 tokens

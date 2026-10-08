@@ -17,19 +17,19 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-10-07 against `firming.prices` sheet **2026-08-30**.
+Reconciled 2026-10-08 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
-| `anthropic` | **drift** | 4 | 8 | 8 | 3 | copy change (2026-09-30) |
-| `google` | **drift** | 10 | 0 | 0 | 31 | price change (2026-10-07) |
+| `anthropic` | **drift** | 4 | 8 | 8 | 3 | price change (2026-10-08) |
+| `google` | **drift** | 10 | 0 | 0 | 31 | price change (2026-10-08) |
 | `groq` | skipped | 0 | 0 | 1 | 0 | copy change (2026-09-25) |
-| `mistral` | unreadable | 0 | 10 | 0 | 0 | price change (2026-10-07) |
-| `openai` | ok | 0 | 2 | 6 | 7 | copy change (2026-10-07) |
+| `mistral` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-10-08) |
+| `openai` | ok | 0 | 2 | 6 | 7 | copy change (2026-10-08) |
 
 ## `anthropic`
 
-Sheet watch's latest classification: **copy change (2026-09-30)**.
+Sheet watch's latest classification: **price change (2026-10-08)**.
 
 ### Mismatches
 
@@ -65,7 +65,7 @@ Informational. The sheet omits models on purpose; see the comments in `prices.py
 
 ## `google`
 
-Sheet watch's latest classification: **price change (2026-10-07)**.
+Sheet watch's latest classification: **price change (2026-10-08)**.
 
 ### Mismatches
 
@@ -100,7 +100,7 @@ Not compared, and not counted as agreement.
 
 ## `mistral`
 
-Sheet watch's latest classification: **price change (2026-10-07)**.
+Sheet watch's latest classification: **copy change (2026-10-08)**.
 
 ### Missing from the page
 
@@ -117,7 +117,7 @@ Sheet watch's latest classification: **price change (2026-10-07)**.
 
 ## `openai`
 
-Sheet watch's latest classification: **copy change (2026-10-07)**.
+Sheet watch's latest classification: **copy change (2026-10-08)**.
 
 ### Missing from the page
 

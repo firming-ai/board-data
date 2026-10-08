@@ -28,7 +28,7 @@ and no row about it should be read as rate coverage.
 
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
-| `anthropic:pricing` | cited by prices.py | 168 | <https://platform.claude.com/docs/en/about-claude/pricing> |
+| `anthropic:pricing` | cited by prices.py | 183 | <https://platform.claude.com/docs/en/about-claude/pricing> |
 | `openai:pricing` | cited by prices.py | 207 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 39 | <https://mistral.ai/pricing/api> |
@@ -147,3 +147,7 @@ and no row about it should be read as rate coverage.
 | 2026-10-07 | `openai:pricing` | changed | +3 / −1 | copy change | gpt-5.6-luna | $0.0000400 | Product navigation and example wording changed, but no pricing amount or rate was modified. |
 | 2026-10-07 | `mistral:pricing` | changed | +4 / −0 | price change | gpt-5.6-luna | $0.0000639 | Sale and original prices were added for Mistral Large 4, changing the monetary rates displayed. |
 | 2026-10-07 | `google:pricing` | changed | +53 / −1 | price change | gpt-5.6-luna | $0.000132 | A newly added model introduces standard and batch prices for input, output, and grounding requests. |
+| 2026-10-08 | `anthropic:pricing` | changed | +41 / −18 | price change | gpt-5.6-luna | $0.000229 | Claude Haiku 5.5 introduces new per-token prices, including higher rates for prompts exceeding 100,000 tokens. |
+| 2026-10-08 | `openai:pricing` | changed | +4 / −1 | copy change | gpt-5.6-luna | $0.0000402 | Navigation and promotional wording changed, but no pricing amounts or chargeable rates were modified. |
+| 2026-10-08 | `mistral:pricing` | changed | +5 / −1 | copy change | gpt-5.6-luna | $0.0000756 | The page adds an API-pricing heading and currency selector labels, but no charged rates change. |
+| 2026-10-08 | `google:pricing` | changed | +5 / −5 | price change | gpt-5.6-luna | $0.000104 | 4K image pricing increased from $0.0756 to $0.113 and from $0.0378 to $0.0567. |

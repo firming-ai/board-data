@@ -596,7 +596,9 @@ Workspace model availability
 Amazon Bedrock
 Bedrock GovCloud configuration
 Connect to a gateway
-Deploy Codex through a gateway
+Sign in with ChatGPT
+Use API/provider credentials
+Roll out a gateway
 Gateway compatibility
 Bedrock through LiteLLM
 ChatGPT Work
@@ -703,6 +705,7 @@ Video generation
 Community
 Programs
 Codex Ambassadors
+Meet the ambassadors
 Codex for Students
 Codex for Open Source
 OpenAI for Startups
