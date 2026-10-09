@@ -30,9 +30,10 @@ Image Generation
 Image Editing
 Multi-Image Editing
 Video Generation
+Video Overview
+New
 Image-to-Video
 Reference-to-Video
-New
 Video Editing
 Video Extension
 Voice
@@ -118,9 +119,10 @@ Image Generation
 Image Editing
 Multi-Image Editing
 Video Generation
+Video Overview
+New
 Image-to-Video
 Reference-to-Video
-New
 Video Editing
 Video Extension
 Voice

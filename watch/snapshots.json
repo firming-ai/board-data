@@ -1,17 +1,17 @@
 {
   "anthropic:pricing": {
-    "chars": 28546,
+    "chars": 28550,
     "cited": true,
-    "fetched_at": "2026-10-08T00:25:08+00:00",
-    "lines": 746,
-    "price_figures": 183,
-    "sha256": "1dae4010c5d55d8d074fd764c6eaf34fa54c4b28297cb960205537584003b0a3",
+    "fetched_at": "2026-10-09T00:40:28+00:00",
+    "lines": 739,
+    "price_figures": 180,
+    "sha256": "70c7e423512991ffdebd780da7381880fcb3acdbe40e90c4bba1f77f97844ebf",
     "url": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   "deepseek:pricing": {
     "chars": 2724,
     "cited": true,
-    "fetched_at": "2026-10-08T00:25:08+00:00",
+    "fetched_at": "2026-10-09T00:40:28+00:00",
     "lines": 119,
     "price_figures": 12,
     "sha256": "f3d574781f9cd7ce9a6f9d4515a3fd14c1a0806acd71e24c08308e61f3adb47c",
@@ -20,7 +20,7 @@
   "google:pricing": {
     "chars": 65085,
     "cited": true,
-    "fetched_at": "2026-10-08T00:25:08+00:00",
+    "fetched_at": "2026-10-09T00:40:28+00:00",
     "lines": 2331,
     "price_figures": 616,
     "sha256": "960fa6b3eb707b0d02127ab033b20abb104126a1f22907bf771cf2ab87299089",
@@ -29,55 +29,55 @@
   "groq:plans": {
     "chars": 4226,
     "cited": false,
-    "fetched_at": "2026-10-08T00:25:08+00:00",
+    "fetched_at": "2026-10-09T00:40:28+00:00",
     "lines": 140,
     "price_figures": 0,
     "sha256": "1ecc3160c31dadf229a26f9f8a45c348bf1807256b8a22a8078fd24b51b5a449",
     "url": "https://console.groq.com/docs/service-tiers"
   },
   "groq:pricing": {
-    "chars": 863,
+    "chars": 885,
     "cited": true,
-    "fetched_at": "2026-10-08T00:25:08+00:00",
-    "lines": 26,
+    "fetched_at": "2026-10-09T00:40:28+00:00",
+    "lines": 27,
     "price_figures": 1,
-    "sha256": "03c4b473a4710918fe91aacfadbe77fe0d98f30645613ca0f3e32bf1b11eac1d",
+    "sha256": "3510c276e6e185cc362f4511cc6b86c8475ec23abf953174199ba38226aa1213",
     "url": "https://groq.com/pricing"
   },
   "mistral:pricing": {
     "chars": 2107,
     "cited": true,
-    "fetched_at": "2026-10-08T00:25:08+00:00",
+    "fetched_at": "2026-10-09T00:40:28+00:00",
     "lines": 141,
     "price_figures": 39,
     "sha256": "0ca2b06e30781b7a9c7a54bf8caacda6b1b435f2dba1a9579af0e56901ccb687",
     "url": "https://mistral.ai/pricing/api"
   },
   "openai:pricing": {
-    "chars": 20308,
+    "chars": 20374,
     "cited": true,
-    "fetched_at": "2026-10-08T00:25:08+00:00",
-    "lines": 1246,
-    "price_figures": 207,
-    "sha256": "0a2619c8374795f9110e38585fea24a79f24f8bbe834e898503922093e9266c2",
+    "fetched_at": "2026-10-09T00:40:28+00:00",
+    "lines": 1255,
+    "price_figures": 215,
+    "sha256": "1d171678f88b0d61c9ec22fa0cbcc5a82c56a2d460973e956d0aef0e31c48e88",
     "url": "https://developers.openai.com/api/docs/pricing"
   },
   "qwen:pricing": {
     "chars": 2644,
     "cited": false,
-    "fetched_at": "2026-10-08T00:25:08+00:00",
+    "fetched_at": "2026-10-09T00:40:28+00:00",
     "lines": 90,
     "price_figures": 0,
     "sha256": "2455ed53d5391a34701b0cc9196007e99207583f67855a62de990ffc3037dc2f",
     "url": "https://www.alibabacloud.com/help/en/model-studio/models"
   },
   "xai:pricing": {
-    "chars": 5368,
+    "chars": 5398,
     "cited": false,
-    "fetched_at": "2026-10-08T00:25:08+00:00",
-    "lines": 246,
+    "fetched_at": "2026-10-09T00:40:28+00:00",
+    "lines": 248,
     "price_figures": 8,
-    "sha256": "53bf8d2bfb7fee3bfb7d42a81332e219d326f1d570f510cad095a617c51f0d86",
+    "sha256": "5c8ae3853a95b01c159c754f7ccf6dac7f89edf8def27c92a7fe482ea69838ce",
     "url": "https://docs.x.ai/docs/models"
   }
 }

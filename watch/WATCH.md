@@ -28,8 +28,8 @@ and no row about it should be read as rate coverage.
 
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
-| `anthropic:pricing` | cited by prices.py | 183 | <https://platform.claude.com/docs/en/about-claude/pricing> |
-| `openai:pricing` | cited by prices.py | 207 | <https://developers.openai.com/api/docs/pricing> |
+| `anthropic:pricing` | cited by prices.py | 180 | <https://platform.claude.com/docs/en/about-claude/pricing> |
+| `openai:pricing` | cited by prices.py | 215 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 39 | <https://mistral.ai/pricing/api> |
 | `google:pricing` | cited by prices.py | 616 | <https://ai.google.dev/pricing> |
@@ -151,3 +151,7 @@ and no row about it should be read as rate coverage.
 | 2026-10-08 | `openai:pricing` | changed | +4 / −1 | copy change | gpt-5.6-luna | $0.0000402 | Navigation and promotional wording changed, but no pricing amounts or chargeable rates were modified. |
 | 2026-10-08 | `mistral:pricing` | changed | +5 / −1 | copy change | gpt-5.6-luna | $0.0000756 | The page adds an API-pricing heading and currency selector labels, but no charged rates change. |
 | 2026-10-08 | `google:pricing` | changed | +5 / −5 | price change | gpt-5.6-luna | $0.000104 | 4K image pricing increased from $0.0756 to $0.113 and from $0.0378 to $0.0567. |
+| 2026-10-09 | `anthropic:pricing` | changed | +1 / −8 | copy change | gpt-5.6-luna | $0.000178 | The page removes an obsolete model and example while clarifying prompt-length billing without changing listed rates. |
+| 2026-10-09 | `openai:pricing` | changed | +9 / −0 | price change | gpt-5.6-luna | $0.0000591 | A new gpt-6.1-sol model and multiple associated prices were added. |
+| 2026-10-09 | `groq:pricing` | changed | +3 / −2 | copy change | gpt-5.6-luna | $0.0000378 | A Careers link was added to the navigation; no pricing or charged amount changed. |
+| 2026-10-09 | `xai:pricing` | changed | +4 / −2 | copy change | gpt-5.6-luna | $0.0000405 | Navigation labels and a “New” marker moved; no pricing numbers or billing rates changed. |

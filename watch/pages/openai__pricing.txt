@@ -937,6 +937,15 @@ $120.00
 $12.00
 $150.00
 $450.00
+gpt-6.1-sol
+$12.00
+$0.60
+$15.00
+$60.00
+$24.00
+$1.20
+$30.00
+$90.00
 Regional processing (data residency) endpoints are charged a 10% uplift for
 models released on or after March 5, 2026. FedRAMP endpoints are also
 charged a 10% uplift. Priority processing was renamed Fast mode on July 30,
