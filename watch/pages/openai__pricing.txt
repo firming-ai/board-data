@@ -61,7 +61,7 @@ Search docs
 Suggested
 responses createreasoning_effortrealtimeprompt caching
 Overview Models Agents Tools Audio & voice Production API reference
-OverviewModelsAgentsToolsAudio & voiceProductionAPI referenceDocsModels
+DocsModels
 Home
 Get started
 Quickstart
@@ -159,6 +159,7 @@ Environments and sandboxes
 OpenAI-hosted sandboxes
 Self-hosted sandboxes
 Sandbox lifecycle
+Pre-warm sandboxes
 Sandbox security
 Files and artifacts
 Tools and integrations
@@ -305,7 +306,7 @@ Spend limits
 Admin APIs
 Error codes
 Overview Sign in with ChatGPT Plugins Workspace Agents Commerce Ads ChatGPT + Codex user docs Use cases
-OverviewSign in with ChatGPTPluginsWorkspace AgentsCommerceAdsChatGPT + Codex user docsUse casesDocsOverview
+DocsOverview
 Home
 Quickstart
 Request a client ID
@@ -407,7 +408,7 @@ Insights
 Files
 Conversion Setup
 Overview Features Configuration Developers Security Administration Use Cases Resources
-OverviewFeaturesConfigurationDevelopersSecurityAdministrationUse CasesResourcesDocsOverview
+DocsOverview
 Home
 Get started
 Quickstart
@@ -583,6 +584,7 @@ Sites
 Identity and access
 Authentication overview
 Groups and provisioning
+Dynamic groups
 User lifecycle management
 Roles and workspace permissions
 Personal access tokens
@@ -655,7 +657,7 @@ Blog
 Company blog
 Developer blog
 Showcase Blog Cookbook Learn Community
-ShowcaseBlogCookbookLearnCommunityDocsSelect...
+DocsSelect...
 All posts
 Recent
 Bringing my LED display to life with GPT-Live-1 and Codex
@@ -984,6 +986,23 @@ $75.00
 -
 -
 All models
+Life sciences models
+Our latest Rosalind models.
+Prices per 1M tokens.
+Model
+Input
+Cached input
+Output
+gpt-rosalind-research
+$5.00
+$0.50
+$25.00
+gpt-rosalind-discovery
+$5.00
+$0.50
+$25.00
+Billing for gpt-rosalind-research begins on October 5, 2026. Cache-write pricing does not apply to this model. Access is limited to approved internal research through the trusted-access program. All eligible organizations will continue to get access to the latest GPT-Rosalind models as they’re released.
+Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. See our Your data guide for supported regions and processing details.
 Multimodal models
 GPT-Live sessions
 GPT-Live 1 voice sessions are billed per second,
@@ -1177,13 +1196,7 @@ gpt-5.3-codex
 $1.75
 $0.175
 $14.00
-Life Sciences
-gpt-rosalind-research
-$5.00
-$0.50
-$25.00
 All models
-Billing for gpt-rosalind-research begins on October 5, 2026. Cache-write pricing does not apply to this model. Access is limited to approved internal research through the trusted-access program. All eligible organizations will continue to get access to the latest GPT-Rosalind models as they’re released.
 Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. See our Your data guide for supported regions and processing details.
 Fast
 Category

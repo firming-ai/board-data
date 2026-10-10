@@ -17,19 +17,19 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-10-09 against `firming.prices` sheet **2026-08-30**.
+Reconciled 2026-10-10 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
-| `anthropic` | **drift** | 4 | 8 | 8 | 3 | copy change (2026-10-09) |
-| `google` | **drift** | 10 | 0 | 0 | 31 | price change (2026-10-08) |
+| `anthropic` | **drift** | 4 | 8 | 8 | 3 | unclassified (2026-10-10) |
+| `google` | **drift** | 12 | 1 | 0 | 29 | copy change (2026-10-10) |
 | `groq` | skipped | 0 | 0 | 1 | 0 | copy change (2026-10-09) |
 | `mistral` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-10-08) |
-| `openai` | ok | 0 | 2 | 6 | 7 | price change (2026-10-09) |
+| `openai` | ok | 0 | 2 | 6 | 8 | copy change (2026-10-10) |
 
 ## `anthropic`
 
-Sheet watch's latest classification: **copy change (2026-10-09)**.
+Sheet watch's latest classification: **unclassified (2026-10-10)**.
 
 ### Mismatches
 
@@ -65,7 +65,7 @@ Informational. The sheet omits models on purpose; see the comments in `prices.py
 
 ## `google`
 
-Sheet watch's latest classification: **price change (2026-10-08)**.
+Sheet watch's latest classification: **copy change (2026-10-10)**.
 
 ### Mismatches
 
@@ -73,14 +73,20 @@ Sheet watch's latest classification: **price change (2026-10-08)**.
 | --- | --- | --- | --- | --- |
 | `gemini-3.1-pro-preview` | fast_input | $3.60 | — | the page publishes this tier; the sheet carries no row for it |
 | `gemini-3.1-pro-preview` | fast_output | $21.60 | — | the page publishes this tier; the sheet carries no row for it |
-| `gemini-3.5-flash` | fast_input | $2.70 | — | the page publishes this tier; the sheet carries no row for it |
-| `gemini-3.5-flash` | fast_output | $16.20 | — | the page publishes this tier; the sheet carries no row for it |
+| `gemini-3.5-flash` | input | $0.30 | $1.50 |  |
+| `gemini-3.5-flash` | output | $2.50 | $9.00 |  |
+| `gemini-3.5-flash` | batch_input | $0.15 | $0.75 |  |
+| `gemini-3.5-flash` | batch_output | $1.25 | $4.50 |  |
+| `gemini-3.5-flash` | fast_input | $0.54 | — | the page publishes this tier; the sheet carries no row for it |
+| `gemini-3.5-flash` | fast_output | $4.50 | — | the page publishes this tier; the sheet carries no row for it |
 | `gemini-3.5-flash-lite` | fast_input | $0.54 | — | the page publishes this tier; the sheet carries no row for it |
 | `gemini-3.5-flash-lite` | fast_output | $4.50 | — | the page publishes this tier; the sheet carries no row for it |
 | `gemini-3.6-flash` | fast_input | $1.35 | — | the page publishes this tier; the sheet carries no row for it |
 | `gemini-3.6-flash` | fast_output | $6.75 | — | the page publishes this tier; the sheet carries no row for it |
-| `gemini-3.7-flash` | fast_input | $1.35 | — | the page publishes this tier; the sheet carries no row for it |
-| `gemini-3.7-flash` | fast_output | $6.75 | — | the page publishes this tier; the sheet carries no row for it |
+
+### Missing from the page
+
+- `gemini-3.7-flash` — on the sheet, no row found on the page
 
 ### On the page, not on the sheet (25)
 
@@ -117,7 +123,7 @@ Sheet watch's latest classification: **copy change (2026-10-08)**.
 
 ## `openai`
 
-Sheet watch's latest classification: **price change (2026-10-09)**.
+Sheet watch's latest classification: **copy change (2026-10-10)**.
 
 ### Missing from the page
 
@@ -130,8 +136,8 @@ Not compared, and not counted as agreement.
 
 - no figure for this field in the page text — 6 field(s)
 
-### On the page, not on the sheet (6)
+### On the page, not on the sheet (5)
 
 Informational. The sheet omits models on purpose; see the comments in `prices.py` before adding one.
 
-`chat-latest`, `gpt-5.3-codex`, `gpt-6-astra`, `gpt-6-luna`, `gpt-6.1-sol`, `gpt-rosalind-research`
+`chat-latest`, `gpt-5.3-codex`, `gpt-6-astra`, `gpt-6-luna`, `gpt-6.1-sol`

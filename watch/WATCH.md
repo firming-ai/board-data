@@ -29,10 +29,10 @@ and no row about it should be read as rate coverage.
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
 | `anthropic:pricing` | cited by prices.py | 180 | <https://platform.claude.com/docs/en/about-claude/pricing> |
-| `openai:pricing` | cited by prices.py | 215 | <https://developers.openai.com/api/docs/pricing> |
+| `openai:pricing` | cited by prices.py | 218 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 39 | <https://mistral.ai/pricing/api> |
-| `google:pricing` | cited by prices.py | 616 | <https://ai.google.dev/pricing> |
+| `google:pricing` | cited by prices.py | 525 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
 | `deepseek:pricing` | cited by prices.py | 12 | <https://api-docs.deepseek.com/quick_start/pricing> |
@@ -155,3 +155,6 @@ and no row about it should be read as rate coverage.
 | 2026-10-09 | `openai:pricing` | changed | +9 / −0 | price change | gpt-5.6-luna | $0.0000591 | A new gpt-6.1-sol model and multiple associated prices were added. |
 | 2026-10-09 | `groq:pricing` | changed | +3 / −2 | copy change | gpt-5.6-luna | $0.0000378 | A Careers link was added to the navigation; no pricing or charged amount changed. |
 | 2026-10-09 | `xai:pricing` | changed | +4 / −2 | copy change | gpt-5.6-luna | $0.0000405 | Navigation labels and a “New” marker moved; no pricing numbers or billing rates changed. |
+| 2026-10-10 | `anthropic:pricing` | changed | +11 / −9 | unclassified | gpt-5.6-luna | $0.000304 | classifier reply did not name a label |
+| 2026-10-10 | `openai:pricing` | changed | +23 / −10 | copy change | gpt-5.6-luna | $0.000158 | Existing Rosalind model pricing was reorganized into a new Life sciences models section without changing rates. |
+| 2026-10-10 | `google:pricing` | changed | +114 / −352 | copy change | gpt-5.6-luna | $0.000214 | Wording, model listings, and eligibility descriptions changed, but all monetary rates remain unchanged. |
