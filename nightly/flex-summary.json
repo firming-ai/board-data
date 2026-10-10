@@ -7,7 +7,7 @@
   ],
   "days": 27,
   "first_day": "2026-09-11",
-  "generated_utc": "2026-10-09",
+  "generated_utc": "2026-10-10",
   "lanes": {
     "gemini/gemini-3.1-pro-preview": {
       "attempts": 434,
