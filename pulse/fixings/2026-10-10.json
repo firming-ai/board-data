@@ -1,0 +1,8 @@
+{
+ "day": "2026-10-10",
+ "marks_sha256": "fe0ad20dc6ef2cea5e7b0b214ecc4a3e22e1187ec1d73d275bcd96d30395cb28",
+ "signature": "75be6a2f26a540b7911478ebc4d087b7c41769dbd87aacac9b234c0598dd2ea9ac8fc0ed82de3b1412718f989d54d615cbb89ac6bf9fc04e8d5758df8b4be207",
+ "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
+ "methodology_version": "1.4.0",
+ "struck_at": "2026-10-11T00:10:04+00:00"
+}
