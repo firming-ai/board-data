@@ -158,3 +158,5 @@ and no row about it should be read as rate coverage.
 | 2026-10-10 | `anthropic:pricing` | changed | +11 / −9 | unclassified | gpt-5.6-luna | $0.000304 | classifier reply did not name a label |
 | 2026-10-10 | `openai:pricing` | changed | +23 / −10 | copy change | gpt-5.6-luna | $0.000158 | Existing Rosalind model pricing was reorganized into a new Life sciences models section without changing rates. |
 | 2026-10-10 | `google:pricing` | changed | +114 / −352 | copy change | gpt-5.6-luna | $0.000214 | Wording, model listings, and eligibility descriptions changed, but all monetary rates remain unchanged. |
+| 2026-10-11 | `openai:pricing` | changed | +25 / −25 | copy change | gpt-5.6-luna | $0.0000962 | Navigation items were reordered and relocated; no pricing amounts or billing rates changed. |
+| 2026-10-11 | `qwen:pricing` | changed | +1 / −1 | noise | gpt-5.6-luna | $0.0000519 | Only the page’s last-updated date changed; no pricing or substantive content changed. |
