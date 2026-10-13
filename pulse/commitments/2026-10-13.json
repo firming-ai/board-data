@@ -90,6 +90,14 @@
    "signature": "98891837cce0d89a59119ac5ff3afc2b3d79b4019a2d828d4cf8224fbb0b97392456913015645562c162c503205820ad0bd77c0659ce82bfdf721dc0fa871e01",
    "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
    "methodology_version": "1.4.0"
+  },
+  {
+   "as_of": "2026-10-13T11:05:01+00:00",
+   "path": "pulse/hourly/2026-10-13/11.json",
+   "sha256": "9784d14af7c9a79f229f7ba45ba48d03b3e31f4902714e64ca5c8103b62a11e8",
+   "signature": "6425a975f74028a5cda0d2fd9a24463995aedd83cbe30a900ff9e601aa53a633836a67dfca30dd2ed6cd8e2435fa1bd556bd907187e39377e8bd0577738f660c",
+   "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
+   "methodology_version": "1.4.0"
   }
  ]
 }
