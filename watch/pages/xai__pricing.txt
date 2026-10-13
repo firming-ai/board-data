@@ -1,5 +1,5 @@
 API
-Grok BuildGrok BotGrok
+Grok BuildGrok BotGrokX Subscription
 Search
 ⌘K
 API Console
@@ -24,11 +24,13 @@ Reasoning
 Structured Outputs
 Image Understanding
 Multi Agent
+Best Practices Guide
 Imagine
 Overview
 Image Generation
 Image Editing
 Multi-Image Editing
+Image Prompting Guide
 Video Generation
 Video Overview
 New
@@ -98,6 +100,7 @@ REST Reference
 Grok Build
 Grok Bot
 Grok
+X Subscription
 Get Started
 Overview
 Quickstart
@@ -113,11 +116,13 @@ Reasoning
 Structured Outputs
 Image Understanding
 Multi Agent
+Best Practices Guide
 Imagine
 Overview
 Image Generation
 Image Editing
 Multi-Image Editing
+Image Prompting Guide
 Video Generation
 Video Overview
 New

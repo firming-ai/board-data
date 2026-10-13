@@ -160,3 +160,4 @@ and no row about it should be read as rate coverage.
 | 2026-10-10 | `google:pricing` | changed | +114 / −352 | copy change | gpt-5.6-luna | $0.000214 | Wording, model listings, and eligibility descriptions changed, but all monetary rates remain unchanged. |
 | 2026-10-11 | `openai:pricing` | changed | +25 / −25 | copy change | gpt-5.6-luna | $0.0000962 | Navigation items were reordered and relocated; no pricing amounts or billing rates changed. |
 | 2026-10-11 | `qwen:pricing` | changed | +1 / −1 | noise | gpt-5.6-luna | $0.0000519 | Only the page’s last-updated date changed; no pricing or substantive content changed. |
+| 2026-10-13 | `xai:pricing` | changed | +6 / −1 | copy change | gpt-5.6-luna | $0.0000470 | Navigation links and labels were added; no pricing numbers or chargeable rates changed. |
