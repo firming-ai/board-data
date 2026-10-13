@@ -26,6 +26,14 @@
    "signature": "e7f3e7800057c6275c049cd4eb633b64b8af3728ab339cd5e63f891d5c3414517a6cca79876514f45ed4cf83b4801954b3e4e4d473bccfb88e738816b00b8f05",
    "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
    "methodology_version": "1.4.0"
+  },
+  {
+   "as_of": "2026-10-13T03:05:02+00:00",
+   "path": "pulse/hourly/2026-10-13/03.json",
+   "sha256": "a76f3d592a17374271864b6aeb07b655bdcf4afab26e647d0c3fd8238c3bd185",
+   "signature": "6268bba3eb80d34f40d8456439c01eea380a63d38fc90ad30d8fd5f8a3132745f8850f61c16921c241b6120b5371a794d3c61af49c2816409a64b667ff747302",
+   "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
+   "methodology_version": "1.4.0"
   }
  ]
 }
