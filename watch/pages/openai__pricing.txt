@@ -100,7 +100,6 @@ Getting started
 Working with evals
 Prompt optimizer
 External models
-Best practices
 Graders
 Fine-tuning
 Optimization cycle
@@ -255,6 +254,9 @@ Ultrafast mode
 Latency optimization
 Predicted Outputs
 Accuracy optimization
+Evaluation
+Evaluation best practices
+Promptfoo
 Cost and throughput
 Cost optimization
 Prompt caching
@@ -328,6 +330,7 @@ Examples
 Test and publish
 Connect and test your plugin
 Submit and publish
+Submit desktop-only plugins
 Submission error reference
 Conversion specs
 Restaurant reservation spec
