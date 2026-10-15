@@ -1,41 +1,41 @@
 # FILL — the inference availability index
 
-*As of 2026-10-14T19:05:11+00:00 · probe pulse-1.5.0 · methodology 1.4.0*
+*As of 2026-10-14T20:05:13+00:00 · probe pulse-1.5.0 · methodology 1.4.0*
 
-*Published 2026-10-15T19:05:12+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-10-14/19.json`; their sha256 `c0e8c97d0f25…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
+*Published 2026-10-15T20:05:12+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-10-14/20.json`; their sha256 `f2e688c5b285…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
 
-**FILL 71.1** · FILL·FLEX 62.0
+**FILL 68.3** · FILL·FLEX 52.0
 
 Share of frontier discount-lane work that got its discount inside the budget — flex inside 60 s, batch inside 1 h, a warm prompt served from the cache — the mean of OAI·FILL, ANT·FILL and GEM·FILL. FILL·FLEX is the flex leg alone (last five minutes, n = 50.0): the headline before methodology 1.2.
 
 | child | FILL | flex (60 s, 5 min) | batch (1 h, 24 h) | cache (warm hit, 1 h) |
 | :-- | --: | --: | --: | --: |
-| ANT·FILL | 100.0% | — | 100.0% (n=264) | 100.0% (n=30) |
-| GEM·FILL | 19.4% | 0.0% (n=18) | 38.9% (n=72) | — |
+| ANT·FILL | 98.3% | — | 100.0% (n=264) | 96.5% (n=29) |
+| GEM·FILL | 17.6% | 0.0% (n=18) | 35.1% (n=74) | — |
 | MIS·FILL | 100.0% | — | 100.0% (n=48) | — |
-| OAI·FILL | 93.9% | 96.9% (n=32) | 84.8% (n=264) | 100.0% (n=15) |
+| OAI·FILL | 89.0% | 81.2% (n=32) | 85.6% (n=264) | 100.0% (n=15) |
 
 
 **Every venue, last complete hour** — AVAIL is the standard lane; FILL the discount lane.
 
 | venue | AVAIL | FILL | shed | TTFT p50 |
 | :-- | --: | --: | --: | --: |
-| anthropic | 100.0% | — | 0.0% | 1213 ms |
-| bedrock | 100.0% | — | 0.0% | 718 ms |
-| deepseek | 100.0% | — | 0.0% | 1233 ms |
+| anthropic | 100.0% | — | 0.0% | 1223 ms |
+| bedrock | 100.0% | — | 0.0% | 711 ms |
+| deepseek | 100.0% | — | 0.0% | 1192 ms |
 | gemini | 0.0% | 0.0% | 0.3% | — ms |
-| mistral | 100.0% | — | 0.0% | 754 ms |
-| openai | 99.7% | 99.2% | 0.0% | 1119 ms |
-| openrouter | 100.0% | — | 0.0% | 1545 ms |
-| xai | 100.0% | — | 0.0% | 840 ms |
+| mistral | 100.0% | — | 0.0% | 748 ms |
+| openai | 99.5% | 84.4% | 0.0% | 1101 ms |
+| openrouter | 100.0% | — | 0.0% | 1506 ms |
+| xai | 100.0% | — | 0.0% | 813 ms |
 
 **Batch** — one one-request job per lane every 30 min, polled to its end. Counts and minute/hour columns cover the last 24 h of submits; 4 h and 24 h percentages use separate mature 24-hour cohorts ending 4 h and 24 h ago.
 
 | venue | submitted | done | open | lost | done in 5 min | done in 10 min | done in 1 h | done in 4 h | done in 24 h | turnaround p50 | p95 |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| anthropic | 264 | 264 | 0 | 0 | 97.7% | 99.2% | 100.0% | 100.0% | 100.0% | 107 s | 3 min |
-| gemini | 74 | 26 | 0 | 48 | 35.1% | 35.1% | 35.1% | 51.5% | 100.0% | 108 s | 3 min |
-| mistral | 48 | 48 | 0 | 0 | 91.7% | 95.8% | 100.0% | 100.0% | 100.0% | 30 s | 7 min |
-| openai | 264 | 261 | 3 | 0 | 73.2% | 75.9% | 86.6% | 95.5% | 100.0% | 69 s | 177 min |
+| anthropic | 264 | 263 | 1 | 0 | 97.7% | 99.2% | 100.0% | 100.0% | 100.0% | 107 s | 3 min |
+| gemini | 76 | 24 | 0 | 52 | 31.6% | 31.6% | 31.6% | 47.1% | 100.0% | 112 s | 3 min |
+| mistral | 48 | 48 | 0 | 0 | 93.8% | 95.8% | 100.0% | 100.0% | 100.0% | 26 s | 6 min |
+| openai | 264 | 262 | 2 | 0 | 74.0% | 76.7% | 87.4% | 96.6% | 100.0% | 69 s | 177 min |
 
 Every number carries n; a gap flag marks an hour with fewer than 55 samples. Marks are struck once at 00:10Z and never restated. Methodology: METHODOLOGY.md.
