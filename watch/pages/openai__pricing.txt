@@ -300,6 +300,7 @@ Google Cloud
 Oracle Cloud Infrastructure
 GitHub Actions
 SPIFFE
+Idira
 IP egress ranges
 Amazon Bedrock
 Operations
@@ -444,7 +445,6 @@ Open Source
 Overview
 Workflows
 Projects and chats
-Sites
 Build plugins
 Visualizations
 Scheduled tasks
@@ -465,6 +465,12 @@ Image inputs
 Appshots
 Browser extension
 Work with files
+Sites
+Overview
+Create a site
+Data and connections
+Publish and share
+Manage a site
 dots
 Meet dots
 Getting started
@@ -545,6 +551,11 @@ Auto-review
 Agent approvals & security
 Codex Security
 Overview
+Codex Security Cloud
+Setup
+Security Review
+Improving the threat model
+FAQ
 Codex Security plugin
 Quickstart
 Run a security scan
@@ -564,12 +575,7 @@ Run scans in CI
 GitLab CI/CD
 Reference
 FAQ
-TypeScript SDK
-Codex Security Cloud
-Setup
-Security Review
-Improving the threat model
-FAQ
+Codex Security SDK
 Cyber safety
 Models & Trusted Access
 Recommended configuration
@@ -577,14 +583,14 @@ Overview
 Getting started
 Admin rollout guide
 Admin plugin
-Feature setup
+Feature Configuration
 Dots
 Space
+Sites
 Teams and Team Tasks
 ChatGPT in Slack and Teams
 Workspace connections
 Local computer access for Work Cloud and dots
-Sites
 Identity and access
 Authentication overview
 Groups and provisioning
@@ -661,7 +667,7 @@ Blog
 Company blog
 Developer blog
 Showcase Blog Cookbook Learn Community
-DocsSelect...
+DocsShowcase
 All posts
 Recent
 Maintaining software with the GPT-6 family

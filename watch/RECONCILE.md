@@ -17,28 +17,19 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-10-15 against `firming.prices` sheet **2026-08-30**.
+Reconciled 2026-10-16 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
-| `anthropic` | **drift** | 4 | 8 | 8 | 3 | copy change (2026-10-15) |
-| `google` | **drift** | 12 | 1 | 0 | 30 | price change (2026-10-15) |
+| `anthropic` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-10-16) |
+| `google` | **drift** | 12 | 1 | 0 | 30 | copy change (2026-10-16) |
 | `groq` | skipped | 0 | 0 | 1 | 0 | copy change (2026-10-09) |
 | `mistral` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-10-08) |
-| `openai` | ok | 0 | 2 | 6 | 8 | copy change (2026-10-15) |
+| `openai` | ok | 0 | 2 | 6 | 8 | copy change (2026-10-16) |
 
 ## `anthropic`
 
-Sheet watch's latest classification: **copy change (2026-10-15)**.
-
-### Mismatches
-
-| model | field | page | sheet | note |
-| --- | --- | --- | --- | --- |
-| `claude-opus-4-8` | input | $10.00 | $5.00 |  |
-| `claude-opus-4-8` | output | $50.00 | $25.00 |  |
-| `claude-opus-5` | input | $10.00 | $5.00 |  |
-| `claude-opus-5` | output | $50.00 | $25.00 |  |
+Sheet watch's latest classification: **copy change (2026-10-16)**.
 
 ### Missing from the page
 
@@ -47,25 +38,15 @@ Sheet watch's latest classification: **copy change (2026-10-15)**.
 - `claude-opus-4-5` — on the sheet, no row found on the page
 - `claude-opus-4-6` — on the sheet, no row found on the page
 - `claude-opus-4-7` — on the sheet, no row found on the page
+- `claude-opus-4-8` — on the sheet, no row found on the page
+- `claude-opus-5` — on the sheet, no row found on the page
 - `claude-sonnet-4-5` — on the sheet, no row found on the page
 - `claude-sonnet-4-6` — on the sheet, no row found on the page
 - `claude-sonnet-5` — on the sheet, no row found on the page
 
-### Unverifiable (8)
-
-Not compared, and not counted as agreement.
-
-- no figure for this field in the page text — 8 field(s)
-
-### On the page, not on the sheet (1)
-
-Informational. The sheet omits models on purpose; see the comments in `prices.py` before adding one.
-
-`claude-opus-5-5`
-
 ## `google`
 
-Sheet watch's latest classification: **price change (2026-10-15)**.
+Sheet watch's latest classification: **copy change (2026-10-16)**.
 
 ### Mismatches
 
@@ -123,7 +104,7 @@ Sheet watch's latest classification: **copy change (2026-10-08)**.
 
 ## `openai`
 
-Sheet watch's latest classification: **copy change (2026-10-15)**.
+Sheet watch's latest classification: **copy change (2026-10-16)**.
 
 ### Missing from the page
 

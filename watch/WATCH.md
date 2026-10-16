@@ -167,3 +167,6 @@ and no row about it should be read as rate coverage.
 | 2026-10-15 | `anthropic:pricing` | changed | +1 / −1 | copy change | gpt-5.6-luna | $0.0000422 | Billing-page navigation was added, but no pricing amount or rate changed. |
 | 2026-10-15 | `openai:pricing` | changed | +2 / −1 | copy change | gpt-5.6-luna | $0.0000413 | Navigation and recent-content entries changed, with no pricing numbers or rates altered. |
 | 2026-10-15 | `google:pricing` | changed | +92 / −2 | price change | gpt-5.6-luna | $0.000165 | New Contributor Tier pricing and dated rate schedules were added for multiple Gemini models. |
+| 2026-10-16 | `anthropic:pricing` | changed | +5 / −6 | copy change | gpt-5.6-luna | $0.0000921 | Fast mode wording and availability changed, while all listed prices remained numerically identical. |
+| 2026-10-16 | `openai:pricing` | changed | +16 / −10 | copy change | gpt-5.6-luna | $0.0000850 | Navigation entries and labels were reorganized; no pricing amounts or rate-bearing numbers changed. |
+| 2026-10-16 | `google:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000661 | The price remains $0.75; only formatting and the page’s last-updated date changed. |

@@ -1073,7 +1073,7 @@ Free Tier
 Paid Tier, per 1M tokens in USD
 Input price
 Not available
-$0.75 (text, image, video)
+$0.75 (text/image/video)
 Output price
 Not available
 $3.75 (text and thinking)
@@ -2252,7 +2252,7 @@ optimize costs, only requests that contain at least one grounding support URL
 from the web in their response are charged for Grounding with Google Search.
 Costs for Gemini always apply. Rate limits are subject to change.
 Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
-Last updated 2026-10-14 UTC.
+Last updated 2026-10-15 UTC.
 Terms
 Privacy
 Manage cookies
