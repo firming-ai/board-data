@@ -186,6 +186,14 @@
    "signature": "b11492caa22db0d327257bbf84fe58ca144856b6af2fe5a3a550880cfe4a7f87ef10f6456db7573394835ad4863860caba1ca4b72e4e12542bf08a30d42a5302",
    "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
    "methodology_version": "1.4.0"
+  },
+  {
+   "as_of": "2026-10-16T23:05:13+00:00",
+   "path": "pulse/hourly/2026-10-16/23.json",
+   "sha256": "ff6f2bf0b2014be6fab8d0e798b63383140e0bfddf7ad0d2a79e2f45a1e5f82d",
+   "signature": "214a053c47855a644f2749cf0049f8ad1c92414fecbd6060976741dfc6a1a32e2abbe78880363c1b9aa8a4e63eeb1e577d5080ef93e10908292a282a30761b0f",
+   "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
+   "methodology_version": "1.4.0"
   }
  ]
 }
