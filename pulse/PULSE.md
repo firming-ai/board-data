@@ -1,8 +1,8 @@
 # FILL — the inference availability index
 
-*As of 2026-10-15T20:05:13+00:00 · probe pulse-1.5.0 · methodology 1.4.0*
+*As of 2026-10-15T21:05:13+00:00 · probe pulse-1.5.0 · methodology 1.4.0*
 
-*Published 2026-10-16T20:05:12+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-10-15/20.json`; their sha256 `0f9630c7627c…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
+*Published 2026-10-16T21:05:12+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-10-15/21.json`; their sha256 `c2a627ad526a…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
 
 **FILL 66.1** · FILL·FLEX 64.0
 
@@ -20,22 +20,22 @@ Share of frontier discount-lane work that got its discount inside the budget —
 
 | venue | AVAIL | FILL | shed | TTFT p50 |
 | :-- | --: | --: | --: | --: |
-| anthropic | 100.0% | — | 0.0% | 1080 ms |
-| bedrock | 100.0% | — | 0.0% | 734 ms |
-| deepseek | 100.0% | — | 0.0% | 1199 ms |
-| gemini | 1.2% | 1.0% | 0.0% | 985 ms |
-| mistral | 100.0% | — | 0.0% | 791 ms |
-| openai | 100.0% | 99.5% | 0.0% | 1110 ms |
-| openrouter | 100.0% | — | 0.0% | 1404 ms |
-| xai | 100.0% | — | 0.0% | 850 ms |
+| anthropic | 100.0% | — | 0.0% | 1168 ms |
+| bedrock | 96.9% | — | 3.1% | 736 ms |
+| deepseek | 100.0% | — | 0.0% | 1177 ms |
+| gemini | 0.0% | 0.0% | 0.0% | — ms |
+| mistral | 100.0% | — | 0.0% | 862 ms |
+| openai | 100.0% | 99.2% | 0.0% | 1329 ms |
+| openrouter | 100.0% | — | 0.0% | 1608 ms |
+| xai | 100.0% | — | 0.0% | 876 ms |
 
 **Batch** — one one-request job per lane every 30 min, polled to its end. Counts and minute/hour columns cover the last 24 h of submits; 4 h and 24 h percentages use separate mature 24-hour cohorts ending 4 h and 24 h ago.
 
 | venue | submitted | done | open | lost | done in 5 min | done in 10 min | done in 1 h | done in 4 h | done in 24 h | turnaround p50 | p95 |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| anthropic | 264 | 264 | 0 | 0 | 96.2% | 97.7% | 99.6% | 100.0% | 100.0% | 115 s | 4 min |
-| gemini | 96 | 1 | 0 | 95 | 0.0% | 0.0% | 1.0% | 1.0% | 31.6% | 35 min | 35 min |
+| anthropic | 264 | 264 | 0 | 0 | 96.6% | 98.1% | 99.6% | 100.0% | 100.0% | 112 s | 4 min |
+| gemini | 96 | 1 | 0 | 95 | 0.0% | 0.0% | 1.0% | 1.0% | 28.2% | 35 min | 35 min |
 | mistral | 48 | 48 | 0 | 0 | 97.9% | 97.9% | 100.0% | 100.0% | 100.0% | 22 s | 76 s |
-| openai | 264 | 262 | 2 | 0 | 85.5% | 88.5% | 95.0% | 98.9% | 100.0% | 68 s | 59 min |
+| openai | 264 | 261 | 3 | 0 | 85.8% | 88.5% | 95.0% | 98.9% | 100.0% | 68 s | 59 min |
 
 Every number carries n; a gap flag marks an hour with fewer than 55 samples. Marks are struck once at 00:10Z and never restated. Methodology: METHODOLOGY.md.
