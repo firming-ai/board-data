@@ -35,7 +35,7 @@ and no row about it should be read as rate coverage.
 | `google:pricing` | cited by prices.py | 578 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
-| `deepseek:pricing` | cited by prices.py | 12 | <https://api-docs.deepseek.com/quick_start/pricing> |
+| `deepseek:pricing` | cited by prices.py | 14 | <https://api-docs.deepseek.com/quick_start/pricing> |
 | `qwen:pricing` | watched, not yet priced | **0 — rendered client-side** | <https://www.alibabacloud.com/help/en/model-studio/models> |
 
 ## Drift
@@ -170,3 +170,6 @@ and no row about it should be read as rate coverage.
 | 2026-10-16 | `anthropic:pricing` | changed | +5 / −6 | copy change | gpt-5.6-luna | $0.0000921 | Fast mode wording and availability changed, while all listed prices remained numerically identical. |
 | 2026-10-16 | `openai:pricing` | changed | +16 / −10 | copy change | gpt-5.6-luna | $0.0000850 | Navigation entries and labels were reorganized; no pricing amounts or rate-bearing numbers changed. |
 | 2026-10-16 | `google:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000661 | The price remains $0.75; only formatting and the page’s last-updated date changed. |
+| 2026-10-17 | `openai:pricing` | changed | +5 / −2 | copy change | gpt-5.6-luna | $0.0000450 | Navigation and resource titles changed, but no pricing amounts or billing rates were modified. |
+| 2026-10-17 | `google:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000697 | Availability wording changed for the Google AI Pro plan; no pricing rate changed. |
+| 2026-10-17 | `deepseek:pricing` | changed | +17 / −2 | price change | gpt-5.6-luna | $0.000101 | Search and Fetch APIs were added with explicit per-request charges of $0.75 per 1,000 successful requests. |

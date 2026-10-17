@@ -214,7 +214,7 @@ Gemini 4 Argon
 gemini-4-argon
 Try it in Google AI Studio
 Our flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, autonomous multi-step agents, and long-decode generation up to 1M tokens.
-Note: Gemini 4 Argon is not available on the Free tier or on the Google AI Pro plan.
+Note: Gemini 4 Argon is not available on the Free tier.
 Standard
 Free Tier
 Paid Tier, per 1M tokens in USD
@@ -2252,7 +2252,7 @@ optimize costs, only requests that contain at least one grounding support URL
 from the web in their response are charged for Grounding with Google Search.
 Costs for Gemini always apply. Rate limits are subject to change.
 Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
-Last updated 2026-10-15 UTC.
+Last updated 2026-10-16 UTC.
 Terms
 Privacy
 Manage cookies
