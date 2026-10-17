@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-16T21:05:13+00:00",
+ "as_of": "2026-10-16T22:05:05+00:00",
  "batch_24h": [
   {
    "done": 264,
@@ -7,24 +7,24 @@
    "done_1h_pct": 99.6,
    "done_24h_pct": 100.0,
    "done_4h_pct": 100.0,
-   "done_5m_pct": 93.9,
-   "last_submit": "2026-10-16T21:00:00+00:00",
+   "done_5m_pct": 94.3,
+   "last_submit": "2026-10-16T22:00:00+00:00",
    "lost": 0,
    "open": 0,
    "submitted": 264,
-   "turnaround_p50_s": 112,
+   "turnaround_p50_s": 114,
    "turnaround_p95_s": 446,
    "venue": "anthropic"
   },
   {
-   "done": 92,
-   "done_10m_pct": 95.8,
-   "done_1h_pct": 95.8,
+   "done": 96,
+   "done_10m_pct": 100.0,
+   "done_1h_pct": 100.0,
    "done_24h_pct": 1.0,
-   "done_4h_pct": 79.2,
-   "done_5m_pct": 95.8,
-   "last_submit": "2026-10-16T21:00:00+00:00",
-   "lost": 4,
+   "done_4h_pct": 83.3,
+   "done_5m_pct": 100.0,
+   "last_submit": "2026-10-16T22:00:00+00:00",
+   "lost": 0,
    "open": 0,
    "submitted": 96,
    "turnaround_p50_s": 128,
@@ -38,7 +38,7 @@
    "done_24h_pct": 100.0,
    "done_4h_pct": 100.0,
    "done_5m_pct": 100.0,
-   "last_submit": "2026-10-16T21:00:00+00:00",
+   "last_submit": "2026-10-16T22:00:00+00:00",
    "lost": 0,
    "open": 0,
    "submitted": 48,
@@ -47,18 +47,18 @@
    "venue": "mistral"
   },
   {
-   "done": 260,
-   "done_10m_pct": 88.5,
-   "done_1h_pct": 96.9,
+   "done": 262,
+   "done_10m_pct": 87.4,
+   "done_1h_pct": 95.8,
    "done_24h_pct": 100.0,
    "done_4h_pct": 100.0,
-   "done_5m_pct": 81.5,
-   "last_submit": "2026-10-16T21:00:00+00:00",
+   "done_5m_pct": 80.5,
+   "last_submit": "2026-10-16T22:00:00+00:00",
    "lost": 0,
-   "open": 4,
+   "open": 2,
    "submitted": 264,
    "turnaround_p50_s": 68,
-   "turnaround_p95_s": 2650,
+   "turnaround_p95_s": 2742,
    "venue": "openai"
   }
  ],
@@ -76,10 +76,10 @@
    "venue": "anthropic"
   },
   {
-   "fill": 84.7,
-   "fill_batch": 91.67,
+   "fill": 81.3,
+   "fill_batch": 95.83,
    "fill_cache": null,
-   "fill_flex": 77.78,
+   "fill_flex": 66.67,
    "legs": 2,
    "n_batch": 96,
    "n_cache": null,
@@ -100,10 +100,10 @@
    "venue": "mistral"
   },
   {
-   "fill": 98.6,
-   "fill_batch": 95.83,
+   "fill": 97.4,
+   "fill_batch": 95.45,
    "fill_cache": 100.0,
-   "fill_flex": 100.0,
+   "fill_flex": 96.88,
    "legs": 3,
    "n_batch": 264,
    "n_cache": 15,
@@ -114,19 +114,19 @@
  ],
  "delay_hours": 24,
  "fill": {
-  "as_of": "2026-10-16T21:03:00+00:00",
+  "as_of": "2026-10-16T22:03:00+00:00",
   "fallback": false,
-  "fill": 92.0,
-  "filled": 46.0,
+  "fill": 86.0,
+  "filled": 43.0,
   "gap": false,
   "n": 50.0,
   "vantage": "us-east"
  },
  "index": {
-  "as_of": "2026-10-16T21:03:00+00:00",
+  "as_of": "2026-10-16T22:03:00+00:00",
   "fallback": false,
-  "fill": 94.4,
-  "fill_flex": 92.0,
+  "fill": 92.8,
+  "fill_flex": 86.0,
   "gap": false,
   "members": 3,
   "n_flex": 50.0,
@@ -153,8 +153,8 @@
   },
   {
    "budget_s": 3600,
-   "fill": 91.67,
-   "filled": 88,
+   "fill": 95.83,
+   "filled": 92,
    "leg": "batch",
    "n": 96,
    "over": "24 h",
@@ -162,8 +162,8 @@
   },
   {
    "budget_s": 60,
-   "fill": 77.78,
-   "filled": 14,
+   "fill": 66.67,
+   "filled": 12,
    "leg": "flex",
    "n": 18,
    "over": "5 min",
@@ -180,8 +180,8 @@
   },
   {
    "budget_s": 3600,
-   "fill": 95.83,
-   "filled": 253,
+   "fill": 95.45,
+   "filled": 252,
    "leg": "batch",
    "n": 264,
    "over": "24 h",
@@ -198,8 +198,8 @@
   },
   {
    "budget_s": 60,
-   "fill": 100.0,
-   "filled": 32,
+   "fill": 96.88,
+   "filled": 31,
    "leg": "flex",
    "n": 32,
    "over": "5 min",
@@ -209,7 +209,7 @@
  "methodology_version": "1.4.0",
  "probe_version": "pulse-1.5.0",
  "publication": "market-wide and per venue, published 24 h after it was struck; the lane rows and the live board are on the keyed feed (METHODOLOGY \u00a77)",
- "published_at": "2026-10-17T21:05:11+00:00",
+ "published_at": "2026-10-17T22:05:04+00:00",
  "request": {
   "abandon_s": 90,
   "budget_s": 60,
@@ -218,34 +218,28 @@
  },
  "revealed": {
   "commitments": "pulse/commitments/2026-10-16.json",
-  "path": "pulse/hourly/2026-10-16/21.json",
+  "path": "pulse/hourly/2026-10-16/22.json",
   "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
-  "sha256": "0812debd65b9df8500152ce566440afc328929423d4912416c5ae7e28fcb5e74",
-  "signature": "a2a8162ba6bb53a375d82dba66d8f40d37c7acce263daa8bc48f5b291f03065b28bfbbd4f256a3c54e487111e5c2aef7d2202bfe7493b8044a579ffb69eb680d"
+  "sha256": "790fc37cf506099214fdd829a98b355890911d2faff0f4449e20f17665f753bc",
+  "signature": "b11492caa22db0d327257bbf84fe58ca144856b6af2fe5a3a550880cfe4a7f87ef10f6456db7573394835ad4863860caba1ca4b72e4e12542bf08a30d42a5302"
  },
  "vantages": [
   {
    "cadence_mode": "normal",
-   "last_tick": "2026-10-16T21:05:00+00:00",
-   "spend_24h_usd": 3.27475,
+   "last_tick": "2026-10-16T22:04:00+00:00",
+   "spend_24h_usd": 3.286309,
    "vantage": "eu-central"
   },
   {
    "cadence_mode": "normal",
-   "last_tick": "2026-10-16T21:05:00+00:00",
-   "spend_24h_usd": 3.249235,
+   "last_tick": "2026-10-16T22:05:00+00:00",
+   "spend_24h_usd": 3.2613,
    "vantage": "us-east"
   }
  ],
  "venues": {
   "gemini": {
    "hours": [
-    {
-     "bucket": "2026-10-15T22:00:00+00:00",
-     "fill": 72.82,
-     "gap": false,
-     "n": 206
-    },
     {
      "bucket": "2026-10-15T23:00:00+00:00",
      "fill": 75.24,
@@ -380,20 +374,20 @@
     },
     {
      "bucket": "2026-10-16T21:00:00+00:00",
-     "fill": 86.96,
+     "fill": 83.01,
+     "gap": false,
+     "n": 206
+    },
+    {
+     "bucket": "2026-10-16T22:00:00+00:00",
+     "fill": 68.42,
      "gap": true,
-     "n": 23
+     "n": 19
     }
    ]
   },
   "openai": {
    "hours": [
-    {
-     "bucket": "2026-10-15T22:00:00+00:00",
-     "fill": 99.22,
-     "gap": false,
-     "n": 384
-    },
     {
      "bucket": "2026-10-15T23:00:00+00:00",
      "fill": 99.22,
@@ -528,9 +522,15 @@
     },
     {
      "bucket": "2026-10-16T21:00:00+00:00",
-     "fill": 100.0,
+     "fill": 97.92,
+     "gap": false,
+     "n": 384
+    },
+    {
+     "bucket": "2026-10-16T22:00:00+00:00",
+     "fill": 97.44,
      "gap": true,
-     "n": 40
+     "n": 39
     }
    ]
   }
@@ -540,56 +540,56 @@
    "avail": 100.0,
    "fill": null,
    "shed_pct": 0.0,
-   "ttft_p50_ms": 1080,
+   "ttft_p50_ms": 1019,
    "venue": "anthropic"
   },
   {
-   "avail": 100.0,
+   "avail": 98.44,
    "fill": null,
-   "shed_pct": 0.0,
-   "ttft_p50_ms": 799,
+   "shed_pct": 1.56,
+   "ttft_p50_ms": 737,
    "venue": "bedrock"
   },
   {
    "avail": 100.0,
    "fill": null,
    "shed_pct": 0.0,
-   "ttft_p50_ms": 1393,
+   "ttft_p50_ms": 1306,
    "venue": "deepseek"
   },
   {
    "avail": 100.0,
-   "fill": 72.33,
-   "shed_pct": 5.71,
-   "ttft_p50_ms": 1349,
+   "fill": 83.01,
+   "shed_pct": 3.53,
+   "ttft_p50_ms": 1145,
    "venue": "gemini"
   },
   {
-   "avail": 100.0,
+   "avail": 94.17,
    "fill": null,
-   "shed_pct": 0.0,
-   "ttft_p50_ms": 883,
+   "shed_pct": 5.83,
+   "ttft_p50_ms": 792,
    "venue": "mistral"
   },
   {
    "avail": 100.0,
-   "fill": 100.0,
+   "fill": 97.92,
    "shed_pct": 0.0,
-   "ttft_p50_ms": 1101,
+   "ttft_p50_ms": 1092,
    "venue": "openai"
   },
   {
    "avail": 100.0,
    "fill": null,
    "shed_pct": 0.0,
-   "ttft_p50_ms": 1631,
+   "ttft_p50_ms": 1444,
    "venue": "openrouter"
   },
   {
    "avail": 100.0,
    "fill": null,
    "shed_pct": 0.0,
-   "ttft_p50_ms": 945,
+   "ttft_p50_ms": 772,
    "venue": "xai"
   }
  ]
