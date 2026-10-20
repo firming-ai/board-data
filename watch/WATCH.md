@@ -174,3 +174,5 @@ and no row about it should be read as rate coverage.
 | 2026-10-17 | `google:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000697 | Availability wording changed for the Google AI Pro plan; no pricing rate changed. |
 | 2026-10-17 | `deepseek:pricing` | changed | +17 / −2 | price change | gpt-5.6-luna | $0.000101 | Search and Fetch APIs were added with explicit per-request charges of $0.75 per 1,000 successful requests. |
 | 2026-10-18 | `deepseek:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000808 | The served model name changed, but the billing rate remains explicitly unchanged at the Flash price. |
+| 2026-10-20 | `openai:pricing` | changed | +3 / −1 | copy change | gpt-5.6-luna | $0.0000350 | Navigation wording and links changed; no pricing numbers or rates were modified. |
+| 2026-10-20 | `google:pricing` | changed | +3 / −1 | copy change | gpt-5.6-luna | $0.0000950 | Deprecation warnings were added for Gemini Omni Flash Preview and Veo 3.1 Preview; no pricing changed. |
