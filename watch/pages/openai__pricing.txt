@@ -771,251 +771,153 @@ Pricing
 Copy Page
 Flagship models
 Our latest models
+Speed
+Context length
+ShortLong
 Prices per 1M tokens.
-StandardBatchFlexFastUltrafast
+StandardFlex/BatchFastUltrafast
 Standard
-Short context
-Long context
+Prompt caching
 Model
 Input
-Cached input
-Cache writes
 Output
-Input
 Cached input
-Cache writes
-Output
+30m write
+12h write
 gpt-6-astra
 $10.00
+$50.00
 $1.00
 $12.50
-$50.00
-$20.00
-$2.00
 $25.00
-$75.00
 gpt-6.1-sol
 $2.00
+$10.00
 $0.10
 $2.50
-$10.00
-$4.00
-$0.20
 $5.00
-$15.00
 gpt-6-luna
 $0.10
+$0.50
 $0.01
 $0.125
-$0.50
-$0.20
-$0.02
 $0.25
-$0.75
 All models
 Batch
-Short context
-Long context
+Prompt caching
 Model
 Input
-Cached input
-Cache writes
 Output
-Input
 Cached input
-Cache writes
-Output
+30m write
+12h write
 gpt-6-astra
 $5.00
+$25.00
 $0.50
 $6.25
-$25.00
-$10.00
-$1.00
 $12.50
-$37.50
 gpt-6.1-sol
 $1.00
+$5.00
 $0.05
 $1.25
-$5.00
-$2.00
-$0.10
 $2.50
-$7.50
 gpt-6-luna
 $0.05
+$0.25
 $0.005
 $0.0625
-$0.25
-$0.10
-$0.01
 $0.125
-$0.375
-All models
-Flex
-Short context
-Long context
-Model
-Input
-Cached input
-Cache writes
-Output
-Input
-Cached input
-Cache writes
-Output
-gpt-6-astra
-$5.00
-$0.50
-$6.25
-$25.00
-$10.00
-$1.00
-$12.50
-$37.50
-gpt-6.1-sol
-$1.00
-$0.05
-$1.25
-$5.00
-$2.00
-$0.10
-$2.50
-$7.50
-gpt-6-luna
-$0.05
-$0.005
-$0.0625
-$0.25
-$0.10
-$0.01
-$0.125
-$0.375
 All models
 Fast
-Short context
-Long context
+Prompt caching
 Model
 Input
-Cached input
-Cache writes
 Output
-Input
 Cached input
-Cache writes
-Output
+30m write
+12h write
 gpt-6-astra
 $20.00
+$100.00
 $2.00
 $25.00
-$100.00
-$40.00
-$4.00
 $50.00
-$150.00
 gpt-6.1-sol
 $4.00
+$20.00
 $0.20
 $5.00
-$20.00
-$8.00
-$0.40
 $10.00
-$30.00
 gpt-6-luna
 $0.20
+$1.00
 $0.02
 $0.25
-$1.00
-$0.40
-$0.04
 $0.50
-$1.50
 All models
 Ultrafast
-Short context
-Long context
+Prompt caching
 Model
 Input
-Cached input
-Cache writes
 Output
-Input
 Cached input
-Cache writes
-Output
+30m write
+12h write
 gpt-6-astra
 $60.00
+$300.00
 $6.00
 $75.00
-$300.00
-$120.00
-$12.00
 $150.00
-$450.00
 gpt-6.1-sol
 $12.00
+$60.00
 $0.60
 $15.00
-$60.00
-$24.00
-$1.20
 $30.00
-$90.00
-Regional processing (data residency) endpoints are charged a 10% uplift for
-models released on or after March 5, 2026. FedRAMP endpoints are also
-charged a 10% uplift. Priority processing was renamed Fast mode on July 30,
-2026. GPT-5.6 Sol’s promotional pricing is available at least through
-November 21, 2026.
+Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026. FedRAMP endpoints are also charged a 10% uplift. Priority processing was renamed Fast mode on July 30, 2026. GPT-5.6 Sol’s promotional pricing is available at least through November 21, 2026.
 Cyber models
 Our latest Daybreak models.
+Context length
+ShortLong
 Prices per 1M tokens.
-Short context
-Long context
+Prompt caching
 Model
 Input
-Cached input
-Cache writes
 Output
-Input
 Cached input
-Cache writes
-Output
+30m write
+12h write
 gpt-5.6-sol
 $4.00
+$20.00
 $0.40
 $5.00
-$20.00
-$8.00
-$0.80
 $10.00
-$30.00
 gpt-5.6-cyber
 $12.50
+$75.00
 $1.25
 $15.625
-$75.00
--
--
--
--
+$31.25
 All models
 Life sciences models
 Our latest Rosalind models.
 Prices per 1M tokens.
 Model
 Input
-Cached input
 Output
+Cached input
 gpt-rosalind-research
 $5.00
-$0.50
 $25.00
+$0.50
 gpt-rosalind-discovery
 $5.00
-$0.50
 $25.00
+$0.50
 Billing for gpt-rosalind-research begins on October 5, 2026. Cache-write pricing does not apply to this model. Access is limited to approved internal research through the trusted-access program. All eligible organizations will continue to get access to the latest GPT-Rosalind models as they’re released.
 Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. See our Your data guide for supported regions and processing details.
 Multimodal models
@@ -1032,34 +934,34 @@ Prices per 1M tokens unless noted.
 Model
 Modality
 Input
-Cached input
 Output / cost
+Cached input
 gpt-realtime-2.1
 Audio
 $32.00
-$0.40
 $64.00
+$0.40
 Text
 $4.00
-$0.40
 $24.00
+$0.40
 Image
 $5.00
-$0.50
 -
+$0.50
 gpt-realtime-2.1-mini
 Audio
 $10.00
-$0.30
 $20.00
+$0.30
 Text
 $0.60
-$0.06
 $2.40
+$0.06
 Image
 $0.80
-$0.08
 -
+$0.08
 All models
 Image generation models
 Prices per 1M tokens.
@@ -1069,61 +971,61 @@ For image generation cost estimates, use the calculator in the image generation 
 Model
 Modality
 Input
-Cached input
 Output
+Cached input
 gpt-image-2.5-sunburst
 Image
 $8.00
-$2.00
 $30.00
+$2.00
 Text
 $5.00
-$1.25
 -
+$1.25
 gpt-image-2.5-flare
 Image
 $8.00
-$2.00
 $30.00
+$2.00
 Text
 $5.00
-$1.25
 -
+$1.25
 All models
 Batch
 For image generation cost estimates, use the calculator in the image generation guide.
 Model
 Modality
 Input
-Cached input
 Output
+Cached input
 gpt-image-2
 Image
 $4.00
-$1.00
 $15.00
+$1.00
 Text
 $2.50
-$0.625
 -
+$0.625
 gpt-image-2.5-sunburst
 Image
 $4.00
-$1.00
 $15.00
+$1.00
 Text
 $2.50
-$0.625
 -
+$0.625
 gpt-image-2.5-flare
 Image
 $4.00
-$1.00
 $15.00
+$1.00
 Text
 $2.50
-$0.625
 -
+$0.625
 All models
 Transcription models
 Prices per 1M tokens unless noted.
@@ -1199,31 +1101,31 @@ Standard
 Category
 Model
 Input
-Cached input
 Output
+Cached input
 ChatGPT
 chat-latest
 $5.00
-$0.50
 $30.00
+$0.50
 Codex
 gpt-5.3-codex
 $1.75
-$0.175
 $14.00
+$0.175
 All models
 Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. See our Your data guide for supported regions and processing details.
 Fast
 Category
 Model
 Input
-Cached input
 Output
+Cached input
 Codex
 gpt-5.3-codex
 $3.50
-$0.35
 $28.00
+$0.35
 Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. See our Your data guide for supported regions and processing details.
 Finetuning
 Prices per 1M tokens.
@@ -1238,37 +1140,37 @@ Standard
 Model
 Training
 Input
-Cached input
 Output
+Cached input
 o4-mini-2025-04-16
 $100.00 / hour
 $4.00
-$1.00
 $16.00
+$1.00
 o4-mini-2025-04-16
 with data sharing
 $100.00 / hour
 $2.00
-$0.50
 $8.00
+$0.50
 All models
 Batch
 Model
 Training
 Input
-Cached input
 Output
+Cached input
 o4-mini-2025-04-16
 $100.00 / hour
 $2.00
-$0.50
 $8.00
+$0.50
 o4-mini-2025-04-16
 with data sharing
 $100.00 / hour
 $1.00
-$0.25
 $4.00
+$0.25
 All models
 Tokens used for model grading in reinforcement fine-tuning are billed at that model's per-token rate. Inference discounts are available if you enable data sharing when creating the fine-tune job. Learn more.
 Cloud platforms

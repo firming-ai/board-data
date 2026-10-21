@@ -29,9 +29,9 @@ and no row about it should be read as rate coverage.
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
 | `anthropic:pricing` | cited by prices.py | 180 | <https://platform.claude.com/docs/en/about-claude/pricing> |
-| `openai:pricing` | cited by prices.py | 218 | <https://developers.openai.com/api/docs/pricing> |
+| `openai:pricing` | cited by prices.py | 159 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
-| `mistral:pricing` | cited by prices.py | 39 | <https://mistral.ai/pricing/api> |
+| `mistral:pricing` | cited by prices.py | 43 | <https://mistral.ai/pricing/api> |
 | `google:pricing` | cited by prices.py | 578 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
@@ -176,3 +176,5 @@ and no row about it should be read as rate coverage.
 | 2026-10-18 | `deepseek:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000808 | The served model name changed, but the billing rate remains explicitly unchanged at the Flash price. |
 | 2026-10-20 | `openai:pricing` | changed | +3 / −1 | copy change | gpt-5.6-luna | $0.0000350 | Navigation wording and links changed; no pricing numbers or rates were modified. |
 | 2026-10-20 | `google:pricing` | changed | +3 / −1 | copy change | gpt-5.6-luna | $0.0000950 | Deprecation warnings were added for Gemini Omni Flash Preview and Veo 3.1 Preview; no pricing changed. |
+| 2026-10-21 | `openai:pricing` | changed | +134 / −232 | price change | gpt-5.6-luna | $0.000221 | Pricing tables add models and new cache-write rates, changing the charged amounts shown. |
+| 2026-10-21 | `mistral:pricing` | changed | +22 / −6 | price change | gpt-5.6-luna | $0.000137 | Pricing entries and charged rates were added or changed, including new Voxtral products and updated Voxtral TTS amounts. |

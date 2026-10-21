@@ -17,15 +17,15 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-10-20 against `firming.prices` sheet **2026-08-30**.
+Reconciled 2026-10-21 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
 | `anthropic` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-10-16) |
 | `google` | **drift** | 12 | 1 | 0 | 30 | copy change (2026-10-20) |
 | `groq` | skipped | 0 | 0 | 1 | 0 | copy change (2026-10-09) |
-| `mistral` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-10-08) |
-| `openai` | ok | 0 | 2 | 6 | 8 | copy change (2026-10-20) |
+| `mistral` | unreadable | 0 | 10 | 0 | 0 | price change (2026-10-21) |
+| `openai` | **drift** | 2 | 2 | 4 | 9 | price change (2026-10-21) |
 
 ## `anthropic`
 
@@ -87,7 +87,7 @@ Not compared, and not counted as agreement.
 
 ## `mistral`
 
-Sheet watch's latest classification: **copy change (2026-10-08)**.
+Sheet watch's latest classification: **price change (2026-10-21)**.
 
 ### Missing from the page
 
@@ -104,21 +104,28 @@ Sheet watch's latest classification: **copy change (2026-10-08)**.
 
 ## `openai`
 
-Sheet watch's latest classification: **copy change (2026-10-20)**.
+Sheet watch's latest classification: **price change (2026-10-21)**.
+
+### Mismatches
+
+| model | field | page | sheet | note |
+| --- | --- | --- | --- | --- |
+| `gpt-5.6-sol` | batch_input | $4.00 | $2.00 |  |
+| `gpt-5.6-sol` | batch_output | $20.00 | $10.00 |  |
 
 ### Missing from the page
 
 - `gpt-5.6-luna` — on the sheet, no row found on the page
 - `gpt-5.6-terra` — on the sheet, no row found on the page
 
-### Unverifiable (6)
+### Unverifiable (4)
 
 Not compared, and not counted as agreement.
 
-- no figure for this field in the page text — 6 field(s)
+- no figure for this field in the page text — 4 field(s)
 
-### On the page, not on the sheet (5)
+### On the page, not on the sheet (8)
 
 Informational. The sheet omits models on purpose; see the comments in `prices.py` before adding one.
 
-`chat-latest`, `gpt-5.3-codex`, `gpt-6-astra`, `gpt-6-luna`, `gpt-6.1-sol`
+`chat-latest`, `gpt-5.3-codex`, `gpt-5.6-cyber`, `gpt-6-astra`, `gpt-6-luna`, `gpt-6.1-sol`, `gpt-rosalind-discovery`, `gpt-rosalind-research`
