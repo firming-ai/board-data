@@ -140,6 +140,16 @@ Codestral Embed ↗
 $0.15
 $0.015
 —
+Voice agents
+Copy section link
+Voice agents
+Pricing for the Voice Agents API, billed per minute of conversation.
+Model
+Price
+Mistral Small 4
+$0.04/min
+Larger models
+$0.08/min
 WHY MISTRAL
 About usOur customersCareersContact us
 EXPLORE
