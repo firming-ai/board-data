@@ -17,19 +17,19 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-10-22 against `firming.prices` sheet **2026-08-30**.
+Reconciled 2026-10-23 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
-| `anthropic` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-10-22) |
-| `google` | **drift** | 12 | 1 | 0 | 30 | copy change (2026-10-20) |
+| `anthropic` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-10-23) |
+| `google` | **drift** | 12 | 1 | 0 | 29 | price change (2026-10-23) |
 | `groq` | skipped | 0 | 0 | 1 | 0 | copy change (2026-10-09) |
-| `mistral` | unreadable | 0 | 10 | 0 | 0 | price change (2026-10-22) |
-| `openai` | **drift** | 2 | 2 | 4 | 9 | price change (2026-10-21) |
+| `mistral` | unreadable | 0 | 10 | 0 | 0 | price change (2026-10-23) |
+| `openai` | **drift** | 2 | 2 | 4 | 9 | copy change (2026-10-23) |
 
 ## `anthropic`
 
-Sheet watch's latest classification: **copy change (2026-10-22)**.
+Sheet watch's latest classification: **copy change (2026-10-23)**.
 
 ### Missing from the page
 
@@ -46,7 +46,7 @@ Sheet watch's latest classification: **copy change (2026-10-22)**.
 
 ## `google`
 
-Sheet watch's latest classification: **copy change (2026-10-20)**.
+Sheet watch's latest classification: **price change (2026-10-23)**.
 
 ### Mismatches
 
@@ -69,11 +69,11 @@ Sheet watch's latest classification: **copy change (2026-10-20)**.
 
 - `gemini-3.7-flash` — on the sheet, no row found on the page
 
-### On the page, not on the sheet (26)
+### On the page, not on the sheet (25)
 
 Informational. The sheet omits models on purpose; see the comments in `prices.py` before adding one.
 
-`gemini-2.5-flash`, `gemini-2.5-flash-image`, `gemini-2.5-flash-lite`, `gemini-2.5-flash-native-audio-preview-12-2025`, `gemini-2.5-flash-preview-tts`, `gemini-2.5-pro`, `gemini-2.5-pro-preview-tts`, `gemini-3-flash-preview`, `gemini-3-pro-image`, `gemini-3.1-flash-image`, `gemini-3.1-flash-lite`, `gemini-3.1-flash-lite-image`, `gemini-3.1-flash-tts-preview`, `gemini-3.1-pro-preview-customtools`, `gemini-3.5-live-translate-preview`, `gemini-3.5-transcribe`, `gemini-3.5-transcribe-live`, `gemini-3.8-flash`, `gemini-3.8-flash-lite-tts`, `gemini-3.8-flash-tts`, `gemini-4-argon`, `gemini-nano-banana-2.1`, `gemini-omni-1.1-flash`, `gemini-omni-flash-preview`, `gemini-robotics-er-2-preview`, `gemini-robotics-er-2-streaming-preview`
+`gemini-2.5-flash`, `gemini-2.5-flash-image`, `gemini-2.5-flash-lite`, `gemini-2.5-flash-native-audio-preview-12-2025`, `gemini-2.5-flash-preview-tts`, `gemini-2.5-pro`, `gemini-2.5-pro-preview-tts`, `gemini-3-flash-preview`, `gemini-3-pro-image`, `gemini-3.1-flash-image`, `gemini-3.1-flash-lite`, `gemini-3.1-flash-lite-image`, `gemini-3.1-flash-tts-preview`, `gemini-3.1-pro-preview-customtools`, `gemini-3.5-live-translate-preview`, `gemini-3.5-transcribe`, `gemini-3.5-transcribe-live`, `gemini-3.8-flash`, `gemini-3.8-flash-lite-tts`, `gemini-3.8-flash-tts`, `gemini-4-argon`, `gemini-nano-banana-2.1`, `gemini-omni-1.1-flash`, `gemini-robotics-er-2-preview`, `gemini-robotics-er-2-streaming-preview`
 
 ## `groq`
 
@@ -87,7 +87,7 @@ Not compared, and not counted as agreement.
 
 ## `mistral`
 
-Sheet watch's latest classification: **price change (2026-10-22)**.
+Sheet watch's latest classification: **price change (2026-10-23)**.
 
 ### Missing from the page
 
@@ -104,7 +104,7 @@ Sheet watch's latest classification: **price change (2026-10-22)**.
 
 ## `openai`
 
-Sheet watch's latest classification: **price change (2026-10-21)**.
+Sheet watch's latest classification: **copy change (2026-10-23)**.
 
 ### Mismatches
 

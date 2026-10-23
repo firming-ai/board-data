@@ -21,10 +21,10 @@ Inference
 Pricing
 API pricing
 Pricing for Mistral models, organized by family.
-Flagship models
+Generalist models
 Copy section link
-Flagship models
-Premier frontier models for the most demanding workloads.
+Generalist models
+Text and multimodal models for broad reasoning, coding, tool use, and agentic tasks.
 Prices /M Tokens
 USDEUR
 Regional inference
@@ -33,14 +33,14 @@ Model
 Input
 Cached input
 Output
-Mistral Large 4 ↗
-$1.36
-$0.14
-$4.18
-Mistral Large 3 ↗
+Z.ai GLM 5.3 Flash ↗
+$0.15
+$0.03
 $0.5
-$0.05
-$1.5
+Z.ai GLM 5.3 ↗
+$1.4
+$0.14
+$4.4
 Mistral Medium 3.5 ↗
 $1.5
 $0.15
@@ -49,6 +49,14 @@ Mistral Small 4 ↗
 $0.15
 $0.015
 $0.6
+Mistral Large 4 ↗
+$1.36
+$0.14
+$4.18
+Mistral Large 3 ↗
+$0.5
+$0.05
+$1.5
 Ministral 3 14B ↗
 $0.2
 $0.02
@@ -61,11 +69,11 @@ Ministral 3 3B ↗
 $0.1
 $0.01
 $0.1
-Specialized models
+OCR models
 Copy section link
-Specialized models
-Models built for specific tasks such as vision, OCR, and audio.
-Prices as marked
+OCR models
+Models for document understanding, text extraction, and structured OCR outputs.
+Prices /1000 Pages
 USDEUR
 Regional inference
 StandardBatchPriority
@@ -74,9 +82,25 @@ Input
 Cached input
 Output
 OCR 4.1 ↗
-$4 /1000 Pages
-$0.4 /1000 Pages
+$4
+$0.4
 —
+OCR 3 ↗
+$2
+$0.2
+—
+Audio models
+Copy section link
+Audio models
+Models for speech transcription, realtime transcription, and speech generation.
+Prices as marked
+USDEUR
+Regional inference
+StandardBatchPriority
+Model
+Input
+Cached input
+Output
 Voxtral Mini Transcribe 3 ↗
 $0.0035 /Min
 $0.00035 /Min
@@ -97,33 +121,22 @@ Voxtral Mini Transcribe 2 ↗
 $0.003 /Min
 $0.0003 /Min
 —
+Voxtral Mini Transcribe Realtime ↗
+$0.006 /Min
+$0.0006 /Min
+—
 Voxtral TTS ↗
 $16 /M Chars
 $1.6 /M Chars
 —
-Mistral Moderation 2 ↗
-Free
-Free
-Free
-Third-party hosted
-Copy section link
-Third-party hosted
-Third-party models hosted by Mistral.
-Prices /M Tokens
-USDEUR
-Regional inference
-StandardBatchPriority
-Model
-Input
-Cached input
-Output
-Z.ai GLM 5.3 ↗
-$1.4
-$0.14
-$4.4
+Voxtral Small ↗
+$0.004 /Min
+$0.0004 /Min
+$0.4 /M Tokens
 Code models
 Copy section link
 Code models
+Specialized models for code generation, completion, and software engineering agents.
 Prices /M Tokens
 USDEUR
 Regional inference
@@ -136,10 +149,62 @@ Codestral ↗
 $0.3
 $0.03
 $0.9
+Embedding models
+Copy section link
+Embedding models
+Models that turn text or code into vectors for retrieval and similarity search.
+Prices /M Tokens
+USDEUR
+Regional inference
+StandardBatchPriority
+Model
+Input
+Cached input
+Output
 Codestral Embed ↗
 $0.15
 $0.015
 —
+Mistral Embed ↗
+$0.1
+$0.01
+—
+Moderation and safety models
+Copy section link
+Moderation and safety models
+Models for safety filtering, moderation, and policy checks.
+Prices as marked
+Regional inference
+StandardBatchPriority
+Model
+Input
+Cached input
+Output
+Mistral Moderation 2 ↗
+Free
+Free
+Free
+Shieldstral 1.0 ↗Self-hosted · Open weights
+Costs depend on your own infrastructure
+Time series models
+Copy section link
+Time series models
+Models for zero-shot time series forecasting with covariate support and probabilistic outputs.
+Prices as marked
+Regional inference
+StandardBatchPriority
+Model
+Input
+Cached input
+Output
+Timestral 1.0 209M ↗Self-hosted · Open weights
+Costs depend on your own infrastructure
+Timestral 1.0 123M ↗Self-hosted · Open weights
+Costs depend on your own infrastructure
+Timestral 1.0 28M ↗Self-hosted · Open weights
+Costs depend on your own infrastructure
+Timestral 1.0 5M ↗Self-hosted · Open weights
+Costs depend on your own infrastructure
 Voice agents
 Copy section link
 Voice agents

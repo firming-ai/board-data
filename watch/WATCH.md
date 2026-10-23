@@ -31,8 +31,8 @@ and no row about it should be read as rate coverage.
 | `anthropic:pricing` | cited by prices.py | 180 | <https://platform.claude.com/docs/en/about-claude/pricing> |
 | `openai:pricing` | cited by prices.py | 159 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
-| `mistral:pricing` | cited by prices.py | 45 | <https://mistral.ai/pricing/api> |
-| `google:pricing` | cited by prices.py | 578 | <https://ai.google.dev/pricing> |
+| `mistral:pricing` | cited by prices.py | 57 | <https://mistral.ai/pricing/api> |
+| `google:pricing` | cited by prices.py | 567 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
 | `deepseek:pricing` | cited by prices.py | 14 | <https://api-docs.deepseek.com/quick_start/pricing> |
@@ -180,3 +180,7 @@ and no row about it should be read as rate coverage.
 | 2026-10-21 | `mistral:pricing` | changed | +22 / −6 | price change | gpt-5.6-luna | $0.000137 | Pricing entries and charged rates were added or changed, including new Voxtral products and updated Voxtral TTS amounts. |
 | 2026-10-22 | `anthropic:pricing` | changed | +41 / −41 | copy change | gpt-5.6-luna | $0.000286 | Currency labels, punctuation, and wording changed, but no charged rate or monetary amount changed. |
 | 2026-10-22 | `mistral:pricing` | changed | +10 / −0 | price change | gpt-5.6-luna | $0.0000428 | A new Voice Agents API section adds per-minute prices for Mistral Small 4 and larger models. |
+| 2026-10-23 | `anthropic:pricing` | changed | +7 / −7 | copy change | gpt-5.6-luna | $0.000157 | The page updates platform names, endpoint descriptions, and availability wording without changing any pricing rates. |
+| 2026-10-23 | `openai:pricing` | changed | +3 / −0 | copy change | gpt-5.6-luna | $0.0000360 | Three education-related navigation entries were added, with no pricing amounts or rates changed. |
+| 2026-10-23 | `mistral:pricing` | changed | +120 / −55 | price change | gpt-5.6-luna | $0.000148 | New models and services were added with explicit prices, including GLM, OCR, realtime transcription, Voxtral Small, and Codestral. |
+| 2026-10-23 | `google:pricing` | changed | +1 / −46 | price change | gpt-5.6-luna | $0.000178 | Pricing entries for Gemini Omni Flash Preview and Veo 3.1, including their charged rates, were removed. |
