@@ -153,6 +153,7 @@ Sessions
 Run and continue sessions
 Events and items
 Manage sessions
+Scheduled automations
 Webhooks
 Environments and sandboxes
 OpenAI-hosted sandboxes
@@ -534,6 +535,7 @@ Cloud environments
 Build with Codex
 Codex SDK
 App Server
+Model catalogs
 GitHub Action
 Non-interactive mode
 Third-party integrations

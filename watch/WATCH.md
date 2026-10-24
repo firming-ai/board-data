@@ -184,3 +184,4 @@ and no row about it should be read as rate coverage.
 | 2026-10-23 | `openai:pricing` | changed | +3 / −0 | copy change | gpt-5.6-luna | $0.0000360 | Three education-related navigation entries were added, with no pricing amounts or rates changed. |
 | 2026-10-23 | `mistral:pricing` | changed | +120 / −55 | price change | gpt-5.6-luna | $0.000148 | New models and services were added with explicit prices, including GLM, OCR, realtime transcription, Voxtral Small, and Codestral. |
 | 2026-10-23 | `google:pricing` | changed | +1 / −46 | price change | gpt-5.6-luna | $0.000178 | Pricing entries for Gemini Omni Flash Preview and Veo 3.1, including their charged rates, were removed. |
+| 2026-10-24 | `openai:pricing` | changed | +2 / −0 | copy change | gpt-5.6-luna | $0.0000350 | Navigation entries were added, but no pricing numbers or rates changed. |
