@@ -50,6 +50,14 @@
    "signature": "5959c738293ab2aee29817d1dd7da8111d84599c665435fb74a6772ca90c78a66f135cef14143b32b2271274e5634c2b7a0df931b5129ffe4d75517b3b3df50a",
    "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
    "methodology_version": "1.4.0"
+  },
+  {
+   "as_of": "2026-10-26T06:05:14+00:00",
+   "path": "pulse/hourly/2026-10-26/06.json",
+   "sha256": "a0914aae2d867ada82d29b9b9ae4f43004343e4a0c953516077229a6d837f86b",
+   "signature": "2fa2ed2acb66cacbcb7ae6b51ecd7983abe6d11e7e4cbf35289c5f3f4668561072717d26087a7d6cd7c9b5276dc7bb903a9efee95edd6c6b45ed8892e04ea806",
+   "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
+   "methodology_version": "1.4.0"
   }
  ]
 }
