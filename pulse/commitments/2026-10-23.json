@@ -4,22 +4,6 @@
  "what": "sha256 of the exact bytes at `path`, signed at the hour; the file appears 24 h after `as_of`",
  "hours": [
   {
-   "as_of": "2026-10-23T00:05:02+00:00",
-   "path": "pulse/hourly/2026-10-23/00.json",
-   "sha256": "5b7b479717bcf0c92e97cd50407f1935c4b22327c9f05073b6edee6a6f4f7734",
-   "signature": "dfe80369ea38d95a18927613a23d32b68f786c1fa18f982540e740e8493343fafc75a7f77234a03f3933143cd96c0a5f14154c4421821994286a218ca8a3d803",
-   "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
-   "methodology_version": "1.4.0"
-  },
-  {
-   "as_of": "2026-10-23T01:05:02+00:00",
-   "path": "pulse/hourly/2026-10-23/01.json",
-   "sha256": "69cbab90ee5ba1f3cc03784e59d8aac2d611da13ebc9c5825ae559a16be1162c",
-   "signature": "3f4d7e8354992510c73818cb174cd873e83cd9542f70e9cec71d581c95b6b1e767e233505844ce732f6e2afade8a3ac4a22ad9ea4809ce68a3e1691d85e91009",
-   "public_key": "2758b1acf4a4c695abbc0a1edd91742cc42ecd6db8a552daf08a23d99b22fad2",
-   "methodology_version": "1.4.0"
-  },
-  {
    "as_of": "2026-10-23T02:05:02+00:00",
    "path": "pulse/hourly/2026-10-23/02.json",
    "sha256": "6e3c55039b7f2c873b0ec369c0f5cf75cafb1ed4281f9045355bf4b8b3113174",
