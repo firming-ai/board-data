@@ -10,174 +10,174 @@
   "generated_utc": "2026-10-26",
   "lanes": {
     "gemini/gemini-3.1-pro-preview": {
-      "attempts": 890,
-      "blended_cost_n": 547,
-      "blended_cost_ratio": 0.9126,
+      "attempts": 899,
+      "blended_cost_n": 554,
+      "blended_cost_ratio": 0.9128,
       "control_total_s": {
         "max": 91.25,
-        "n": 283,
-        "p50": 4.474,
-        "p95": 9.062,
-        "p99": 32.951
+        "n": 286,
+        "p50": 4.473,
+        "p95": 9.021,
+        "p99": 32.762
       },
       "control_ttft_s": {
         "max": 91.242,
-        "n": 283,
-        "p50": 4.459,
-        "p95": 9.014,
-        "p99": 32.945
+        "n": 286,
+        "p50": 4.457,
+        "p95": 8.979,
+        "p99": 32.756
       },
-      "fill_120s": 0.5506,
-      "fill_30s": 0.4483,
-      "fill_60s": 0.5146,
+      "fill_120s": 0.5484,
+      "fill_30s": 0.4472,
+      "fill_60s": 0.5128,
       "flex_total_s": {
         "max": 179.646,
-        "n": 498,
-        "p50": 5.242,
-        "p95": 79.18,
-        "p99": 130.263
+        "n": 501,
+        "p50": 5.255,
+        "p95": 79.121,
+        "p99": 130.223
       },
       "flex_ttft_s": {
         "max": 179.636,
-        "n": 463,
-        "p50": 4.978,
-        "p95": 66.561,
-        "p99": 125.628
+        "n": 466,
+        "p50": 4.985,
+        "p95": 66.544,
+        "p99": 125.462
       },
       "ladder_failed": 49,
       "ladder_total_s": {
         "max": 144.877,
-        "n": 841,
-        "p50": 6.263,
-        "p95": 64.335,
-        "p99": 75.571
+        "n": 850,
+        "p50": 6.266,
+        "p95": 64.331,
+        "p99": 75.065
       },
-      "late_at_budget_rate": 0.4854,
+      "late_at_budget_rate": 0.4872,
       "outcomes": {
         "error": 38,
-        "ok": 498,
+        "ok": 501,
         "timeout": 28,
-        "unavailable": 326
+        "unavailable": 332
       },
       "rescue_total_s": {
         "max": 138.877,
-        "n": 383,
-        "p50": 4.109,
-        "p95": 19.705,
-        "p99": 74.306
+        "n": 389,
+        "p50": 4.118,
+        "p95": 19.312,
+        "p99": 72.04
       },
-      "timeout_rate": 0.0315,
-      "unavailable_rate": 0.3663,
+      "timeout_rate": 0.0311,
+      "unavailable_rate": 0.3693,
       "verdict": "CHECKBOX"
     },
     "gemini/gemini-3.5-flash": {
-      "attempts": 890,
-      "blended_cost_n": 390,
-      "blended_cost_ratio": 0.7179,
+      "attempts": 899,
+      "blended_cost_n": 394,
+      "blended_cost_ratio": 0.7208,
       "control_total_s": {
         "max": 7.2,
-        "n": 285,
-        "p50": 2.475,
-        "p95": 3.118,
+        "n": 288,
+        "p50": 2.483,
+        "p95": 3.125,
         "p99": 3.704
       },
       "control_ttft_s": {
         "max": 7.2,
-        "n": 285,
-        "p50": 2.471,
-        "p95": 3.103,
+        "n": 288,
+        "p50": 2.474,
+        "p95": 3.111,
         "p99": 3.679
       },
-      "fill_120s": 0.791,
-      "fill_30s": 0.7494,
-      "fill_60s": 0.782,
+      "fill_120s": 0.7909,
+      "fill_30s": 0.7464,
+      "fill_60s": 0.7809,
       "flex_total_s": {
         "max": 130.785,
-        "n": 706,
-        "p50": 3.013,
-        "p95": 32.427,
-        "p99": 62.834
+        "n": 713,
+        "p50": 3.014,
+        "p95": 34.569,
+        "p99": 65.426
       },
       "flex_ttft_s": {
         "max": 130.778,
-        "n": 638,
-        "p50": 2.861,
-        "p95": 27.949,
-        "p99": 59.459
+        "n": 644,
+        "p50": 2.862,
+        "p95": 29.599,
+        "p99": 63.963
       },
       "ladder_failed": 38,
       "ladder_total_s": {
         "max": 62.874,
-        "n": 852,
-        "p50": 3.108,
-        "p95": 39.216,
-        "p99": 62.088
+        "n": 861,
+        "p50": 3.12,
+        "p95": 39.566,
+        "p99": 62.112
       },
-      "late_at_budget_rate": 0.218,
+      "late_at_budget_rate": 0.2191,
       "outcomes": {
         "error": 40,
-        "ok": 706,
+        "ok": 713,
         "timeout": 3,
-        "unavailable": 141
+        "unavailable": 143
       },
       "rescue_total_s": {
         "max": 6.941,
-        "n": 156,
-        "p50": 2.005,
-        "p95": 2.623,
-        "p99": 3.012
+        "n": 159,
+        "p50": 2.007,
+        "p95": 2.619,
+        "p99": 3.01
       },
-      "timeout_rate": 0.0034,
-      "unavailable_rate": 0.1584,
+      "timeout_rate": 0.0033,
+      "unavailable_rate": 0.1591,
       "verdict": "OPEN"
     },
     "gemini/gemini-3.5-flash-lite": {
-      "attempts": 890,
-      "blended_cost_n": 311,
-      "blended_cost_ratio": 0.5865,
+      "attempts": 899,
+      "blended_cost_n": 314,
+      "blended_cost_ratio": 0.5857,
       "control_total_s": {
         "max": 3.382,
-        "n": 285,
-        "p50": 1.113,
-        "p95": 1.531,
+        "n": 288,
+        "p50": 1.115,
+        "p95": 1.536,
         "p99": 1.902
       },
       "control_ttft_s": {
         "max": 3.287,
-        "n": 285,
-        "p50": 1.04,
-        "p95": 1.425,
-        "p99": 1.787
+        "n": 288,
+        "p50": 1.044,
+        "p95": 1.433,
+        "p99": 1.785
       },
-      "fill_120s": 0.9213,
-      "fill_30s": 0.9056,
-      "fill_60s": 0.9157,
+      "fill_120s": 0.9221,
+      "fill_30s": 0.9043,
+      "fill_60s": 0.9166,
       "flex_total_s": {
         "max": 163.993,
-        "n": 823,
-        "p50": 1.026,
-        "p95": 13.338,
-        "p99": 52.626
+        "n": 832,
+        "p50": 1.031,
+        "p95": 14.527,
+        "p99": 51.928
       },
       "flex_ttft_s": {
         "max": 163.937,
-        "n": 823,
-        "p50": 0.945,
-        "p95": 13.213,
-        "p99": 52.548
+        "n": 832,
+        "p50": 0.948,
+        "p95": 14.206,
+        "p99": 51.846
       },
       "ladder_failed": 39,
       "ladder_total_s": {
         "max": 62.27,
-        "n": 851,
-        "p50": 1.035,
-        "p95": 14.706,
-        "p99": 60.831
+        "n": 860,
+        "p50": 1.038,
+        "p95": 15.292,
+        "p99": 60.83
       },
-      "late_at_budget_rate": 0.0843,
+      "late_at_budget_rate": 0.0834,
       "outcomes": {
         "error": 39,
-        "ok": 823,
+        "ok": 832,
         "timeout": 3,
         "unavailable": 25
       },
@@ -188,118 +188,118 @@
         "p95": 2.444,
         "p99": 2.511
       },
-      "timeout_rate": 0.0034,
-      "unavailable_rate": 0.0281,
+      "timeout_rate": 0.0033,
+      "unavailable_rate": 0.0278,
       "verdict": "DEALER"
     },
     "gemini/gemini-3.7-flash": {
-      "attempts": 890,
-      "blended_cost_n": 629,
-      "blended_cost_ratio": 1.0128,
+      "attempts": 899,
+      "blended_cost_n": 638,
+      "blended_cost_ratio": 1.0137,
       "control_total_s": {
         "max": 9.1,
-        "n": 284,
-        "p50": 2.92,
-        "p95": 5.112,
-        "p99": 6.856
+        "n": 287,
+        "p50": 2.934,
+        "p95": 5.106,
+        "p99": 6.84
       },
       "control_ttft_s": {
         "max": 9.092,
-        "n": 284,
-        "p50": 2.854,
-        "p95": 5.069,
-        "p99": 6.819
+        "n": 287,
+        "p50": 2.857,
+        "p95": 5.064,
+        "p99": 6.804
       },
-      "fill_120s": 0.4,
-      "fill_30s": 0.3079,
-      "fill_60s": 0.3539,
+      "fill_120s": 0.396,
+      "fill_30s": 0.3048,
+      "fill_60s": 0.3504,
       "flex_total_s": {
         "max": 176.553,
-        "n": 374,
-        "p50": 8.385,
-        "p95": 116.145,
-        "p99": 158.578
+        "n": 375,
+        "p50": 8.397,
+        "p95": 117.649,
+        "p99": 161.679
       },
       "flex_ttft_s": {
         "max": 176.466,
-        "n": 366,
-        "p50": 8.381,
-        "p95": 116.135,
-        "p99": 158.841
+        "n": 367,
+        "p50": 8.391,
+        "p95": 119.188,
+        "p99": 161.556
       },
       "ladder_failed": 39,
       "ladder_total_s": {
         "max": 78.259,
-        "n": 851,
-        "p50": 5.832,
-        "p95": 63.376,
-        "p99": 64.612
+        "n": 860,
+        "p50": 5.833,
+        "p95": 63.387,
+        "p99": 64.601
       },
-      "late_at_budget_rate": 0.6461,
+      "late_at_budget_rate": 0.6496,
       "outcomes": {
         "error": 39,
-        "ok": 374,
+        "ok": 375,
         "timeout": 29,
-        "unavailable": 448
+        "unavailable": 456
       },
       "rescue_total_s": {
         "max": 61.125,
-        "n": 536,
-        "p50": 2.485,
-        "p95": 4.679,
-        "p99": 8.533
+        "n": 545,
+        "p50": 2.512,
+        "p95": 4.688,
+        "p99": 8.374
       },
-      "timeout_rate": 0.0326,
-      "unavailable_rate": 0.5034,
+      "timeout_rate": 0.0323,
+      "unavailable_rate": 0.5072,
       "verdict": "CHECKBOX"
     },
     "openai/gpt-5.6-luna": {
-      "attempts": 434,
-      "blended_cost_n": 149,
-      "blended_cost_ratio": 0.5176,
+      "attempts": 443,
+      "blended_cost_n": 152,
+      "blended_cost_ratio": 0.5173,
       "control_total_s": {
         "max": 4.743,
-        "n": 146,
+        "n": 149,
         "p50": 1.173,
-        "p95": 2.924,
-        "p99": 3.869
+        "p95": 2.919,
+        "p99": 3.845
       },
       "control_ttft_s": {
         "max": 4.27,
-        "n": 146,
-        "p50": 0.99,
-        "p95": 2.688,
-        "p99": 3.704
+        "n": 149,
+        "p50": 0.987,
+        "p95": 2.681,
+        "p99": 3.682
       },
-      "fill_120s": 0.9885,
-      "fill_30s": 0.9885,
-      "fill_60s": 0.9885,
+      "fill_120s": 0.9887,
+      "fill_30s": 0.9887,
+      "fill_60s": 0.9887,
       "flex_total_s": {
         "max": 16.311,
-        "n": 429,
-        "p50": 1.164,
-        "p95": 4.109,
-        "p99": 11.046
+        "n": 438,
+        "p50": 1.165,
+        "p95": 4.042,
+        "p99": 10.557
       },
       "flex_ttft_s": {
         "max": 15.756,
-        "n": 429,
-        "p50": 0.941,
-        "p95": 3.748,
-        "p99": 10.624
+        "n": 438,
+        "p50": 0.94,
+        "p95": 3.739,
+        "p99": 10.162
       },
       "ladder_failed": 0,
       "ladder_total_s": {
         "max": 16.311,
-        "n": 434,
-        "p50": 1.167,
-        "p95": 4.292,
-        "p99": 11.391
+        "n": 443,
+        "p50": 1.168,
+        "p95": 4.26,
+        "p99": 11.071
       },
-      "late_at_budget_rate": 0.0115,
+      "late_at_budget_rate": 0.0113,
       "outcomes": {
         "error": 5,
-        "ok": 429
+        "ok": 438
       },
       "rescue_total_s": {
         "max": 1.044,
@@ -313,52 +313,52 @@
       "verdict": "DEALER"
     },
     "openai/gpt-5.6-sol": {
-      "attempts": 434,
-      "blended_cost_n": 158,
-      "blended_cost_ratio": 0.5697,
+      "attempts": 443,
+      "blended_cost_n": 161,
+      "blended_cost_ratio": 0.5685,
       "control_total_s": {
         "max": 4.006,
-        "n": 146,
-        "p50": 1.341,
-        "p95": 3.143,
-        "p99": 3.892
+        "n": 149,
+        "p50": 1.346,
+        "p95": 3.129,
+        "p99": 3.889
       },
       "control_ttft_s": {
         "max": 3.622,
-        "n": 146,
-        "p50": 1.074,
-        "p95": 2.873,
-        "p99": 3.506
+        "n": 149,
+        "p50": 1.079,
+        "p95": 2.862,
+        "p99": 3.505
       },
-      "fill_120s": 0.9493,
-      "fill_30s": 0.9493,
-      "fill_60s": 0.9493,
+      "fill_120s": 0.9503,
+      "fill_30s": 0.9503,
+      "fill_60s": 0.9503,
       "flex_total_s": {
         "max": 17.934,
-        "n": 412,
-        "p50": 1.472,
-        "p95": 7.873,
-        "p99": 11.782
+        "n": 421,
+        "p50": 1.468,
+        "p95": 7.816,
+        "p99": 11.775
       },
       "flex_ttft_s": {
         "max": 17.77,
-        "n": 412,
-        "p50": 1.246,
-        "p95": 7.707,
-        "p99": 11.593
+        "n": 421,
+        "p50": 1.24,
+        "p95": 7.621,
+        "p99": 11.587
       },
       "ladder_failed": 0,
       "ladder_total_s": {
         "max": 61.344,
-        "n": 434,
-        "p50": 1.497,
-        "p95": 7.86,
-        "p99": 12.261
+        "n": 443,
+        "p50": 1.49,
+        "p95": 7.815,
+        "p99": 12.198
       },
-      "late_at_budget_rate": 0.0507,
+      "late_at_budget_rate": 0.0497,
       "outcomes": {
         "error": 22,
-        "ok": 412
+        "ok": 421
       },
       "rescue_total_s": {
         "max": 3.039,
@@ -372,52 +372,52 @@
       "verdict": "DEALER"
     },
     "openai/gpt-5.6-terra": {
-      "attempts": 434,
-      "blended_cost_n": 146,
+      "attempts": 443,
+      "blended_cost_n": 149,
       "blended_cost_ratio": 0.5054,
       "control_total_s": {
         "max": 3.322,
-        "n": 146,
-        "p50": 1.158,
+        "n": 149,
+        "p50": 1.165,
         "p95": 2.73,
-        "p99": 3.242
+        "p99": 3.24
       },
       "control_ttft_s": {
         "max": 3.133,
-        "n": 146,
-        "p50": 0.984,
+        "n": 149,
+        "p50": 0.989,
         "p95": 2.569,
-        "p99": 3.057
+        "p99": 3.055
       },
       "fill_120s": 0.9977,
       "fill_30s": 0.9977,
       "fill_60s": 0.9977,
       "flex_total_s": {
         "max": 4.287,
-        "n": 433,
-        "p50": 1.052,
-        "p95": 2.716,
-        "p99": 3.231
+        "n": 442,
+        "p50": 1.054,
+        "p95": 2.721,
+        "p99": 3.248
       },
       "flex_ttft_s": {
         "max": 4.2,
-        "n": 433,
-        "p50": 0.911,
-        "p95": 2.537,
-        "p99": 3.032
+        "n": 442,
+        "p50": 0.913,
+        "p95": 2.561,
+        "p99": 3.085
       },
       "ladder_failed": 0,
       "ladder_total_s": {
         "max": 5.028,
-        "n": 434,
-        "p50": 1.052,
-        "p95": 2.726,
-        "p99": 3.249
+        "n": 443,
+        "p50": 1.054,
+        "p95": 2.733,
+        "p99": 3.572
       },
       "late_at_budget_rate": 0.0023,
       "outcomes": {
         "error": 1,
-        "ok": 433
+        "ok": 442
       },
       "rescue_total_s": {
         "max": 1.028,
@@ -433,68 +433,68 @@
   },
   "last_day": "2026-10-26",
   "pooled": {
-    "attempts": 4862,
-    "blended_cost_n": 2330,
-    "blended_cost_ratio": 0.7895,
+    "attempts": 4925,
+    "blended_cost_n": 2362,
+    "blended_cost_ratio": 0.7899,
     "control_total_s": {
       "max": 91.25,
-      "n": 1575,
-      "p50": 2.197,
-      "p95": 5.01,
-      "p99": 8.885
+      "n": 1596,
+      "p50": 2.196,
+      "p95": 4.996,
+      "p99": 8.827
     },
     "control_ttft_s": {
       "max": 91.242,
-      "n": 1575,
-      "p50": 2.179,
-      "p95": 4.982,
-      "p99": 8.863
+      "n": 1596,
+      "p50": 2.178,
+      "p95": 4.967,
+      "p99": 8.814
     },
-    "fill_120s": 0.7495,
-    "fill_30s": 0.7034,
-    "fill_60s": 0.7318,
+    "fill_120s": 0.7492,
+    "fill_30s": 0.7027,
+    "fill_60s": 0.7316,
     "flex_total_s": {
       "max": 179.646,
-      "n": 3675,
-      "p50": 2.162,
-      "p95": 40.615,
-      "p99": 112.894
+      "n": 3722,
+      "p50": 2.16,
+      "p95": 41.003,
+      "p99": 113.875
     },
     "flex_ttft_s": {
       "max": 179.636,
-      "n": 3564,
-      "p50": 1.941,
-      "p95": 38.134,
-      "p99": 108.969
+      "n": 3610,
+      "p50": 1.927,
+      "p95": 38.518,
+      "p99": 109.544
     },
     "ladder_failed": 165,
     "ladder_total_s": {
       "max": 144.877,
-      "n": 4697,
+      "n": 4760,
       "p50": 2.917,
-      "p95": 59.139,
-      "p99": 64.463
+      "p95": 59.138,
+      "p99": 64.459
     },
-    "late_at_budget_rate": 0.2682,
+    "late_at_budget_rate": 0.2684,
     "outcomes": {
       "error": 184,
-      "ok": 3675,
+      "ok": 3722,
       "timeout": 63,
-      "unavailable": 940
+      "unavailable": 956
     },
     "rescue_total_s": {
       "max": 138.877,
-      "n": 1139,
-      "p50": 3.083,
-      "p95": 7.14,
-      "p99": 40.989
+      "n": 1157,
+      "p50": 3.117,
+      "p95": 7.137,
+      "p99": 39.589
     },
-    "timeout_rate": 0.013,
-    "unavailable_rate": 0.1933,
+    "timeout_rate": 0.0128,
+    "unavailable_rate": 0.1941,
     "verdict": "OPEN"
   },
   "schema": "offpeak.flex-summary/1",
-  "spend_usd": 12.6629,
+  "spend_usd": 12.8316,
   "thresholds": {
     "checkbox": {
       "blended_min": 0.85,
