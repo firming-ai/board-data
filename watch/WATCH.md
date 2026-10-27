@@ -29,7 +29,7 @@ and no row about it should be read as rate coverage.
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
 | `anthropic:pricing` | cited by prices.py | 180 | <https://platform.claude.com/docs/en/about-claude/pricing> |
-| `openai:pricing` | cited by prices.py | 159 | <https://developers.openai.com/api/docs/pricing> |
+| `openai:pricing` | cited by prices.py | 174 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 57 | <https://mistral.ai/pricing/api> |
 | `google:pricing` | cited by prices.py | 567 | <https://ai.google.dev/pricing> |
@@ -186,3 +186,5 @@ and no row about it should be read as rate coverage.
 | 2026-10-23 | `google:pricing` | changed | +1 / −46 | price change | gpt-5.6-luna | $0.000178 | Pricing entries for Gemini Omni Flash Preview and Veo 3.1, including their charged rates, were removed. |
 | 2026-10-24 | `openai:pricing` | changed | +2 / −0 | copy change | gpt-5.6-luna | $0.0000350 | Navigation entries were added, but no pricing numbers or rates changed. |
 | 2026-10-26 | `deepseek:pricing` | changed | +74 / −94 | price change | gpt-5.6-luna | $0.000472 | All model and Search & Fetch pricing figures were removed from the page. |
+| 2026-10-27 | `openai:pricing` | changed | +18 / −1 | price change | gpt-5.6-luna | $0.0000850 | A new model, gpt-6.1-terra, was added with multiple monetary pricing rates. |
+| 2026-10-27 | `google:pricing` | changed | +10 / −6 | noise | gpt-5.6-luna | $0.0000881 | Only line wrapping and the page’s last-updated date changed; no pricing or substantive wording changed. |

@@ -2201,15 +2201,19 @@ long-form video, though token counts depend on query complexity and dynamic
 sampling depth (which may exceed 1 FPS for detailed visual segments). See
 Agentic video understanding.
 Document token billing: Tokens for the DOCUMENT modality (for example, PDFs) are billed at the image token rate. In API responses, these tokens appear under the DOCUMENT modality within promptTokensDetails.
-Google AI Studio usage is free of charge in all available regions. See Billing FAQs for details.
+Google AI Studio usage is free of charge in all available
+regions. See Billing
+FAQs for details.
 Prices may differ from the prices listed here and the prices offered on
-Gemini Enterprise Agent Platform. For Gemini Enterprise Agent Platform prices, see the Gemini Enterprise Agent Platform pricing page.
+Gemini Enterprise Agent Platform. For Gemini Enterprise Agent Platform
+prices, see the Gemini Enterprise Agent Platform pricing
+page.
 If you are using dynamic retrieval to
-optimize costs, only requests that contain at least one grounding support URL
-from the web in their response are charged for Grounding with Google Search.
-Costs for Gemini always apply. Rate limits are subject to change.
+optimize costs, only requests that contain at least one grounding support
+URL from the web in their response are charged for Grounding with Google
+Search. Costs for Gemini always apply. Rate limits are subject to change.
 Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License, and code samples are licensed under the Apache 2.0 License. For details, see the Google Developers Site Policies. Java is a registered trademark of Oracle and/or its affiliates.
-Last updated 2026-10-22 UTC.
+Last updated 2026-10-26 UTC.
 Terms
 Privacy
 Manage cookies
