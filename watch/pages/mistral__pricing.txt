@@ -21,14 +21,22 @@ Inference
 Pricing
 API pricing
 Pricing for Mistral models, organized by family.
+Regional inference
+StandardBatchPriority
+USDEUR
 Generalist models
 Copy section link
 Generalist models
 Text and multimodal models for broad reasoning, coding, tool use, and agentic tasks.
-Prices /M Tokens
-USDEUR
-Regional inference
-StandardBatchPriority
+Mistral Large 4
+Input$1.36 /M Tokens
+Output$4.18 /M Tokens
+Z.ai GLM 5.3 Flash
+Input$0.15 /M Tokens
+Output$0.5 /M Tokens
+Mistral Medium 3.5
+Input$1.5 /M Tokens
+Output$7.5 /M Tokens
 Model
 Input
 Cached input
@@ -69,14 +77,11 @@ Ministral 3 3B ↗
 $0.1
 $0.01
 $0.1
+Prices /M Tokens
 OCR models
 Copy section link
 OCR models
 Models for document understanding, text extraction, and structured OCR outputs.
-Prices /1000 Pages
-USDEUR
-Regional inference
-StandardBatchPriority
 Model
 Input
 Cached input
@@ -89,14 +94,17 @@ OCR 3 ↗
 $2
 $0.2
 —
+Prices /1000 Pages
 Audio models
 Copy section link
 Audio models
 Models for speech transcription, realtime transcription, and speech generation.
-Prices as marked
-USDEUR
-Regional inference
-StandardBatchPriority
+Voxtral Mini Transcribe 3
+Input$0.0035 /Min
+Voxtral Small Transcribe 3
+Input$0.004 /Min
+Voxtral TTS 3
+Input$13 /M Chars
 Model
 Input
 Cached input
@@ -133,14 +141,11 @@ Voxtral Small ↗
 $0.004 /Min
 $0.0004 /Min
 $0.4 /M Tokens
+Prices as marked
 Code models
 Copy section link
 Code models
 Specialized models for code generation, completion, and software engineering agents.
-Prices /M Tokens
-USDEUR
-Regional inference
-StandardBatchPriority
 Model
 Input
 Cached input
@@ -149,14 +154,11 @@ Codestral ↗
 $0.3
 $0.03
 $0.9
+Prices /M Tokens
 Embedding models
 Copy section link
 Embedding models
 Models that turn text or code into vectors for retrieval and similarity search.
-Prices /M Tokens
-USDEUR
-Regional inference
-StandardBatchPriority
 Model
 Input
 Cached input
@@ -169,13 +171,11 @@ Mistral Embed ↗
 $0.1
 $0.01
 —
+Prices /M Tokens
 Moderation and safety models
 Copy section link
 Moderation and safety models
 Models for safety filtering, moderation, and policy checks.
-Prices as marked
-Regional inference
-StandardBatchPriority
 Model
 Input
 Cached input
@@ -186,13 +186,11 @@ Free
 Free
 Shieldstral 1.0 ↗Self-hosted · Open weights
 Costs depend on your own infrastructure
+Prices as marked
 Time series models
 Copy section link
 Time series models
 Models for zero-shot time series forecasting with covariate support and probabilistic outputs.
-Prices as marked
-Regional inference
-StandardBatchPriority
 Model
 Input
 Cached input
@@ -205,6 +203,7 @@ Timestral 1.0 28M ↗Self-hosted · Open weights
 Costs depend on your own infrastructure
 Timestral 1.0 5M ↗Self-hosted · Open weights
 Costs depend on your own infrastructure
+Prices as marked
 Voice agents
 Copy section link
 Voice agents
@@ -215,6 +214,16 @@ Mistral Small 4
 $0.04/min
 Larger models
 $0.08/min
+Contents
+Generalist models
+OCR models
+Audio models
+Code models
+Embedding models
+Moderation and safety models
+Time series models
+Voice agents
+Go to Top
 WHY MISTRAL
 About usOur customersCareersContact us
 EXPLORE

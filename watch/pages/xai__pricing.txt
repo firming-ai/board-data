@@ -80,6 +80,7 @@ Regional Endpoints
 New
 Cost Tracking
 Debugging Errors
+Cookbook
 Platforms
 Community Integrations
 Google Cloud Vertex AI
@@ -172,6 +173,7 @@ Regional Endpoints
 New
 Cost Tracking
 Debugging Errors
+Cookbook
 Platforms
 Community Integrations
 Google Cloud Vertex AI

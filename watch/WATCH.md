@@ -31,7 +31,7 @@ and no row about it should be read as rate coverage.
 | `anthropic:pricing` | cited by prices.py | 180 | <https://platform.claude.com/docs/en/about-claude/pricing> |
 | `openai:pricing` | cited by prices.py | 174 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
-| `mistral:pricing` | cited by prices.py | 57 | <https://mistral.ai/pricing/api> |
+| `mistral:pricing` | cited by prices.py | 66 | <https://mistral.ai/pricing/api> |
 | `google:pricing` | cited by prices.py | 567 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
@@ -188,3 +188,9 @@ and no row about it should be read as rate coverage.
 | 2026-10-26 | `deepseek:pricing` | changed | +74 / −94 | price change | gpt-5.6-luna | $0.000472 | All model and Search & Fetch pricing figures were removed from the page. |
 | 2026-10-27 | `openai:pricing` | changed | +18 / −1 | price change | gpt-5.6-luna | $0.0000850 | A new model, gpt-6.1-terra, was added with multiple monetary pricing rates. |
 | 2026-10-27 | `google:pricing` | changed | +10 / −6 | noise | gpt-5.6-luna | $0.0000881 | Only line wrapping and the page’s last-updated date changed; no pricing or substantive wording changed. |
+| 2026-10-28 | `anthropic:pricing` | changed | +10 / −10 | noise | gpt-5.6-luna | $0.000158 | Only apostrophes changed from straight to curly; pricing amounts and billing rules remain unchanged. |
+| 2026-10-28 | `openai:pricing` | changed | +1 / −2 | copy change | gpt-5.6-luna | $0.0000721 | Navigation text changed, with an account notification added and gateway sign-in instructions removed; no pricing amounts changed. |
+| 2026-10-28 | `mistral:pricing` | changed | +46 / −37 | price change | gpt-5.6-luna | $0.000153 | New model pricing amounts were added, including per-token, per-minute, and per-character charges. |
+| 2026-10-28 | `google:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.000105 | Billing policy wording was added, but no price or rate changed. |
+| 2026-10-28 | `xai:pricing` | changed | +2 / −0 | copy change | gpt-5.6-luna | $0.0000531 | A new “Cookbook” navigation item was added; no pricing or rate changed. |
+| 2026-10-28 | `qwen:pricing` | changed | +52 / −5 | copy change | gpt-5.6-luna | $0.000150 | Model descriptions, categories, and audio model listings changed, but no pricing amounts or billing rates moved. |
