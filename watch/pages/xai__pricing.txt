@@ -71,6 +71,8 @@ Rate Limits
 Prompt Caching
 Context Compaction
 Priority Processing
+Custom Moderation Controls
+New
 Batch API
 Deferred Completions
 Async Requests
@@ -164,6 +166,8 @@ Rate Limits
 Prompt Caching
 Context Compaction
 Priority Processing
+Custom Moderation Controls
+New
 Batch API
 Deferred Completions
 Async Requests

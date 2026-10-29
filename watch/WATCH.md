@@ -31,8 +31,8 @@ and no row about it should be read as rate coverage.
 | `anthropic:pricing` | cited by prices.py | 180 | <https://platform.claude.com/docs/en/about-claude/pricing> |
 | `openai:pricing` | cited by prices.py | 174 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
-| `mistral:pricing` | cited by prices.py | 66 | <https://mistral.ai/pricing/api> |
-| `google:pricing` | cited by prices.py | 567 | <https://ai.google.dev/pricing> |
+| `mistral:pricing` | cited by prices.py | 69 | <https://mistral.ai/pricing/api> |
+| `google:pricing` | cited by prices.py | 569 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
 | `deepseek:pricing` | cited by prices.py | **0 — rendered client-side** | <https://api-docs.deepseek.com/quick_start/pricing> |
@@ -194,3 +194,9 @@ and no row about it should be read as rate coverage.
 | 2026-10-28 | `google:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.000105 | Billing policy wording was added, but no price or rate changed. |
 | 2026-10-28 | `xai:pricing` | changed | +2 / −0 | copy change | gpt-5.6-luna | $0.0000531 | A new “Cookbook” navigation item was added; no pricing or rate changed. |
 | 2026-10-28 | `qwen:pricing` | changed | +52 / −5 | copy change | gpt-5.6-luna | $0.000150 | Model descriptions, categories, and audio model listings changed, but no pricing amounts or billing rates moved. |
+| 2026-10-29 | `anthropic:pricing` | changed | +1 / −1 | copy change | gpt-5.6-luna | $0.0000555 | Model identifier and capitalization changed in explanatory text; no pricing rate or charged number changed. |
+| 2026-10-29 | `openai:pricing` | changed | +1 / −0 | copy change | gpt-5.6-luna | $0.0000355 | A new navigation entry was added, but no pricing amount or chargeable rate changed. |
+| 2026-10-29 | `mistral:pricing` | changed | +4 / −0 | price change | gpt-5.6-luna | $0.0000583 | A new model was added with multiple pricing figures, changing the available charged rates. |
+| 2026-10-29 | `google:pricing` | changed | +66 / −36 | copy change | gpt-5.6-luna | $0.000317 | A daily request cap was added, but the charged rate and free allowance remain unchanged. |
+| 2026-10-29 | `xai:pricing` | changed | +4 / −0 | copy change | gpt-5.6-luna | $0.0000637 | A new “Custom Moderation Controls” item and “New” label were added without changing any pricing amounts. |
+| 2026-10-29 | `qwen:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000682 | The model name changed, but no pricing amount or chargeable rate changed. |
