@@ -200,3 +200,5 @@ and no row about it should be read as rate coverage.
 | 2026-10-29 | `google:pricing` | changed | +66 / −36 | copy change | gpt-5.6-luna | $0.000317 | A daily request cap was added, but the charged rate and free allowance remain unchanged. |
 | 2026-10-29 | `xai:pricing` | changed | +4 / −0 | copy change | gpt-5.6-luna | $0.0000637 | A new “Custom Moderation Controls” item and “New” label were added without changing any pricing amounts. |
 | 2026-10-29 | `qwen:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000682 | The model name changed, but no pricing amount or chargeable rate changed. |
+| 2026-10-30 | `openai:pricing` | changed | +1 / −1 | copy change | gpt-5.6-luna | $0.0000354 | A descriptive phrase changed, but no pricing amount or chargeable rate was modified. |
+| 2026-10-30 | `mistral:pricing` | changed | +5 / −5 | price change | gpt-5.6-luna | $0.0000462 | Mistral Large 4’s input, cached-input, and output rates all decreased. |
