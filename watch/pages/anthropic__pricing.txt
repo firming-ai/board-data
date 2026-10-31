@@ -19,8 +19,8 @@ Claude Fable 5.1
 Claude Opus 5.5
 Claude Sonnet 5.5
 Claude Haiku 5.5
-Specialized models
-Legacy models
+Specialized models
+Legacy models
 Guides
 Choosing a modelOptimizing for cost and intelligenceUpgrade between model versions
 Lifecycle and reference
@@ -76,7 +76,7 @@ $2.50 / MTok
 $0.625 / MTok
 $1 / MTok
 $0.05 / MTok
-Additional models
+Additional models
 Claude Mythos 5.1
 $10 / MTok
 $50 / MTok
@@ -303,7 +303,7 @@ $0.05 / MTokfor prompts up to 100,000 tokens
 $0.25 / MTok
 $0.25 / MTokfor prompts over 100,000 tokens
 $1.25 / MTok
-Additional models
+Additional models
 Claude Mythos 5.1
 $5 / MTok
 $25 / MTok
@@ -383,7 +383,7 @@ auto, none
 286 tokens
 any, tool
 406 tokens
-Additional models
+Additional models
 Claude Opus 5
 auto, none
 286 tokens

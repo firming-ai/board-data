@@ -29,13 +29,13 @@ and no row about it should be read as rate coverage.
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
 | `anthropic:pricing` | cited by prices.py | 180 | <https://platform.claude.com/docs/en/about-claude/pricing> |
-| `openai:pricing` | cited by prices.py | 174 | <https://developers.openai.com/api/docs/pricing> |
+| `openai:pricing` | cited by prices.py | 179 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
-| `mistral:pricing` | cited by prices.py | 69 | <https://mistral.ai/pricing/api> |
-| `google:pricing` | cited by prices.py | 569 | <https://ai.google.dev/pricing> |
+| `mistral:pricing` | cited by prices.py | 55 | <https://mistral.ai/pricing/api> |
+| `google:pricing` | cited by prices.py | 562 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
-| `deepseek:pricing` | cited by prices.py | **0 — rendered client-side** | <https://api-docs.deepseek.com/quick_start/pricing> |
+| `deepseek:pricing` | cited by prices.py | 14 | <https://api-docs.deepseek.com/quick_start/pricing> |
 | `qwen:pricing` | watched, not yet priced | **0 — rendered client-side** | <https://www.alibabacloud.com/help/en/model-studio/models> |
 
 ## Drift
@@ -202,3 +202,8 @@ and no row about it should be read as rate coverage.
 | 2026-10-29 | `qwen:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000682 | The model name changed, but no pricing amount or chargeable rate changed. |
 | 2026-10-30 | `openai:pricing` | changed | +1 / −1 | copy change | gpt-5.6-luna | $0.0000354 | A descriptive phrase changed, but no pricing amount or chargeable rate was modified. |
 | 2026-10-30 | `mistral:pricing` | changed | +5 / −5 | price change | gpt-5.6-luna | $0.0000462 | Mistral Large 4’s input, cached-input, and output rates all decreased. |
+| 2026-10-31 | `anthropic:pricing` | changed | +5 / −5 | noise | gpt-5.6-luna | $0.0000656 | Only icon glyphs changed; all visible pricing and wording remain unchanged. |
+| 2026-10-31 | `openai:pricing` | changed | +17 / −1 | price change | gpt-5.6-luna | $0.0000926 | New model prices and cache-write rates were added, while a billing statement and cache exemption were removed. |
+| 2026-10-31 | `mistral:pricing` | changed | +0 / −23 | price change | gpt-5.6-luna | $0.0000974 | Several model entries and their pricing rates were removed from the page. |
+| 2026-10-31 | `google:pricing` | changed | +75 / −46 | price change | gpt-5.6-luna | $0.000244 | Scheduled future price increases and storage-rate changes were removed, leaving current rates without dated increases. |
+| 2026-10-31 | `deepseek:pricing` | changed | +97 / −75 | copy change | gpt-5.6-luna | $0.000203 | The page reorganized content and added model details, but no billed price or rate changed. |
