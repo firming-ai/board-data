@@ -80,6 +80,8 @@ WebSocket Mode
 mTLS Authentication
 Regional Endpoints
 New
+Output Watermarking
+New
 Cost Tracking
 Debugging Errors
 Cookbook
@@ -174,6 +176,8 @@ Async Requests
 WebSocket Mode
 mTLS Authentication
 Regional Endpoints
+New
+Output Watermarking
 New
 Cost Tracking
 Debugging Errors

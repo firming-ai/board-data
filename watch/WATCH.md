@@ -29,7 +29,7 @@ and no row about it should be read as rate coverage.
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
 | `anthropic:pricing` | cited by prices.py | 180 | <https://platform.claude.com/docs/en/about-claude/pricing> |
-| `openai:pricing` | cited by prices.py | 179 | <https://developers.openai.com/api/docs/pricing> |
+| `openai:pricing` | cited by prices.py | 182 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 55 | <https://mistral.ai/pricing/api> |
 | `google:pricing` | cited by prices.py | 562 | <https://ai.google.dev/pricing> |
@@ -207,3 +207,5 @@ and no row about it should be read as rate coverage.
 | 2026-10-31 | `mistral:pricing` | changed | +0 / −23 | price change | gpt-5.6-luna | $0.0000974 | Several model entries and their pricing rates were removed from the page. |
 | 2026-10-31 | `google:pricing` | changed | +75 / −46 | price change | gpt-5.6-luna | $0.000244 | Scheduled future price increases and storage-rate changes were removed, leaving current rates without dated increases. |
 | 2026-10-31 | `deepseek:pricing` | changed | +97 / −75 | copy change | gpt-5.6-luna | $0.000203 | The page reorganized content and added model details, but no billed price or rate changed. |
+| 2026-11-01 | `openai:pricing` | changed | +13 / −1 | price change | gpt-5.6-luna | $0.0000827 | A new legal model configuration adds explicit input, output, and cached-input prices. |
+| 2026-11-01 | `xai:pricing` | changed | +4 / −0 | copy change | gpt-5.6-luna | $0.0000565 | “Output Watermarking” was added to the page navigation; no pricing or rate changed. |
