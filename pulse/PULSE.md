@@ -1,8 +1,8 @@
 # FILL — the inference availability index
 
-*As of 2026-11-01T13:05:07+00:00 · probe pulse-1.5.1 · methodology 1.4.0*
+*As of 2026-11-01T14:05:03+00:00 · probe pulse-1.5.1 · methodology 1.4.0*
 
-*Published 2026-11-02T13:05:09+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-11-01/13.json`; their sha256 `55097364c63c…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
+*Published 2026-11-02T14:05:12+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-11-01/14.json`; their sha256 `698d7d81e214…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
 
 **FILL 94.2** · FILL·FLEX 90.0
 
@@ -20,14 +20,14 @@ Share of frontier discount-lane work that got its discount inside the budget —
 
 | venue | AVAIL | FILL | shed | TTFT p50 |
 | :-- | --: | --: | --: | --: |
-| anthropic | 100.0% | — | 0.0% | 1393 ms |
-| bedrock | 100.0% | — | 0.0% | 594 ms |
-| deepseek | 100.0% | — | 0.0% | 1330 ms |
-| gemini | 100.0% | 74.3% | 3.0% | 1143 ms |
-| mistral | 100.0% | — | 0.0% | 788 ms |
-| openai | 100.0% | 100.0% | 0.0% | 986 ms |
-| openrouter | 100.0% | — | 0.0% | 1314 ms |
-| xai | 100.0% | — | 0.0% | 767 ms |
+| anthropic | 100.0% | — | 0.0% | 1418 ms |
+| bedrock | 100.0% | — | 0.0% | 599 ms |
+| deepseek | 100.0% | — | 0.0% | 1306 ms |
+| gemini | 100.0% | 72.3% | 2.5% | 1152 ms |
+| mistral | 100.0% | — | 0.0% | 818 ms |
+| openai | 99.5% | 99.7% | 0.0% | 1022 ms |
+| openrouter | 100.0% | — | 0.0% | 1278 ms |
+| xai | 100.0% | — | 0.0% | 816 ms |
 
 **Batch** — one one-request job per lane every 30 min, polled to its end. Counts and minute/hour columns cover the last 24 h of submits; 4 h and 24 h percentages use separate mature 24-hour cohorts ending 4 h and 24 h ago.
 
@@ -35,7 +35,7 @@ Share of frontier discount-lane work that got its discount inside the budget —
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
 | anthropic | 264 | 264 | 0 | 0 | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 90 s | 2 min |
 | gemini | 96 | 96 | 0 | 0 | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 2 min | 3 min |
-| mistral | 48 | 48 | 0 | 0 | 81.3% | 81.3% | 95.8% | 100.0% | 100.0% | 38 s | 50 min |
-| openai | 312 | 302 | 10 | 0 | 80.8% | 84.8% | 92.4% | 99.0% | 100.0% | 66 s | 79 min |
+| mistral | 48 | 48 | 0 | 0 | 81.3% | 81.3% | 95.8% | 100.0% | 100.0% | 37 s | 50 min |
+| openai | 312 | 303 | 9 | 0 | 80.9% | 84.8% | 91.7% | 98.7% | 100.0% | 66 s | 85 min |
 
 Every number carries n; a gap flag marks an hour with fewer than 55 samples. Marks are struck once at 00:10Z and never restated. Methodology: METHODOLOGY.md.
