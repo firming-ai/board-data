@@ -209,3 +209,6 @@ and no row about it should be read as rate coverage.
 | 2026-10-31 | `deepseek:pricing` | changed | +97 / −75 | copy change | gpt-5.6-luna | $0.000203 | The page reorganized content and added model details, but no billed price or rate changed. |
 | 2026-11-01 | `openai:pricing` | changed | +13 / −1 | price change | gpt-5.6-luna | $0.0000827 | A new legal model configuration adds explicit input, output, and cached-input prices. |
 | 2026-11-01 | `xai:pricing` | changed | +4 / −0 | copy change | gpt-5.6-luna | $0.0000565 | “Output Watermarking” was added to the page navigation; no pricing or rate changed. |
+| 2026-11-03 | `openai:pricing` | changed | +21 / −21 | price change | gpt-5.6-luna | $0.000202 | Pricing entries changed from o4-mini to gpt-4.1 models, with different listed rates and billing amounts. |
+| 2026-11-03 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
+| 2026-11-03 | `qwen:pricing` | changed | +31 / −29 | copy change | gpt-5.6-luna | $0.000293 | Model categories and descriptions were reorganized, with no pricing numbers or rates changed. |

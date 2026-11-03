@@ -13,8 +13,9 @@ All Products
 Alibaba Cloud Model Studio:Recommended models
 Document Center
 Alibaba Cloud Model Studio:Recommended models
-Last Updated:Oct 28, 2026
+Last Updated:Nov 02, 2026
 Alibaba Cloud Model Studio offers Qwen and third-party models for text, image, audio, and video.
+Text
 Text generation
 qwen3.8-max
 Complex reasoning and coding
@@ -35,8 +36,7 @@ Text generation
 MiniMax-M2.5
 Text generation
 More
-Image & video
-Understanding
+Visual understanding
 Extract text descriptions or structured data from images and videos
 qwen3.8-max
 Visual understanding
@@ -47,7 +47,13 @@ Visual understanding
 kimi-k3
 Visual understanding
 More
-Generation
+Decision Model
+A structured decision model for high-frequency business decisions. It performs classification, yes-or-no decisions, and scoring in a single forward pass, returning probability distributions and confidence.
+decision-model-preview
+Structured decisions
+Learn more
+Vision
+Image and video generation
 Generate images and videos from text or images, with support for editing, reference, and high-resolution output
 qwen-image-3.0-pro
 Image generation
@@ -73,19 +79,7 @@ Real-time directing
 happyoyster-1.0-acting
 Character acting
 More
-Audio & speech
-Audio generation
-Generate audio content including voices, sound effects, and ambient sounds
-qwen-audio-3.1-tts-next
-Complete sound scene generation
-More
-Text-to-speech
-For audiobook reading, voice broadcasting, virtual avatars, and more
-qwen-audio-3.1-tts-plus
-Real-time and non-real-time
-qwen-audio-3.1-tts-flash
-Real-time and non-real-time
-More
+Speech
 Speech recognition
 Convert speech to text for real-time voice input, continuous transcription, and transcription of recorded audio
 qwen-audio-3.1-asr-flash-message
@@ -96,6 +90,13 @@ qwen-audio-3.1-asr-flash
 Non-real-time speech recognition
 qwen-audio-3.1-asr-flash-filetrans
 Non-real-time speech recognition
+More
+Text-to-speech
+For audiobook reading, voice broadcasting, virtual avatars, and more
+qwen-audio-3.1-tts-plus
+Real-time and non-real-time
+qwen-audio-3.1-tts-flash
+Real-time and non-real-time
 More
 Speech-to-speech
 End-to-end voice conversation without separate ASR and TTS calls
@@ -108,14 +109,12 @@ Speech-to-speech
 qwen-audio-3.1-realtime-flash
 Speech-to-speech
 More
-Omni
-Integrates understanding and generation across text, images, audio, and video. For audio/video analysis and text generation, use qwen3.8-omni-flash through Chat Completions or Responses. For real-time audio/video conversations, use qwen3.8-omni-flash-realtime.
-NoteFor non-real-time audio output, use qwen3.5-omni-plus.
-qwen3.8-omni-flash-realtime
-Omni
-qwen3.8-omni-flash
-Omni
+Audio generation
+Generate audio content including voices, sound effects, and ambient sounds
+qwen-audio-3.1-tts-next
+Complete sound scene generation
 More
+Embedding
 Embeddings & reranking
 Convert text or multimodal content into vectors, combined with reranking to improve retrieval accuracy
 text-embedding-v4
@@ -127,11 +126,14 @@ Multimodal embeddings
 qwen3-rerank
 Reranking
 More
-Decision Model
-A structured decision model for high-frequency business decisions. It performs classification, yes-or-no decisions, and scoring in a single forward pass, returning probability distributions and confidence.
-decision-model-preview
-Structured decisions
-Learn more
+Multimodal
+Integrates understanding and generation across text, images, audio, and video. For audio/video analysis and text generation, use qwen3.8-omni-flash through Chat Completions or Responses. For real-time audio/video conversations, use qwen3.8-omni-flash-realtime.
+NoteFor non-real-time audio output, use qwen3.5-omni-plus.
+qwen3.8-omni-flash-realtime
+Omni
+qwen3.8-omni-flash
+Omni
+More
 View all models
 Go to Model Plaza to browse all Qwen, third-party, domain-specific, and legacy models.
 Thank you! We've received your feedback.
