@@ -4,6 +4,7 @@ ChatGPT
 Start searching
 API Dashboard
 Try ChatGPT
+Theme Light Dark System
 Home
 API
 Overview
@@ -57,6 +58,7 @@ Suggested
 responses createreasoning_effortrealtimeprompt caching
 Primary navigation
 API ChatGPT Docs Use cases Training Resources Resources
+Theme Light Dark System
 Search docs
 Suggested
 responses createreasoning_effortrealtimeprompt caching
@@ -252,6 +254,7 @@ Text to speech
 Audio in Chat Completions
 Go live
 Production best practices
+API keys and service accounts
 Deployment checklist
 Performance and quality
 Fast mode

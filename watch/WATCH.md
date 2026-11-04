@@ -212,3 +212,5 @@ and no row about it should be read as rate coverage.
 | 2026-11-03 | `openai:pricing` | changed | +21 / −21 | price change | gpt-5.6-luna | $0.000202 | Pricing entries changed from o4-mini to gpt-4.1 models, with different listed rates and billing amounts. |
 | 2026-11-03 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
 | 2026-11-03 | `qwen:pricing` | changed | +31 / −29 | copy change | gpt-5.6-luna | $0.000293 | Model categories and descriptions were reorganized, with no pricing numbers or rates changed. |
+| 2026-11-04 | `openai:pricing` | changed | +3 / −0 | copy change | gpt-5.6-luna | $0.0000414 | Theme controls and an API keys navigation item were added; no pricing amounts or rates changed. |
+| 2026-11-04 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |

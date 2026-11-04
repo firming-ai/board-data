@@ -2,7 +2,7 @@
   "anthropic:pricing": {
     "chars": 29518,
     "cited": true,
-    "fetched_at": "2026-11-03T02:39:21+00:00",
+    "fetched_at": "2026-11-04T00:54:49+00:00",
     "lines": 740,
     "price_figures": 180,
     "sha256": "ebec56840ecb446aff0c4a9f570cd90aa1ddd75ee4188c09ecd55d409480e22c",
@@ -11,7 +11,7 @@
   "deepseek:pricing": {
     "chars": 3542,
     "cited": true,
-    "fetched_at": "2026-11-03T02:39:21+00:00",
+    "fetched_at": "2026-11-04T00:54:49+00:00",
     "lines": 136,
     "price_figures": 14,
     "sha256": "28de8972e285f067f880b311e3c72b8a4848f62e27b2ce39eef75bed6be46cb9",
@@ -29,7 +29,7 @@
   "groq:plans": {
     "chars": 4226,
     "cited": false,
-    "fetched_at": "2026-11-03T02:39:21+00:00",
+    "fetched_at": "2026-11-04T00:54:49+00:00",
     "lines": 140,
     "price_figures": 0,
     "sha256": "1ecc3160c31dadf229a26f9f8a45c348bf1807256b8a22a8078fd24b51b5a449",
@@ -38,7 +38,7 @@
   "groq:pricing": {
     "chars": 885,
     "cited": true,
-    "fetched_at": "2026-11-03T02:39:21+00:00",
+    "fetched_at": "2026-11-04T00:54:49+00:00",
     "lines": 27,
     "price_figures": 1,
     "sha256": "3510c276e6e185cc362f4511cc6b86c8475ec23abf953174199ba38226aa1213",
@@ -47,25 +47,25 @@
   "mistral:pricing": {
     "chars": 3765,
     "cited": true,
-    "fetched_at": "2026-11-03T02:39:21+00:00",
+    "fetched_at": "2026-11-04T00:54:49+00:00",
     "lines": 222,
     "price_figures": 55,
     "sha256": "69cf39aca960f34eba2782db0f637804168b08441fae60ac3e4f4d857e6f0225",
     "url": "https://mistral.ai/pricing/api"
   },
   "openai:pricing": {
-    "chars": 20552,
+    "chars": 20630,
     "cited": true,
-    "fetched_at": "2026-11-03T02:39:21+00:00",
-    "lines": 1235,
+    "fetched_at": "2026-11-04T00:54:49+00:00",
+    "lines": 1238,
     "price_figures": 182,
-    "sha256": "78aaa2bfebeadad6e37c9c499ea1ecda5266569aaa8d57156d845194f2328c95",
+    "sha256": "9fb8cad5b488bb09029b20ab8293220fe6646ee3ba01c00bb3392ed281cb767b",
     "url": "https://developers.openai.com/api/docs/pricing"
   },
   "qwen:pricing": {
     "chars": 3707,
     "cited": false,
-    "fetched_at": "2026-11-03T02:39:21+00:00",
+    "fetched_at": "2026-11-04T00:54:49+00:00",
     "lines": 139,
     "price_figures": 0,
     "sha256": "bb040ac53d2d15f2af80fe20de4fe8e7e5e6110458a55bfe5bf52fb94cfe49ec",
@@ -74,7 +74,7 @@
   "xai:pricing": {
     "chars": 5641,
     "cited": false,
-    "fetched_at": "2026-11-03T02:39:21+00:00",
+    "fetched_at": "2026-11-04T00:54:49+00:00",
     "lines": 263,
     "price_figures": 8,
     "sha256": "fd8f847fc80d3bd400a499ffe663ab4879784ef2c42b39499319e87cb1cbac17",
