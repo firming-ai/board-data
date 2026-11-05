@@ -29,7 +29,7 @@ and no row about it should be read as rate coverage.
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
 | `anthropic:pricing` | cited by prices.py | 180 | <https://platform.claude.com/docs/en/about-claude/pricing> |
-| `openai:pricing` | cited by prices.py | 182 | <https://developers.openai.com/api/docs/pricing> |
+| `openai:pricing` | cited by prices.py | 192 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 55 | <https://mistral.ai/pricing/api> |
 | `google:pricing` | cited by prices.py | 562 | <https://ai.google.dev/pricing> |
@@ -214,3 +214,8 @@ and no row about it should be read as rate coverage.
 | 2026-11-03 | `qwen:pricing` | changed | +31 / −29 | copy change | gpt-5.6-luna | $0.000293 | Model categories and descriptions were reorganized, with no pricing numbers or rates changed. |
 | 2026-11-04 | `openai:pricing` | changed | +3 / −0 | copy change | gpt-5.6-luna | $0.0000414 | Theme controls and an API keys navigation item were added; no pricing amounts or rates changed. |
 | 2026-11-04 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
+| 2026-11-05 | `anthropic:pricing` | changed | +2 / −2 | copy change | gpt-5.6-luna | $0.0000973 | Platform descriptions and sentence structure changed, but no pricing numbers or billing rates were modified. |
+| 2026-11-05 | `openai:pricing` | changed | +22 / −5 | price change | gpt-5.6-luna | $0.000103 | Two new image models were added with explicit per-token prices, changing the set of charged rates. |
+| 2026-11-05 | `mistral:pricing` | changed | +15 / −5 | copy change | gpt-5.6-luna | $0.0000455 | Only navigation labels and page text moved; no pricing figures or chargeable rates changed. |
+| 2026-11-05 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
+| 2026-11-05 | `deepseek:pricing` | changed | +0 / −1 | copy change | gpt-5.6-luna | $0.000116 | A billing note was removed, but no price or rate changed. |
