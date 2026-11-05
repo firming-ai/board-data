@@ -1,8 +1,8 @@
 # FILL — the inference availability index
 
-*As of 2026-11-04T09:05:13+00:00 · probe pulse-1.5.1 · methodology 1.4.0*
+*As of 2026-11-04T10:05:13+00:00 · probe pulse-1.5.1 · methodology 1.4.0*
 
-*Published 2026-11-05T09:05:00+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-11-04/09.json`; their sha256 `9c740e569a78…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
+*Published 2026-11-05T10:05:00+00:00 — the public board runs 24 h behind the tape. The live board and every lane are on the keyed feed. This hour's bytes are `pulse/hourly/2026-11-04/10.json`; their sha256 `0bf44087a205…` was signed and published at the hour in `pulse/commitments/`, so what appears here a day later is what was struck.*
 
 **FILL 88.6** · FILL·FLEX 72.0
 
@@ -13,29 +13,29 @@ Share of frontier discount-lane work that got its discount inside the budget —
 | ANT·FILL | 100.0% | — | 100.0% (n=264) | 100.0% (n=30) |
 | GEM·FILL | 77.8% | 55.6% (n=18) | 100.0% (n=96) | — |
 | MIS·FILL | 93.8% | — | 93.8% (n=48) | — |
-| OAI·FILL | 88.0% | 81.2% (n=32) | 82.7% (n=312) | 100.0% (n=15) |
+| OAI·FILL | 87.9% | 81.2% (n=32) | 82.4% (n=312) | 100.0% (n=15) |
 
 
 **Every venue, last complete hour** — AVAIL is the standard lane; FILL the discount lane.
 
 | venue | AVAIL | FILL | shed | TTFT p50 |
 | :-- | --: | --: | --: | --: |
-| anthropic | 100.0% | — | 0.0% | 1218 ms |
-| bedrock | 100.0% | — | 0.0% | 653 ms |
-| deepseek | 100.0% | — | 0.0% | 1306 ms |
-| gemini | 100.0% | 63.1% | 18.8% | 1268 ms |
-| mistral | 100.0% | — | 0.0% | 846 ms |
-| openai | 99.0% | 94.0% | 0.0% | 1084 ms |
-| openrouter | 100.0% | — | 0.0% | 1379 ms |
-| xai | 100.0% | — | 0.0% | 804 ms |
+| anthropic | 100.0% | — | 0.0% | 1278 ms |
+| bedrock | 100.0% | — | 0.0% | 631 ms |
+| deepseek | 100.0% | — | 0.0% | 1263 ms |
+| gemini | 100.0% | 62.1% | 18.5% | 1196 ms |
+| mistral | 100.0% | — | 0.0% | 864 ms |
+| openai | 99.5% | 78.1% | 0.0% | 1041 ms |
+| openrouter | 100.0% | — | 0.0% | 1410 ms |
+| xai | 100.0% | — | 0.0% | 791 ms |
 
 **Batch** — one one-request job per lane every 30 min, polled to its end. Counts and minute/hour columns cover the last 24 h of submits; 4 h and 24 h percentages use separate mature 24-hour cohorts ending 4 h and 24 h ago.
 
 | venue | submitted | done | open | lost | done in 5 min | done in 10 min | done in 1 h | done in 4 h | done in 24 h | turnaround p50 | p95 |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: | --: |
-| anthropic | 264 | 264 | 0 | 0 | 96.6% | 99.6% | 100.0% | 100.0% | 100.0% | 101 s | 3 min |
+| anthropic | 264 | 264 | 0 | 0 | 97.0% | 99.6% | 100.0% | 100.0% | 100.0% | 102 s | 3 min |
 | gemini | 96 | 96 | 0 | 0 | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 2 min | 3 min |
 | mistral | 48 | 48 | 0 | 0 | 79.2% | 85.4% | 93.8% | 100.0% | 100.0% | 66 s | 55 min |
-| openai | 312 | 308 | 4 | 0 | 74.4% | 76.6% | 83.4% | 94.2% | 100.0% | 68 s | 235 min |
+| openai | 312 | 303 | 9 | 0 | 75.2% | 77.6% | 84.5% | 94.2% | 100.0% | 68 s | 219 min |
 
 Every number carries n; a gap flag marks an hour with fewer than 55 samples. Marks are struck once at 00:10Z and never restated. Methodology: METHODOLOGY.md.
