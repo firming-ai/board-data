@@ -540,7 +540,6 @@ Cloud environments
 Build with Codex
 Codex SDK
 App Server
-Model catalogs
 GitHub Action
 Non-interactive mode
 Third-party integrations
@@ -610,7 +609,7 @@ User lifecycle management
 Roles and workspace permissions
 Personal access tokens
 Service accounts
-Deployment and configuration
+Configuration
 Windows app and CLI deployment
 NFS home directories
 Manage app updates
@@ -619,12 +618,11 @@ Self-host configuration
 Codex security cookbook
 Remote connections
 Workspace model availability
+Advanced deployment
 Amazon Bedrock
-Bedrock GovCloud configuration
+GovCloud deployment
 Connect to a gateway
 Roll out a gateway
-Gateway compatibility
-Bedrock through LiteLLM
 ChatGPT EDU
 Education plans
 Higher education setup
@@ -917,18 +915,18 @@ Output
 Cached input
 30m write
 12h write
+gpt-6-cyber
+$20.00
+$100.00
+$2.00
+$25.00
+$50.00
 gpt-5.6-sol
 $4.00
 $20.00
 $0.40
 $5.00
 $10.00
-gpt-5.6-cyber
-$12.50
-$75.00
-$1.25
-$15.625
-$31.25
 All models
 Life sciences models
 Our latest Rosalind models.

@@ -28,14 +28,14 @@ and no row about it should be read as rate coverage.
 
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
-| `anthropic:pricing` | cited by prices.py | 180 | <https://platform.claude.com/docs/en/about-claude/pricing> |
+| `anthropic:pricing` | cited by prices.py | 173 | <https://platform.claude.com/docs/en/about-claude/pricing> |
 | `openai:pricing` | cited by prices.py | 192 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 55 | <https://mistral.ai/pricing/api> |
 | `google:pricing` | cited by prices.py | 562 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
-| `deepseek:pricing` | cited by prices.py | 14 | <https://api-docs.deepseek.com/quick_start/pricing> |
+| `deepseek:pricing` | cited by prices.py | **0 — rendered client-side** | <https://api-docs.deepseek.com/quick_start/pricing> |
 | `qwen:pricing` | watched, not yet priced | **0 — rendered client-side** | <https://www.alibabacloud.com/help/en/model-studio/models> |
 
 ## Drift
@@ -219,3 +219,7 @@ and no row about it should be read as rate coverage.
 | 2026-11-05 | `mistral:pricing` | changed | +15 / −5 | copy change | gpt-5.6-luna | $0.0000455 | Only navigation labels and page text moved; no pricing figures or chargeable rates changed. |
 | 2026-11-05 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
 | 2026-11-05 | `deepseek:pricing` | changed | +0 / −1 | copy change | gpt-5.6-luna | $0.000116 | A billing note was removed, but no price or rate changed. |
+| 2026-11-06 | `anthropic:pricing` | changed | +3 / −17 | price change | gpt-5.6-luna | $0.000110 | Claude Haiku 3.5 pricing entries and associated rates were removed from multiple pricing sections. |
+| 2026-11-06 | `openai:pricing` | changed | +9 / −11 | price change | gpt-5.6-luna | $0.000111 | A model changed from gpt-5.6-cyber to gpt-6-cyber, with its pricing entries replaced. |
+| 2026-11-06 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
+| 2026-11-06 | `deepseek:pricing` | changed | +75 / −93 | price change | gpt-5.6-luna | $0.000197 | Pricing rates were removed from the page, including model and Search/Fetch charges. |
