@@ -4,13 +4,13 @@ Daily flex probes across 7 lanes, 57 day(s) (2026-09-11 → 2026-11-06). Rescue 
 
 | lane | attempts | fill@60s | shed | flex p50/p95 | ctrl p50/p95 | ladder p95 | blended | verdict |
 | :-- | --: | --: | --: | --: | --: | --: | --: | :-- |
-| gemini/gemini-3.1-pro-preview | 1154 | 52% | 36% | 5.2/73.0s | 4.4/8.3s | 64.3s | 0.92 | CHECKBOX |
-| gemini/gemini-3.5-flash | 1154 | 81% | 14% | 3.1/31.7s | 2.6/3.3s | 35.5s | 0.70 | DEALER |
-| gemini/gemini-3.5-flash-lite | 1154 | 93% | 2% | 1.1/15.2s | 1.2/1.5s | 16.2s | 0.57 | DEALER |
-| gemini/gemini-3.7-flash | 1154 | 29% | 53% | 10.9/131.3s | 3.3/5.2s | 63.7s | 1.06 | CHECKBOX |
-| openai/gpt-5.6-luna | 698 | 98% | 0% | 1.2/5.0s | 1.2/2.6s | 5.3s | 0.52 | DEALER |
-| openai/gpt-5.6-sol | 698 | 96% | 0% | 1.4/5.8s | 1.4/3.0s | 6.8s | 0.56 | DEALER |
-| openai/gpt-5.6-terra | 698 | 100% | 0% | 1.1/2.7s | 1.2/2.6s | 2.7s | 0.51 | DEALER |
-| **pooled** | 6710 | 75% | 18% | 1.9/39.5s | 2.1/5.0s | 62.0s | 0.79 | OPEN |
+| gemini/gemini-3.1-pro-preview | 1163 | 52% | 36% | 5.3/74.5s | 4.4/8.3s | 64.3s | 0.92 | CHECKBOX |
+| gemini/gemini-3.5-flash | 1163 | 81% | 14% | 3.1/31.2s | 2.7/3.3s | 35.4s | 0.70 | DEALER |
+| gemini/gemini-3.5-flash-lite | 1163 | 93% | 2% | 1.1/15.2s | 1.2/1.5s | 16.1s | 0.57 | DEALER |
+| gemini/gemini-3.7-flash | 1163 | 29% | 53% | 11.1/131.2s | 3.3/5.2s | 63.7s | 1.06 | CHECKBOX |
+| openai/gpt-5.6-luna | 707 | 98% | 0% | 1.2/5.1s | 1.2/2.6s | 5.4s | 0.52 | DEALER |
+| openai/gpt-5.6-sol | 707 | 95% | 0% | 1.4/6.1s | 1.4/3.0s | 6.8s | 0.56 | DEALER |
+| openai/gpt-5.6-terra | 707 | 100% | 0% | 1.1/2.6s | 1.2/2.5s | 2.7s | 0.51 | DEALER |
+| **pooled** | 6773 | 75% | 18% | 1.9/39.4s | 2.1/5.0s | 62.0s | 0.79 | OPEN |
 
-Verdict rule (pre-committed): DEALER when fill@60s ≥ 80%, blended ≤ 0.70 and ladder p95 ≤ 2× budget; CHECKBOX when fill@60s < 50% or blended ≥ 0.85; OPEN otherwise. Spend to date 17.3321 USD.
+Verdict rule (pre-committed): DEALER when fill@60s ≥ 80%, blended ≤ 0.70 and ladder p95 ≤ 2× budget; CHECKBOX when fill@60s < 50% or blended ≥ 0.85; OPEN otherwise. Spend to date 17.4908 USD.
