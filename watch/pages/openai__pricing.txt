@@ -86,6 +86,9 @@ Counting tokens
 SDKs and CLI
 OpenAI SDK
 OpenAI CLI
+Cloud providers
+Amazon Bedrock
+Google Cloud
 Resources
 Changelog
 Deprecations
@@ -109,8 +112,6 @@ Optimization cycle
 Supervised fine-tuning
 Vision fine-tuning
 Direct preference optimization
-Reinforcement fine-tuning
-RFT use cases
 Best practices
 Assistants API
 Migration guide
@@ -308,7 +309,6 @@ GitHub Actions
 SPIFFE
 Idira
 IP egress ranges
-Amazon Bedrock
 Operations
 Rate limits
 Spend limits
@@ -1240,7 +1240,7 @@ $0.40
 $1.60
 $0.10
 All models
-Tokens used for model grading in reinforcement fine-tuning are billed at that model's per-token rate. Inference discounts are available if you enable data sharing when creating the fine-tune job. Learn more.
+Inference discounts are available if you enable data sharing when creating the fine-tune job. Learn more.
 Cloud platforms
 OpenAI models on Amazon Bedrock and Microsoft Azure are billed through those
 services.

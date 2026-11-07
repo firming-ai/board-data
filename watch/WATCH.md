@@ -223,3 +223,6 @@ and no row about it should be read as rate coverage.
 | 2026-11-06 | `openai:pricing` | changed | +9 / −11 | price change | gpt-5.6-luna | $0.000111 | A model changed from gpt-5.6-cyber to gpt-6-cyber, with its pricing entries replaced. |
 | 2026-11-06 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
 | 2026-11-06 | `deepseek:pricing` | changed | +75 / −93 | price change | gpt-5.6-luna | $0.000197 | Pricing rates were removed from the page, including model and Search/Fetch charges. |
+| 2026-11-07 | `anthropic:pricing` | changed | +5 / −5 | noise | gpt-5.6-luna | $0.0000632 | Only icon glyphs changed; pricing amounts and substantive text remain unchanged. |
+| 2026-11-07 | `openai:pricing` | changed | +4 / −4 | price change | gpt-5.6-luna | $0.000126 | Billing language for reinforcement fine-tuning model-grading tokens was removed, changing which usage is explicitly charged. |
+| 2026-11-07 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
