@@ -226,3 +226,5 @@ and no row about it should be read as rate coverage.
 | 2026-11-07 | `anthropic:pricing` | changed | +5 / −5 | noise | gpt-5.6-luna | $0.0000632 | Only icon glyphs changed; pricing amounts and substantive text remain unchanged. |
 | 2026-11-07 | `openai:pricing` | changed | +4 / −4 | price change | gpt-5.6-luna | $0.000126 | Billing language for reinforcement fine-tuning model-grading tokens was removed, changing which usage is explicitly charged. |
 | 2026-11-07 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
+| 2026-11-08 | `openai:pricing` | changed | +2 / −0 | copy change | gpt-5.6-luna | $0.0000530 | “Preserved reasoning” was added to the navigation or section headings without any pricing numbers changing. |
+| 2026-11-08 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
