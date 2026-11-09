@@ -228,3 +228,4 @@ and no row about it should be read as rate coverage.
 | 2026-11-07 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
 | 2026-11-08 | `openai:pricing` | changed | +2 / −0 | copy change | gpt-5.6-luna | $0.0000530 | “Preserved reasoning” was added to the navigation or section headings without any pricing numbers changing. |
 | 2026-11-08 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
+| 2026-11-09 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
