@@ -17,19 +17,19 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-11-09 against `firming.prices` sheet **2026-08-30**.
+Reconciled 2026-11-10 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
-| `anthropic` | unreadable | 0 | 10 | 0 | 0 | noise (2026-11-07) |
+| `anthropic` | unreadable | 0 | 10 | 0 | 0 | price change (2026-11-10) |
 | `google` | **drift** | 12 | 1 | 0 | 30 | price change (2026-10-31) |
 | `groq` | skipped | 0 | 0 | 1 | 0 | copy change (2026-10-09) |
 | `mistral` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-11-05) |
-| `openai` | **drift** | 2 | 2 | 4 | 12 | copy change (2026-11-08) |
+| `openai` | ok | 0 | 3 | 0 | 8 | price change (2026-11-10) |
 
 ## `anthropic`
 
-Sheet watch's latest classification: **noise (2026-11-07)**.
+Sheet watch's latest classification: **price change (2026-11-10)**.
 
 ### Missing from the page
 
@@ -104,28 +104,16 @@ Sheet watch's latest classification: **copy change (2026-11-05)**.
 
 ## `openai`
 
-Sheet watch's latest classification: **copy change (2026-11-08)**.
-
-### Mismatches
-
-| model | field | page | sheet | note |
-| --- | --- | --- | --- | --- |
-| `gpt-5.6-sol` | batch_input | $4.00 | $2.00 |  |
-| `gpt-5.6-sol` | batch_output | $20.00 | $10.00 |  |
+Sheet watch's latest classification: **price change (2026-11-10)**.
 
 ### Missing from the page
 
 - `gpt-5.6-luna` — on the sheet, no row found on the page
+- `gpt-5.6-sol` — on the sheet, no row found on the page
 - `gpt-5.6-terra` — on the sheet, no row found on the page
 
-### Unverifiable (4)
-
-Not compared, and not counted as agreement.
-
-- no figure for this field in the page text — 4 field(s)
-
-### On the page, not on the sheet (11)
+### On the page, not on the sheet (8)
 
 Informational. The sheet omits models on purpose; see the comments in `prices.py` before adding one.
 
-`chat-latest`, `gpt-5.3-codex`, `gpt-6-astra`, `gpt-6-astra-law`, `gpt-6-cyber`, `gpt-6-luna`, `gpt-6-rosalind`, `gpt-6.1-sol`, `gpt-6.1-terra`, `gpt-rosalind-discovery`, `gpt-rosalind-research`
+`chat-latest`, `gpt-6-astra`, `gpt-6-astra-law`, `gpt-6-cyber`, `gpt-6-luna`, `gpt-6-rosalind`, `gpt-6.1-sol`, `gpt-6.1-terra`

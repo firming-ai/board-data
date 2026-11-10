@@ -28,14 +28,14 @@ and no row about it should be read as rate coverage.
 
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
-| `anthropic:pricing` | cited by prices.py | 173 | <https://platform.claude.com/docs/en/about-claude/pricing> |
-| `openai:pricing` | cited by prices.py | 192 | <https://developers.openai.com/api/docs/pricing> |
+| `anthropic:pricing` | cited by prices.py | 192 | <https://platform.claude.com/docs/en/about-claude/pricing> |
+| `openai:pricing` | cited by prices.py | 146 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 55 | <https://mistral.ai/pricing/api> |
 | `google:pricing` | cited by prices.py | 562 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
-| `deepseek:pricing` | cited by prices.py | **0 — rendered client-side** | <https://api-docs.deepseek.com/quick_start/pricing> |
+| `deepseek:pricing` | cited by prices.py | 14 | <https://api-docs.deepseek.com/quick_start/pricing> |
 | `qwen:pricing` | watched, not yet priced | **0 — rendered client-side** | <https://www.alibabacloud.com/help/en/model-studio/models> |
 
 ## Drift
@@ -229,3 +229,7 @@ and no row about it should be read as rate coverage.
 | 2026-11-08 | `openai:pricing` | changed | +2 / −0 | copy change | gpt-5.6-luna | $0.0000530 | “Preserved reasoning” was added to the navigation or section headings without any pricing numbers changing. |
 | 2026-11-08 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
 | 2026-11-09 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
+| 2026-11-10 | `anthropic:pricing` | changed | +46 / −18 | price change | gpt-5.6-luna | $0.000267 | Fable 5.2 introduces new lower rates, and Mythos 5.2 adds previously absent pricing. |
+| 2026-11-10 | `openai:pricing` | changed | +128 / −227 | price change | gpt-5.6-luna | $0.000172 | Pricing tables changed, with image-model rates added and prior model pricing removed. |
+| 2026-11-10 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
+| 2026-11-10 | `deepseek:pricing` | changed | +93 / −75 | copy change | gpt-5.6-luna | $0.000188 | The page was reorganized from API usage instructions into model details, with no monetary rates shown changing. |
