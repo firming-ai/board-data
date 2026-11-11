@@ -685,11 +685,11 @@ Showcase Blog Cookbook Learn Community
 DocsShowcase
 All posts
 Recent
-Build a retro handheld game with Codex and ModRetro Chromatic
+Pushing voice agents further: inside four GPT-Live builds
+Building a retro handheld game with Codex and ModRetro Chromatic
 Designing failover across OpenAI model providers
 Maintaining software with the GPT-6 family
 Bringing my LED display to life with GPT-Live-1 and Codex
-Rethinking skills and prompts for GPT-6 Astra
 Topics
 General
 API
@@ -957,7 +957,7 @@ Model
 Price per minute
 gpt-live-1
 $0.05
-GPT-Live 1 voice sessions are billed per second,
+GPT-Live-1 voice sessions are billed per second,
 without rounding up to a whole minute. Backend model and tool usage is charged
 separately.
 Realtime & Audio

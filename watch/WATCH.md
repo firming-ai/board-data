@@ -233,3 +233,5 @@ and no row about it should be read as rate coverage.
 | 2026-11-10 | `openai:pricing` | changed | +128 / −227 | price change | gpt-5.6-luna | $0.000172 | Pricing tables changed, with image-model rates added and prior model pricing removed. |
 | 2026-11-10 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
 | 2026-11-10 | `deepseek:pricing` | changed | +93 / −75 | copy change | gpt-5.6-luna | $0.000188 | The page was reorganized from API usage instructions into model details, with no monetary rates shown changing. |
+| 2026-11-11 | `openai:pricing` | changed | +3 / −3 | copy change | gpt-5.6-luna | $0.0000843 | Recent article listings changed, and “GPT-Live 1” was hyphenated to “GPT-Live-1”; no pricing number changed. |
+| 2026-11-11 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
