@@ -3,7 +3,7 @@ All Products
 Search
 Document Center
 Alibaba Cloud Model Studio
-User Guide (Models)
+Models
 Get Started
 Recommended models
 all-products-head
@@ -13,12 +13,12 @@ All Products
 Alibaba Cloud Model Studio:Recommended models
 Document Center
 Alibaba Cloud Model Studio:Recommended models
-Last Updated:Nov 02, 2026
+Last Updated:Nov 12, 2026
 Alibaba Cloud Model Studio offers Qwen and third-party models for text, image, audio, and video.
 Text
 Text generation
-qwen3.8-max
-Complex reasoning and coding
+qwen4-max-preview
+Complex reasoning and coding (Token Plan)
 qwen3.7-plus
 Balanced performance, speed, and cost
 qwen3.8-flash
@@ -38,8 +38,8 @@ Text generation
 More
 Visual understanding
 Extract text descriptions or structured data from images and videos
-qwen3.8-max
-Visual understanding
+qwen4-max-preview
+Visual understanding (Token Plan)
 qwen3.7-plus
 Visual understanding
 qwen3.8-omni-flash
