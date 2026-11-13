@@ -239,3 +239,7 @@ and no row about it should be read as rate coverage.
 | 2026-11-12 | `openai:pricing` | changed | +2 / −1 | copy change | gpt-5.6-luna | $0.0000581 | Navigation and program names changed or were added, with no pricing figures or rates affected. |
 | 2026-11-12 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
 | 2026-11-12 | `qwen:pricing` | changed | +6 / −6 | copy change | gpt-5.6-luna | $0.0000765 | Model names, labels, and page title changed, but no monetary rate or chargeable number changed. |
+| 2026-11-13 | `anthropic:pricing` | changed | +1 / −0 | copy change | gpt-5.6-luna | $0.0000413 | A sentence about contacting Anthropic for self-hosted Managed Agents pricing was added, without changing any listed rates. |
+| 2026-11-13 | `openai:pricing` | changed | +5 / −1 | copy change | gpt-5.6-luna | $0.0000594 | Navigation and recent-content entries changed, with no pricing amounts or billing rates modified. |
+| 2026-11-13 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
+| 2026-11-13 | `xai:pricing` | changed | +1 / −1 | copy change | gpt-5.6-luna | $0.0000565 | Navigation text changed from “Grok” to “GrokGrok BotGrok Build”; no pricing rate changed. |
