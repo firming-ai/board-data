@@ -29,13 +29,13 @@ and no row about it should be read as rate coverage.
 | source | why | rates visible | url |
 | --- | --- | --- | --- |
 | `anthropic:pricing` | cited by prices.py | 192 | <https://platform.claude.com/docs/en/about-claude/pricing> |
-| `openai:pricing` | cited by prices.py | 146 | <https://developers.openai.com/api/docs/pricing> |
+| `openai:pricing` | cited by prices.py | 161 | <https://developers.openai.com/api/docs/pricing> |
 | `groq:pricing` | cited by prices.py | 1 | <https://groq.com/pricing> |
 | `mistral:pricing` | cited by prices.py | 55 | <https://mistral.ai/pricing/api> |
 | `google:pricing` | cited by prices.py | 562 | <https://ai.google.dev/pricing> |
 | `groq:plans` | watched, not yet priced | **0 — rendered client-side** | <https://console.groq.com/docs/service-tiers> |
 | `xai:pricing` | watched, not yet priced | 8 | <https://docs.x.ai/docs/models> |
-| `deepseek:pricing` | cited by prices.py | 14 | <https://api-docs.deepseek.com/quick_start/pricing> |
+| `deepseek:pricing` | cited by prices.py | 19 | <https://api-docs.deepseek.com/quick_start/pricing> |
 | `qwen:pricing` | watched, not yet priced | **0 — rendered client-side** | <https://www.alibabacloud.com/help/en/model-studio/models> |
 
 ## Drift
@@ -243,3 +243,8 @@ and no row about it should be read as rate coverage.
 | 2026-11-13 | `openai:pricing` | changed | +5 / −1 | copy change | gpt-5.6-luna | $0.0000594 | Navigation and recent-content entries changed, with no pricing amounts or billing rates modified. |
 | 2026-11-13 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
 | 2026-11-13 | `xai:pricing` | changed | +1 / −1 | copy change | gpt-5.6-luna | $0.0000565 | Navigation text changed from “Grok” to “GrokGrok BotGrok Build”; no pricing rate changed. |
+| 2026-11-14 | `anthropic:pricing` | changed | +37 / −37 | copy change | gpt-5.6-luna | $0.000258 | Section-heading anchor markers were removed; pricing text and rates remain unchanged. |
+| 2026-11-14 | `openai:pricing` | changed | +46 / −13 | price change | gpt-5.6-luna | $0.000119 | Three new image models were added with explicit pricing, changing the set of charged rates. |
+| 2026-11-14 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
+| 2026-11-14 | `xai:pricing` | changed | +7 / −7 | copy change | gpt-5.6-luna | $0.0000725 | Product and navigation names changed, but no pricing numbers or chargeable rates were modified. |
+| 2026-11-14 | `deepseek:pricing` | changed | +35 / −13 | price change | gpt-5.6-luna | $0.000107 | New pricing was added for web search, file parsing/OCR, text-to-speech, and speech-to-text services. |

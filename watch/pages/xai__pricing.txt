@@ -25,7 +25,7 @@ Structured Outputs
 Image Understanding
 Multi Agent
 Best Practices Guide
-Imagine
+Image & Video
 Overview
 Image Generation
 Image Editing
@@ -91,7 +91,7 @@ Google Cloud Vertex AI
 Microsoft Foundry
 Docs MCP
 Migration Guides
-Imagine Image Quality Retirement (Nov 2, 2026)
+Image Quality Model Retirement (Nov 2, 2026)
 New
 Model Retirement (May 15, 2026)
 Migrating to Responses API
@@ -122,7 +122,7 @@ Structured Outputs
 Image Understanding
 Multi Agent
 Best Practices Guide
-Imagine
+Image & Video
 Overview
 Image Generation
 Image Editing
@@ -188,7 +188,7 @@ Google Cloud Vertex AI
 Microsoft Foundry
 Docs MCP
 Migration Guides
-Imagine Image Quality Retirement (Nov 2, 2026)
+Image Quality Model Retirement (Nov 2, 2026)
 New
 Model Retirement (May 15, 2026)
 Migrating to Responses API
@@ -216,7 +216,7 @@ TTS$15.00 / 1M chars
 STT (Batch)$0.10 / hour
 STT (Streaming)$0.20 / hour
 Read docsTry in playground
-Imagine API
+Image & Video API
 Turn ideas into reality with image and video generation.
 ModesGeneration & editing
 SpeedIndustry-leading
@@ -232,9 +232,9 @@ Grok 4.7
 Chat
 Grok 4.7
 Images
-Grok Imagine Image 2.0
+Image 2.0
 Videos
-Grok Imagine Video 1.5
+Video 1.5
 Voice
 Grok Voice API
 Additional Information Regarding Models

@@ -28,6 +28,8 @@ Sign in with ChatGPT
 Apps powered by your user's ChatGPT plan
 Commerce
 Build commerce flows in ChatGPT
+Agent Access
+Allow verified ChatGPT browser visits to your website
 Ads
 Publish and measure ads in ChatGPT
 Workspace Agents
@@ -284,6 +286,7 @@ Under-18 guidance
 CSAM guidance
 Content provenance
 Your data
+Data residency
 Private Safety Processing
 Permissions
 Infrastructure and access
@@ -315,7 +318,7 @@ Rate limits
 Spend limits
 Admin APIs
 Error codes
-Overview Plugins Sign in with ChatGPT Commerce Ads Workspace Agents ChatGPT + Codex user docs Use cases
+Overview Plugins Sign in with ChatGPT Commerce Agent Access Ads Workspace Agents ChatGPT + Codex user docs Use cases
 DocsOverview
 Home
 Quickstart
@@ -375,17 +378,16 @@ Token reference
 Errors and recovery
 Preview limitations
 Home
-Guides
-Get started
-Best practices
-File Upload
-Overview
-Products
-API
-Overview
-Feeds
-Products
-Promotions
+Partner Playbook Overview
+Commerce Partner Playbook
+Submit product feeds
+Help ensure cloud browser access
+Accept payments
+Build a plugin
+Integrate Sign in with ChatGPT
+Claim your business
+Product feeds · Reference
+Product feed schema
 Ads Overview
 Measurement
 Measurement Pixel
@@ -945,7 +947,34 @@ Modality
 Input
 Output
 Cached input
-gpt-image-2
+gpt-image-2.6-sunburst
+Image
+$4.00
+$15.00
+$1.00
+Text
+$2.50
+-
+$0.625
+gpt-image-2.6-flare
+Image
+$4.00
+$15.00
+$1.00
+Text
+$2.50
+-
+$0.625
+gpt-image-2.5-sunburst
+Image
+$4.00
+$15.00
+$1.00
+Text
+$2.50
+-
+$0.625
+gpt-image-2.5-flare
 Image
 $4.00
 $15.00
@@ -1127,11 +1156,13 @@ Input
 Output
 Cached input
 gpt-4.1-2025-04-14
+Deprecated
 $25.00
 $3.00
 $12.00
 $0.75
 gpt-4.1-mini-2025-04-14
+Deprecated
 $5.00
 $0.80
 $3.20
@@ -1144,11 +1175,13 @@ Input
 Output
 Cached input
 gpt-4.1-2025-04-14
+Deprecated
 $25.00
 $1.50
 $6.00
 $0.50
 gpt-4.1-mini-2025-04-14
+Deprecated
 $5.00
 $0.40
 $1.60
