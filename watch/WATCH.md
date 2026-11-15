@@ -248,3 +248,5 @@ and no row about it should be read as rate coverage.
 | 2026-11-14 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |
 | 2026-11-14 | `xai:pricing` | changed | +7 / −7 | copy change | gpt-5.6-luna | $0.0000725 | Product and navigation names changed, but no pricing numbers or chargeable rates were modified. |
 | 2026-11-14 | `deepseek:pricing` | changed | +35 / −13 | price change | gpt-5.6-luna | $0.000107 | New pricing was added for web search, file parsing/OCR, text-to-speech, and speech-to-text services. |
+| 2026-11-15 | `anthropic:pricing` | changed | +1 / −1 | copy change | gpt-5.6-luna | $0.0000385 | The navigation text changed from “Ask Docs” to “Console,” with no pricing or rate information affected. |
+| 2026-11-15 | `google:pricing` | unreachable | — | — | — | — | fetched, but stripped to nothing |

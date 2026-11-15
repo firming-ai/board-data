@@ -17,11 +17,11 @@ into a receipt.
 what moved, per the classifier that already ran. It answers a different question
 than the rows below it and is here so a reader has both at once.
 
-Reconciled 2026-11-14 against `firming.prices` sheet **2026-08-30**.
+Reconciled 2026-11-15 against `firming.prices` sheet **2026-08-30**.
 
 | source | status | mismatches | missing | unverifiable | models on page | classification |
 | --- | --- | --- | --- | --- | --- | --- |
-| `anthropic` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-11-14) |
+| `anthropic` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-11-15) |
 | `google` | **drift** | 12 | 1 | 0 | 30 | price change (2026-10-31) |
 | `groq` | skipped | 0 | 0 | 1 | 0 | copy change (2026-10-09) |
 | `mistral` | unreadable | 0 | 10 | 0 | 0 | copy change (2026-11-05) |
@@ -29,7 +29,7 @@ Reconciled 2026-11-14 against `firming.prices` sheet **2026-08-30**.
 
 ## `anthropic`
 
-Sheet watch's latest classification: **copy change (2026-11-14)**.
+Sheet watch's latest classification: **copy change (2026-11-15)**.
 
 ### Missing from the page
 
